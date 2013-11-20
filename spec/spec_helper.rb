@@ -11,6 +11,7 @@ end
 
 require 'active_public_resources'
 require 'vcr'
+require 'pry'
 
 def config_data
   yaml_path = File.join(ActivePublicResources.root, 'active_public_resources_config.yml')
@@ -19,14 +20,22 @@ def config_data
     config.inject({}){|memo,(k,v)| memo[k.to_sym] = v; memo}
     config
   else
-    {}
+    {
+      :vimeo => { 
+        :consumer_key        => "CONSUMER_KEY",
+        :consumer_secret     => "CONSUMER_SECRET",
+        :access_token        => "ACCESS_TOKEN",
+        :access_token_secret => "ACCESS_TOKEN_SECRET"
+      },
+      :youtube => nil
+    }
   end
 end
 
 VCR.configure do |c|
   c.cassette_library_dir = File.join(ActivePublicResources.root, "spec", "vcr")
   config_data.each do |driver_name, options|
-    options.each do |k,v|
+    (options || {}).each do |k,v|
       c.filter_sensitive_data("#{driver_name.upcase}_#{k.upcase}") { v }
     end
   end

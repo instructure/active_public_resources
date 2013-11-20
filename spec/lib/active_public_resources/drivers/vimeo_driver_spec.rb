@@ -1,5 +1,4 @@
 require 'spec_helper'
-require 'pry'
 
 describe ActivePublicResources::Drivers::VimeoDriver do
   before :each do
@@ -19,35 +18,37 @@ describe ActivePublicResources::Drivers::VimeoDriver do
     end
 
     it "should build a vimeo client on initialize" do
-      vimeo_driver = ActivePublicResources::Drivers::VimeoDriver.new(@config_options)
-      vimeo_driver.client.should be_an_instance_of(::Vimeo::Advanced::Video)
+      driver = ActivePublicResources::Drivers::VimeoDriver.new(@config_options)
+      driver.client.should be_an_instance_of(::Vimeo::Advanced::Video)
     end
   end
 
   describe "#perform_request" do
     before :each do
-      @vimeo_driver = ActivePublicResources::Drivers::VimeoDriver.new(@config_options)
+      @driver = ActivePublicResources::Drivers::VimeoDriver.new(@config_options)
     end
 
     it "should raise error when perform_request method is called without a query" do
       expect {
-        @vimeo_driver.perform_request({})
+        @driver.perform_request(ActivePublicResources::RequestCriteria.new)
       }.to raise_error(StandardError, "must include query")
     end
 
     it "should raise error when client has not been set" do
-      @vimeo_driver.instance_eval("@client = nil")
+      @driver.instance_variable_set("@client", nil)
+      search_criteria = ActivePublicResources::RequestCriteria.new({:query => "education"})
       expect {
-        @vimeo_driver.perform_request({ query: "education" })
+        @driver.perform_request(search_criteria)
       }.to raise_error(StandardError, "driver has not been initialized properly")
     end
 
     it "should perform request" do
       VCR.use_cassette('vimeo_driver/education', :record => :none) do
-        results = @vimeo_driver.perform_request({ :query => "education" })
+        search_criteria = ActivePublicResources::RequestCriteria.new({:query => "education"})
+        results = @driver.perform_request(search_criteria)
         next_criteria = results.next_criteria
-        next_criteria[:page].should eq(2)
-        next_criteria[:per_page].should eq(25)
+        next_criteria.page.should eq(2)
+        next_criteria.per_page.should eq(25)
         results.total_items.should eq(141384)
         results.items.length.should eq(25)
 

@@ -79,43 +79,43 @@ module ActivePublicResources
       #   }
       #
       # @return [JSON] the normalized response object
-      def perform_request(criteria=DEFAULT_CRITERIA)
-        validate_options(criteria, [:query])
+      def perform_request(request_criteria)
+        request_criteria.validate_presence!([:query])
         raise StandardError.new("driver has not been initialized properly") unless @client
         
-        results = @client.search(criteria[:query], {
-          :page           => criteria[:page] || 1,
-          :per_page       => criteria[:per_page] || 25,
+        results = @client.search(request_criteria.query, {
+          :page           => request_criteria.page || 1,
+          :per_page       => request_criteria.per_page || 25,
           :full_response  => 1,
-          :sort           => criteria[:sort] || "relevant",
+          :sort           => request_criteria.sort || "relevant",
           :user_id        => nil,
-          :content_filter => criteria[:content_filter] || 'safe'
+          :content_filter => request_criteria.content_filter || 'safe'
         })
 
-        return parse_results(criteria, results)
+        return parse_results(request_criteria, results)
       end
 
     private
 
-      def parse_results(criteria, results)
+      def parse_results(request_criteria, results)
         @driver_response = DriverResponse.new(
-          :criteria      => criteria,
-          :next_criteria => next_criteria(criteria, results),
+          :criteria      => request_criteria,
+          :next_criteria => next_criteria(request_criteria, results),
           :total_items   => results['videos']['total'].to_i,
           :items         => results['videos']['video'].map { |data| parse_video(data) }
         )
       end
 
-      def next_criteria(criteria, results)
+      def next_criteria(request_criteria, results)
         page     = results['videos']['page'].to_i
         per_page = results['videos']['perpage'].to_i
         total    = results['videos']['total'].to_i
         if ((page * per_page) < total)
-          return {
-            query: criteria[:query],
-            page: page + 1,
-            per_page: per_page
-          }
+          return RequestCriteria.new({
+            :query    => request_criteria.query,
+            :page     => page + 1,
+            :per_page => per_page
+          })
         end
       end
 

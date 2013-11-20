@@ -14,7 +14,7 @@ module ActivePublicResources
 
       def validate_options(opts, req=[])
         req.each do |k|
-          if opts[k].blank?
+          if opts.blank? || opts[k].blank?
             raise ArgumentError.new("must include #{req.join(', ')}")
           end
         end
