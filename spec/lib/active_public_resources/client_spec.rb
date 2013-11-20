@@ -36,16 +36,14 @@ describe ActivePublicResources::Client do
     end
 
     it "should perform request" do
-      # Mock the vimeo response
-      json_response = File.read(File.expand_path("../../json_responses/vimeo_1.json", __FILE__))
-      OAuth::Consumer.any_instance.stub_chain(:request, :body).and_return(json_response)
-
-      results = @client.search(:vimeo, { query: "education" })
-      next_criteria = results.next_criteria
-      next_criteria[:page].should eq(2)
-      next_criteria[:per_page].should eq(25)
-      results.total_items.should eq(140815)
-      results.items.length.should eq(25)
+      VCR.use_cassette('vimeo_driver/education', :record => :none) do
+        results = @client.search(:vimeo, { query: "education" })
+        next_criteria = results.next_criteria
+        next_criteria[:page].should eq(2)
+        next_criteria[:per_page].should eq(25)
+        results.total_items.should eq(141384)
+        results.items.length.should eq(25)
+      end
     end
   end
 

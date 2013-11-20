@@ -5,13 +5,12 @@ module ActivePublicResources
       raise ArgumentError.new("key/value pair must be provided") if config.blank?
 
       @drivers = {}
-      config.each do |k, v|
+      ActivePublicResources.symbolize_keys(config).each do |k, v|
         klass = "ActivePublicResources::Drivers::#{k.to_s.split('_').map(&:capitalize).join}Driver".constantize
         @drivers[k.to_sym] = klass.new(v)
       end
     end
 
-    # search(:vimeo, { foo })
     def search(driver_name, criteria)
       @drivers[driver_name.to_sym].perform_request(criteria)
     end

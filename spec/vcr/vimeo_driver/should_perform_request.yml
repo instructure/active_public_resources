@@ -1,0 +1,58 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: http://vimeo.com/api/rest/v2
+    body:
+      encoding: US-ASCII
+      string: format=json&full_response=1&method=vimeo.videos.search&page=1&per_page=25&query=education&sort=relevant
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+      User-Agent:
+      - OAuth gem v0.4.7
+      Content-Length:
+      - '0'
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Authorization:
+      - OAuth oauth_consumer_key="CONSUMER_KEY", oauth_nonce="8Kfr75qHCOWsX5hs397I8T0N4qotm4O9ydUg8T8",
+        oauth_signature="QoCdzrQtuW6ZNpkTnuxeN2lCJdw%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1384966467", oauth_version="1.0"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 20 Nov 2013 16:54:27 GMT
+      Server:
+      - Apache
+      X-Powered-By:
+      - PHP/5.4.14
+      Expires:
+      - Wed, 20 Nov 2013 04:54:28 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      - post-check=0, pre-check=0
+      X-Ua-Compatible:
+      - IE=edge
+      X-Dns-Prefetch-Control:
+      - 'on'
+      Vary:
+      - Accept-Encoding
+      Content-Length:
+      - '129'
+      Connection:
+      - close
+      Content-Type:
+      - application/json
+    body:
+      encoding: UTF-8
+      string: |
+        {"generated_in":"0.0044","stat":"fail","err":{"code":"401","expl":"The consumer key passed was not valid.","msg":"Invalid consumer key"}}
+    http_version: 
+  recorded_at: Wed, 20 Nov 2013 16:54:28 GMT
+recorded_with: VCR 2.6.0

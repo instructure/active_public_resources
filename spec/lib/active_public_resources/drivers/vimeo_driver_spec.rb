@@ -43,32 +43,30 @@ describe ActivePublicResources::Drivers::VimeoDriver do
     end
 
     it "should perform request" do
-      # Mock the vimeo response
-      json_response = File.read(File.expand_path("../../../json_responses/vimeo_1.json", __FILE__))
-      OAuth::Consumer.any_instance.stub_chain(:request, :body).and_return(json_response)
+      VCR.use_cassette('vimeo_driver/education', :record => :none) do
+        results = @vimeo_driver.perform_request({ :query => "education" })
+        next_criteria = results.next_criteria
+        next_criteria[:page].should eq(2)
+        next_criteria[:per_page].should eq(25)
+        results.total_items.should eq(141384)
+        results.items.length.should eq(25)
 
-      results = @vimeo_driver.perform_request({ :query => "education" })
-      next_criteria = results.next_criteria
-      next_criteria[:page].should eq(2)
-      next_criteria[:per_page].should eq(25)
-      results.total_items.should eq(140815)
-      results.items.length.should eq(25)
-
-      item = results.items.first
-      item.kind.should eq("video")
-      item.title.should eq("F L U X")
-      item.description.should match /Plato Art Space/
-      item.thumbnail_url.should eq("http://b.vimeocdn.com/ts/319/857/319857212_100.jpg")
-      item.url.should eq("http://vimeo.com/15395471")
-      item.duration.should eq(285)
-      item.num_views.should eq(662529)
-      item.num_likes.should eq(13842)
-      item.num_comments.should eq(344)
-      item.created_date.strftime("%Y-%m-%d").should eq("2010-09-29")
-      item.username.should eq("candas sisman")
-      item.embed_html.should eq("<iframe src=\"//player.vimeo.com/video/15395471\" width=\"640\" height=\"360\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>")
-      item.width.should eq(640)
-      item.height.should eq(360)
+        item = results.items.first
+        item.kind.should eq("video")
+        item.title.should eq("F L U X")
+        item.description.should match /Plato Art Space/
+        item.thumbnail_url.should eq("http://b.vimeocdn.com/ts/319/857/319857212_100.jpg")
+        item.url.should eq("http://vimeo.com/15395471")
+        item.duration.should eq(285)
+        item.num_views.should eq(662845)
+        item.num_likes.should eq(13842)
+        item.num_comments.should eq(344)
+        item.created_date.strftime("%Y-%m-%d").should eq("2010-09-29")
+        item.username.should eq("candas sisman")
+        item.embed_html.should eq("<iframe src=\"//player.vimeo.com/video/15395471\" width=\"640\" height=\"360\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>")
+        item.width.should eq(640)
+        item.height.should eq(360)
+      end
     end
   end
   
