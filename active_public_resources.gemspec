@@ -19,7 +19,6 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency "active_support", ">= 3.0.0"
-  spec.add_dependency "hashie", "~> 2.0.5"
 
   # Drivers
   spec.add_dependency "vimeo", "~> 1.5.3"

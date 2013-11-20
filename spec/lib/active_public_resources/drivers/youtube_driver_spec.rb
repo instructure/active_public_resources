@@ -13,7 +13,7 @@ describe ActivePublicResources::Drivers::YoutubeDriver do
       }.to raise_error(StandardError, "must include query")
     end
 
-    it "should perform request", :vcr, :record => :once do
+    it "should perform request", :vcr, :record => :new_episodes do
       search_criteria = ActivePublicResources::RequestCriteria.new({:query => "education"})
       results = @driver.perform_request(search_criteria)
       next_criteria = results.next_criteria

@@ -23,7 +23,7 @@ describe ActivePublicResources::Client do
       })
     end
 
-    it "should perform request", :vcr, :record => :once do
+    it "should perform request", :vcr, :record => :new_episodes do
       results = @client.search(:vimeo, @request_criteria)
       next_criteria = results.next_criteria
       next_criteria.page.should eq(2)
@@ -41,7 +41,7 @@ describe ActivePublicResources::Client do
       })
     end
 
-    it "should perform request", :vcr, :record => :once do
+    it "should perform request", :vcr, :record => :new_episodes do
       results = @client.search(:youtube, @request_criteria)
       next_criteria = results.next_criteria
       next_criteria.page.should eq(2)

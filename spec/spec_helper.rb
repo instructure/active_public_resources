@@ -18,7 +18,8 @@ def config_data
   unless File.exist? yaml_path
     yaml_path = File.join(ActivePublicResources.root, 'active_public_resources_config.yml.example')
   end
-  ActivePublicResources.symbolize_keys(YAML::load(File.read(yaml_path)))
+  config = YAML::load(File.read(yaml_path))
+  ActivePublicResources.symbolize_keys(config)
 end
 
 VCR.configure do |c|
