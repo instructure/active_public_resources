@@ -137,7 +137,6 @@ module ActivePublicResources
                               " webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
         video.width         = 640
         video.height        = 360
-
         video
       end
 

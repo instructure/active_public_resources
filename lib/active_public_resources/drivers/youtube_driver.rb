@@ -1,19 +1,8 @@
 require 'net/https'
-require 'pry'
 
 module ActivePublicResources
   module Drivers
     class YoutubeDriver < Driver
-      attr_reader :client
-
-      DEFAULT_CRITERIA = {
-        :v           => 2,
-        :orderby     => 'relevance',
-        :alt         => 'json',
-        :safeSearch  => 'strict',
-        :startindex => 1,
-        :maxresults => 25
-      }
 
       def perform_request(request_criteria)
         request_criteria.validate_presence!([:query])
@@ -55,6 +44,8 @@ module ActivePublicResources
               else
                 return 'strict'
             end
+          else
+            request_criteria.instance_variable_get("@#{field_name}")
         end
       end
 
@@ -82,7 +73,6 @@ module ActivePublicResources
 
       def parse_video(data)
         video_id = data['id']['$t'].split(':').last
-
         video = ActivePublicResources::ResponseTypes::Video.new
         video.id            = video_id
         video.title         = data['title']['$t']
@@ -100,7 +90,6 @@ module ActivePublicResources
                               " webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
         video.width         = 640
         video.height        = 360
-
         video
       end
 

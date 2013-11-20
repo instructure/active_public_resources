@@ -4,3 +4,4 @@ vimeo:
   access_token: VIMEO_ACCESS_TOKEN
   access_token_secret: VIMEO_ACCESS_TOKEN_SECRET
 youtube:
+schooltube:
