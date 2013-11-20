@@ -14,9 +14,13 @@ require 'vcr'
 
 def config_data
   yaml_path = File.join(ActivePublicResources.root, 'active_public_resources_config.yml')
-  config = YAML::load(File.read(yaml_path))
-  config.inject({}){|memo,(k,v)| memo[k.to_sym] = v; memo}
-  config
+  if File.exist? yaml_path
+    config = YAML::load(File.read(yaml_path))
+    config.inject({}){|memo,(k,v)| memo[k.to_sym] = v; memo}
+    config
+  else
+    {}
+  end
 end
 
 VCR.configure do |c|

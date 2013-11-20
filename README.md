@@ -1,5 +1,7 @@
 # ActivePublicResources
 
+[![Build Status](https://travis-ci.org/instructure/active_public_resources.png)](https://travis-ci.org/instructure/active_public_resources)
+
 TODO: Write a gem description
 
 ## Installation

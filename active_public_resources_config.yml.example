@@ -1,0 +1,5 @@
+vimeo:
+  consumer_key: VIMEO_CONSUMER_KEY
+  consumer_secret: VIMEO_CONSUMER_SECRET
+  access_token: VIMEO_ACCESS_TOKEN
+  access_token_secret: VIMEO_ACCESS_TOKEN_SECRET
