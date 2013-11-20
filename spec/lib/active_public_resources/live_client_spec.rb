@@ -22,7 +22,7 @@ describe ActivePublicResources::Client, :live_api => true do
         results.items.length.should eq(25)
       end
 
-      VCR.use_cassette('vimeo_driver/education-2', :record => :once) do
+      VCR.use_cassette('vimeo_driver/education-2', :record => :none) do
         next_results = @client.search(:vimeo, results.next_criteria)
         next_results.next_criteria.page.should eq(3)
         next_results.items.first.id.should_not eq(results.items.first.id)
@@ -43,7 +43,7 @@ describe ActivePublicResources::Client, :live_api => true do
         results.items.length.should eq(25)
       end
 
-      VCR.use_cassette('youtube_driver/education-2', :record => :once) do
+      VCR.use_cassette('youtube_driver/education-2', :record => :none) do
         next_results = @client.search(:youtube, results.next_criteria)
         next_results.next_criteria.page.should eq(3)
         next_results.items.first.id.should_not eq(results.items.first.id)
