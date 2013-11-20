@@ -15,21 +15,10 @@ require 'pry'
 
 def config_data
   yaml_path = File.join(ActivePublicResources.root, 'active_public_resources_config.yml')
-  if File.exist? yaml_path
-    config = YAML::load(File.read(yaml_path))
-    config.inject({}){|memo,(k,v)| memo[k.to_sym] = v; memo}
-    config
-  else
-    {
-      :vimeo => { 
-        :consumer_key        => "CONSUMER_KEY",
-        :consumer_secret     => "CONSUMER_SECRET",
-        :access_token        => "ACCESS_TOKEN",
-        :access_token_secret => "ACCESS_TOKEN_SECRET"
-      },
-      :youtube => nil
-    }
+  unless File.exist? yaml_path
+    yaml_path = File.join(ActivePublicResources.root, 'active_public_resources_config.yml.example')
   end
+  ActivePublicResources.symbolize_keys(YAML::load(File.read(yaml_path)))
 end
 
 VCR.configure do |c|
@@ -39,9 +28,18 @@ VCR.configure do |c|
       c.filter_sensitive_data("#{driver_name.upcase}_#{k.upcase}") { v }
     end
   end
+  c.allow_http_connections_when_no_cassette = true
   c.hook_into :webmock
 end
 
 RSpec.configure do |config|
   config.filter_run_excluding :live_api => true
+  config.treat_symbols_as_metadata_keys_with_true_values = true
+  config.around(:each, :vcr) do |example|
+    name = example.metadata[:full_description].split(/\s+/, 2).join("/").underscore.gsub(/[^\w\/]+/, "_")
+    options = {}
+    options[:record] = example.metadata[:record] if example.metadata[:record].present?
+    options[:match_requests_on] = example.metadata[:match_requests_on] if example.metadata[:match_requests_on].present?
+    VCR.use_cassette(name, options) { example.call }
+  end
 end

@@ -10,65 +10,44 @@ describe ActivePublicResources::Client do
     end
 
     it "with valid config" do
-      config = {
-        :vimeo => {
-          :consumer_key        => 'CONSUMER_KEY',
-          :consumer_secret     => 'CONSUMER_SECRET',
-          :access_token        => 'ACCESS_TOKEN',
-          :access_token_secret => 'ACCESS_TOKEN_SECRET'
-        }
-      }
-      client = ActivePublicResources::Client.new(config)
-      client.initialized_drivers.should eq([:vimeo])
+      client = ActivePublicResources::Client.new(config_data)
+      client.initialized_drivers.should include :vimeo
     end
   end
 
   describe "vimeo" do
     before :each do
-      @client = ActivePublicResources::Client.new({
-        :vimeo => {
-          :consumer_key        => 'CONSUMER_KEY',
-          :consumer_secret     => 'CONSUMER_SECRET',
-          :access_token        => 'ACCESS_TOKEN',
-          :access_token_secret => 'ACCESS_TOKEN_SECRET'
-        }
-      })
+      @client = ActivePublicResources::Client.new(config_data)
       @request_criteria = ActivePublicResources::RequestCriteria.new({
         :query => "education"
       })
     end
 
-    it "should perform request" do
-      VCR.use_cassette('vimeo_driver/education', :record => :none) do
-        results = @client.search(:vimeo, @request_criteria)
-        next_criteria = results.next_criteria
-        next_criteria.page.should eq(2)
-        next_criteria.per_page.should eq(25)
-        results.total_items.should eq(141384)
-        results.items.length.should eq(25)
-      end
+    it "should perform request", :vcr, :record => :once do
+      results = @client.search(:vimeo, @request_criteria)
+      next_criteria = results.next_criteria
+      next_criteria.page.should eq(2)
+      next_criteria.per_page.should eq(25)
+      results.total_items.should eq(141538)
+      results.items.length.should eq(25)
     end
   end
 
   describe "youtube" do
     before :each do
-      @client = ActivePublicResources::Client.new({
-        :youtube => {}
-      })
+      @client = ActivePublicResources::Client.new(config_data)
       @request_criteria = ActivePublicResources::RequestCriteria.new({
         :query => "education"
       })
     end
 
-    it "should perform request" do
-      VCR.use_cassette('youtube_driver/education', :record => :none) do
-        results = @client.search(:youtube, @request_criteria)
-        next_criteria = results.next_criteria
-        next_criteria.page.should eq(2)
-        next_criteria.per_page.should eq(25)
-        results.total_items.should eq(1000000)
-        results.items.length.should eq(25)
-      end
+    it "should perform request", :vcr, :record => :once do
+      results = @client.search(:youtube, @request_criteria)
+      next_criteria = results.next_criteria
+      next_criteria.page.should eq(2)
+      next_criteria.per_page.should eq(25)
+      results.total_items.should eq(1000000)
+      results.items.length.should eq(25)
     end
   end
 
