@@ -10,7 +10,7 @@ module ActivePublicResources
       end
     end
 
-    def search(driver_name, request_criteria)
+    def perform_request(driver_name, request_criteria)
       @drivers[driver_name.to_sym].perform_request(request_criteria)
     end
 

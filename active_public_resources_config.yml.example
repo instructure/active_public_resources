@@ -5,3 +5,4 @@ vimeo:
   access_token_secret: VIMEO_ACCESS_TOKEN_SECRET
 youtube:
 schooltube:
+khan_academy:

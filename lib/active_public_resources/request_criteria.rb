@@ -1,7 +1,7 @@
 module ActivePublicResources
   class RequestCriteria
 
-    attr_accessor :query, :page, :per_page, :content_filter, :sort
+    attr_accessor :query, :page, :per_page, :content_filter, :sort, :folder
 
     def initialize(args={})
       args.each do |k,v|

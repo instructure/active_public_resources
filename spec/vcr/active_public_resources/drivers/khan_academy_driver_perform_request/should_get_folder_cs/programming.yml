@@ -1,0 +1,117 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.khanacademy.org/api/v1/topic/programming
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+      Host:
+      - www.khanacademy.org
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Allow-Credentials:
+      - 'true'
+      X-Ka-Api-Response:
+      - 'true'
+      Cache-Control:
+      - no-cache
+      Set-Cookie:
+      - gae_b_id=X2dhZV9iaW5nb19yYW5kb206UHNCaVBZMXVjekVNVjVuRW5fQmZVbUp4UDZ5bXZlc0ZPdUlWbi0wOQ==;
+        expires=Fri, 21 Nov 2014 17:45:32 GMT; Max-Age=31536000; Path=/
+      Vary:
+      - Accept-Encoding
+      Date:
+      - Thu, 21 Nov 2013 17:45:32 GMT
+      Server:
+      - Google Frontend
+      Expires:
+      - Thu, 21 Nov 2013 17:45:32 GMT
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"icon_src": "", "domain_slug": null, "relative_url": "/cs/programming",
+        "web_url": "", "ka_url": "http://www.khanacademy.org/cs/programming", "translated_standalone_title":
+        "Drawing and animation programming", "translated_title": "Drawing and animation",
+        "gplus_url": "", "id": "x05187c3c", "old_key_name": null, "hide": false, "title":
+        "Drawing and animation", "child_data": [{"kind": "Topic", "id": "x8edeb601"},
+        {"kind": "Topic", "id": "xf53d7aa7"}, {"kind": "Topic", "id": "x8686923b"},
+        {"kind": "Topic", "id": "x3312fbc8"}, {"kind": "Topic", "id": "xb0180d93"},
+        {"kind": "Topic", "id": "xc4ab8747"}, {"kind": "Topic", "id": "x7323ca45"},
+        {"kind": "Topic", "id": "x2f8e35eb"}, {"kind": "Topic", "id": "x54f8c602"},
+        {"kind": "Topic", "id": "x611e8e74"}, {"kind": "Topic", "id": "x8d3377f2"}],
+        "children": [{"kind": "Topic", "hide": false, "internal_id": "x8edeb601",
+        "title": "Intro to programming", "url": "http://www.khanacademy.org/cs/programming/intro-to-programming",
+        "node_slug": "intro-to-programming", "edit_slug": "", "key": "ag5zfmtoYW4tYWNhZGVteXIUCxIFVG9waWMiCXg4ZWRlYjYwMQw",
+        "translated_title": "Intro to programming", "id": "intro-to-programming"},
+        {"kind": "Topic", "hide": false, "internal_id": "xf53d7aa7", "title": "Drawing
+        basics", "url": "http://www.khanacademy.org/cs/programming/drawing-basics",
+        "node_slug": "drawing-basics", "edit_slug": "", "key": "ag5zfmtoYW4tYWNhZGVteXIUCxIFVG9waWMiCXhmNTNkN2FhNww",
+        "translated_title": "Drawing basics", "id": "drawing-basics"}, {"kind": "Topic",
+        "hide": false, "internal_id": "x8686923b", "title": "Variables", "url": "http://www.khanacademy.org/cs/programming/variables",
+        "node_slug": "variables", "edit_slug": "", "key": "ag5zfmtoYW4tYWNhZGVteXIUCxIFVG9waWMiCXg4Njg2OTIzYgw",
+        "translated_title": "Variables", "id": "variables"}, {"kind": "Topic", "hide":
+        false, "internal_id": "x3312fbc8", "title": "Animation basics", "url": "http://www.khanacademy.org/cs/programming/animation-basics",
+        "node_slug": "animation-basics", "edit_slug": "", "key": "ag5zfmtoYW4tYWNhZGVteXIUCxIFVG9waWMiCXgzMzEyZmJjOAw",
+        "translated_title": "Animation basics", "id": "animation-basics"}, {"kind":
+        "Topic", "hide": false, "internal_id": "xb0180d93", "title": "Text", "url":
+        "http://www.khanacademy.org/cs/programming/text-basics", "node_slug": "text-basics",
+        "edit_slug": "", "key": "ag5zfmtoYW4tYWNhZGVteXIUCxIFVG9waWMiCXhiMDE4MGQ5Mww",
+        "translated_title": "Text", "id": "text-basics"}, {"kind": "Topic", "hide":
+        false, "internal_id": "xc4ab8747", "title": "Functions", "url": "http://www.khanacademy.org/cs/programming/functions",
+        "node_slug": "functions", "edit_slug": "", "key": "ag5zfmtoYW4tYWNhZGVteXIUCxIFVG9waWMiCXhjNGFiODc0Nww",
+        "translated_title": "Functions", "id": "functions"}, {"kind": "Topic", "hide":
+        false, "internal_id": "x7323ca45", "title": "Logic and if Statements", "url":
+        "http://www.khanacademy.org/cs/programming/logic-if-statements", "node_slug":
+        "logic-if-statements", "edit_slug": "", "key": "ag5zfmtoYW4tYWNhZGVteXIUCxIFVG9waWMiCXg3MzIzY2E0NQw",
+        "translated_title": "Logic and if Statements", "id": "logic-if-statements"},
+        {"kind": "Topic", "hide": false, "internal_id": "x2f8e35eb", "title": "Looping",
+        "url": "http://www.khanacademy.org/cs/programming/looping", "node_slug": "looping",
+        "edit_slug": "", "key": "ag5zfmtoYW4tYWNhZGVteXIUCxIFVG9waWMiCXgyZjhlMzVlYgw",
+        "translated_title": "Looping", "id": "looping"}, {"kind": "Topic", "hide":
+        false, "internal_id": "x54f8c602", "title": "Arrays", "url": "http://www.khanacademy.org/cs/programming/arrays",
+        "node_slug": "arrays", "edit_slug": "", "key": "ag5zfmtoYW4tYWNhZGVteXIUCxIFVG9waWMiCXg1NGY4YzYwMgw",
+        "translated_title": "Arrays", "id": "arrays"}, {"kind": "Topic", "hide": false,
+        "internal_id": "x611e8e74", "title": "Objects", "url": "http://www.khanacademy.org/cs/programming/objects",
+        "node_slug": "objects", "edit_slug": "", "key": "ag5zfmtoYW4tYWNhZGVteXIUCxIFVG9waWMiCXg2MTFlOGU3NAw",
+        "translated_title": "Objects", "id": "objects"}, {"kind": "Topic", "hide":
+        false, "internal_id": "x8d3377f2", "title": "Becoming a better programmer",
+        "url": "http://www.khanacademy.org/cs/programming/good-practices", "node_slug":
+        "good-practices", "edit_slug": "", "key": "ag5zfmtoYW4tYWNhZGVteXIUCxIFVG9waWMiCXg4ZDMzNzdmMgw",
+        "translated_title": "Becoming a better programmer", "id": "good-practices"}],
+        "twitter_url": "", "translated_description": "Programming is how we tell computers
+        what we want them to do, like to build iPhone apps, video games, or websites
+        like this one. At Khan Academy, you can use our programming environment to
+        build graphics, animations, and interactive visualizations. If you''ve never
+        programmed before, follow these tutorials to learn how!", "deleted_mod_time":
+        "2013-07-21T23:11:33Z", "logo_image_url": "", "in_knowledge_map": false, "description":
+        "Programming is how we tell computers what we want them to do, like to build
+        iPhone apps, video games, or websites like this one. At Khan Academy, you
+        can use our programming environment to build graphics, animations, and interactive
+        visualizations. If you''ve never programmed before, follow these tutorials
+        to learn how!", "x_pos": 0.0, "node_slug": "programming", "deleted": false,
+        "facebook_url": "", "backup_timestamp": "2013-09-24T00:32:46Z", "render_type":
+        "Topic", "background_image_url": "", "background_image_caption": "", "assessment_progress_key":
+        "ax05187c3c", "topic_page_url": "/cs/programming", "extended_slug": "cs/programming",
+        "slug": "programming", "tags": [], "kind": "Topic", "in_topic_browser": true,
+        "sha": "393b92cf5cc13812929d825fda2852edab10b388", "standalone_title": "Drawing
+        and animation programming", "y_pos": 0.0, "current_revision_key": "393b92cf5cc13812929d825fda2852edab10b388",
+        "content_kind": "Topic"}'
+    http_version: 
+  recorded_at: Thu, 21 Nov 2013 17:45:32 GMT
+recorded_with: VCR 2.6.0

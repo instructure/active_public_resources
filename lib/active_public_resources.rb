@@ -11,12 +11,14 @@ require "active_public_resources/driver_response"
 require "active_public_resources/drivers/vimeo_driver"
 require "active_public_resources/drivers/youtube_driver"
 require "active_public_resources/drivers/schooltube_driver"
+require "active_public_resources/drivers/khan_academy_driver"
 
 # Response Types
 require "active_public_resources/base_response_type"
 require "active_public_resources/response_types/video"
 require "active_public_resources/response_types/exercise"
 require "active_public_resources/response_types/image"
+require "active_public_resources/response_types/folder"
 
 module ActivePublicResources
   def self.root
