@@ -86,4 +86,21 @@ describe ActivePublicResources::Client do
     end
   end
 
+  describe "quizlet" do
+    before :each do
+      @client = ActivePublicResources::Client.new(config_data)
+      @request_criteria = ActivePublicResources::RequestCriteria.new({
+        :query => "education"
+      })
+    end
+
+    it "should perform request", :vcr, :record => :new_episodes do
+      results = @client.perform_request(:quizlet, @request_criteria)
+      next_criteria = results.next_criteria
+      next_criteria.page.should eq(2)
+      next_criteria.per_page.should eq(25)
+      results.items.length.should eq(25)
+    end
+  end
+
 end

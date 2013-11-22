@@ -73,4 +73,20 @@ describe ActivePublicResources::Client, :live_api => true do
       results_2.items.map(&:kind).uniq.should eq(['video'])
     end
   end
+
+  describe "Quizlet" do
+    it "performs initial and subsequent requests" do
+      results = nil
+
+      results = @client.perform_request(:quizlet, @request_criteria)
+      next_criteria = results.next_criteria
+      next_criteria.page.should eq(2)
+      next_criteria.per_page.should eq(25)
+      results.items.length.should eq(25)
+
+      next_results = @client.perform_request(:quizlet, results.next_criteria)
+      next_results.next_criteria.page.should eq(3)
+      next_results.items.first.id.should_not eq(results.items.first.id)
+    end
+  end
 end

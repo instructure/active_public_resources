@@ -1,0 +1,70 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.quizlet.com/2.0/search/sets?client_id=QUIZLET_CLIENT_ID&page=1&per_page=25&q=education
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+      Host:
+      - api.quizlet.com
+  response:
+    status:
+      code: 200
+      message: Ok
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Fri, 22 Nov 2013 19:52:47 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '1737'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - fs=mwokjz; expires=Mon, 20-Nov-2023 19:52:47 GMT; path=/
+      - new=1; path=/
+      - qi2=84qzOtadrXNvYFE13DpfzWnvPm603se34lCnaPSYlTI; expires=Mon, 20-Nov-2023
+        19:52:47 GMT; path=/; domain=.quizlet.com; httponly
+      - setpage-welcomed=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/
+      Cache-Control:
+      - no-cache, must-revalidate
+      Expires:
+      - Mon, 26 Jul 1997 05:00:00 GMT
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: UTF-8
+      string: '{"total_results":5001,"total_pages":201,"page":1,"image_set_count":1,"sets":[{"id":8572574,"url":"http://quizlet.com/8572574/education-flash-cards/","title":"Education","created_by":"abenijaz","term_count":7,"created_date":1323541144,"modified_date":1323541144,"has_images":false,"subjects":[],"visibility":"public","editable":"only_me","has_access":true,"description":"The
+        Sociology of Education, Education and Globalization, Education and Inequality,
+        The Sociology of Higher Education, Education Inc. , Education in the 21st
+        Century","lang_terms":"en","lang_definitions":"en","has_discussion":true},{"id":10302448,"url":"http://quizlet.com/10302448/education-flash-cards/","title":"Education","created_by":"per5778","term_count":2,"created_date":1330370661,"modified_date":1330370661,"has_images":false,"subjects":["Education"],"visibility":"public","editable":"only_me","has_access":true,"description":"Information
+        dealing with the education of children with learning disabilities.","lang_terms":"en","lang_definitions":"en","has_discussion":true},{"id":1457767,"url":"http://quizlet.com/1457767/education-flash-cards/","title":"Education","created_by":"Amosek","term_count":23,"created_date":1258614837,"modified_date":1258614837,"has_images":false,"subjects":["education","maturita"],"visibility":"public","editable":"only_me","has_access":true,"description":"Slovn\u00ed
+        z\u00e1soba k maturitn\u00ed ot\u00e1zce Education","lang_terms":"en","lang_definitions":"cs","has_discussion":true},{"id":2493915,"url":"http://quizlet.com/2493915/education-flash-cards/","title":"Education","created_by":"VeraBobkova","term_count":33,"created_date":1277865774,"modified_date":1277867263,"has_images":false,"subjects":["education","British
+        education"],"visibility":"public","editable":"only_me","has_access":true,"description":"","lang_terms":"en","lang_definitions":"ru","has_discussion":true},{"id":11542692,"url":"http://quizlet.com/11542692/education-flash-cards/","title":"Education","created_by":"julieholeksa","term_count":19,"created_date":1335139936,"modified_date":1335139936,"has_images":false,"subjects":[],"visibility":"public","editable":"only_me","has_access":true,"description":"Merit
+        and Value of Education, education and inequality","lang_terms":"en","lang_definitions":"en","has_discussion":true},{"id":27362022,"url":"http://quizlet.com/27362022/education-flash-cards/","title":"Education","created_by":"paula_martinezperez","term_count":85,"created_date":1380615655,"modified_date":1380616645,"has_images":false,"subjects":["Education"],"visibility":"public","editable":"only_me","has_access":true,"description":"Education","lang_terms":"en","lang_definitions":"fr","has_discussion":true},{"id":3821613,"url":"http://quizlet.com/3821613/educ-flash-cards/","title":"educ","created_by":"prepster0418","term_count":3,"created_date":1292467164,"modified_date":1292467164,"has_images":false,"subjects":["educ"],"visibility":"public","editable":"only_me","has_access":true,"description":"","lang_terms":"en","lang_definitions":"en","has_discussion":true},{"id":7548921,"url":"http://quizlet.com/7548921/education-flash-cards/","title":"Education","created_by":"georgegribbin","term_count":2,"created_date":1319687718,"modified_date":1319687779,"has_images":false,"subjects":["Education
+        102"],"visibility":"public","editable":"only_me","has_access":true,"description":"","lang_terms":"en","lang_definitions":"en","has_discussion":true},{"id":22134529,"url":"http://quizlet.com/22134529/education-flash-cards/","title":"Education","created_by":"LaurenHersey","term_count":4,"created_date":1366134033,"modified_date":1366134033,"has_images":false,"subjects":["Sociology"],"visibility":"public","editable":"only_me","has_access":true,"description":"Sociology
+        AS education","lang_terms":"en","lang_definitions":"en","has_discussion":true},{"id":2569332,"url":"http://quizlet.com/2569332/education-flash-cards/","title":"education","created_by":"cfnurse","term_count":6,"created_date":1281831170,"modified_date":1281832096,"has_images":false,"subjects":["education"],"visibility":"public","editable":"only_me","has_access":true,"description":"","lang_terms":"la","lang_definitions":"en","has_discussion":true},{"id":4390183,"url":"http://quizlet.com/4390183/education-flash-cards/","title":"Education","created_by":"mwhittington","term_count":155,"created_date":1297391721,"modified_date":1297835560,"has_images":false,"subjects":["education
+        stuff"],"visibility":"public","editable":"only_me","has_access":true,"description":"","lang_terms":"de","lang_definitions":"en","has_discussion":true},{"id":3281329,"url":"http://quizlet.com/3281329/education-flash-cards/","title":"Education","created_by":"AlexisVSnyder","term_count":34,"created_date":1288714212,"modified_date":1288714212,"has_images":false,"subjects":["histoy
+        of education"],"visibility":"public","editable":"only_me","has_access":true,"description":"","lang_terms":"en","lang_definitions":"en","has_discussion":false},{"id":19949703,"url":"http://quizlet.com/19949703/education-flash-cards/","title":"Education","created_by":"Aleksandr1994","term_count":20,"created_date":1361254012,"modified_date":1361418548,"has_images":false,"subjects":[],"visibility":"public","editable":"only_me","has_access":true,"description":"Education","lang_terms":"en","lang_definitions":"ru","has_discussion":true},{"id":29724158,"url":"http://quizlet.com/29724158/education-flash-cards/","title":"Education","created_by":"Estrella1985","term_count":85,"created_date":1383572902,"modified_date":1383572902,"has_images":false,"subjects":[],"visibility":"public","editable":"only_me","has_access":true,"description":"Education","lang_terms":"en","lang_definitions":"fr","has_discussion":true},{"id":16290360,"url":"http://quizlet.com/16290360/education-flash-cards/","title":"Education","created_by":"pinochle1","term_count":2,"created_date":1352758456,"modified_date":1352758877,"has_images":false,"subjects":["Education"],"visibility":"public","editable":"only_me","has_access":true,"description":"Online
+        Learning","lang_terms":"en","lang_definitions":"en","has_discussion":false},{"id":7424086,"url":"http://quizlet.com/7424086/education-flash-cards/","title":"Education","created_by":"sandymillin","term_count":37,"created_date":1319302507,"modified_date":1319643257,"has_images":true,"subjects":["english","education"],"visibility":"public","editable":"only_me","has_access":true,"description":"","lang_terms":"en","lang_definitions":"en","has_discussion":true},{"id":10299925,"url":"http://quizlet.com/10299925/education-flash-cards/","title":"Education","created_by":"RBrady16","term_count":10,"created_date":1330366169,"modified_date":1330366503,"has_images":false,"subjects":["Education"],"visibility":"public","editable":"only_me","has_access":true,"description":"Vocabulary","lang_terms":"en","lang_definitions":"en","has_discussion":true},{"id":6273535,"url":"http://quizlet.com/6273535/education-flash-cards/","title":"Education","created_by":"james924","term_count":7,"created_date":1314671740,"modified_date":1314671740,"has_images":false,"subjects":["korean"],"visibility":"public","editable":"only_me","has_access":true,"description":"Education","lang_terms":"ko","lang_definitions":"en","has_discussion":true},{"id":2577684,"url":"http://quizlet.com/2577684/education-flash-cards/","title":"Education","created_by":"zuzisue","term_count":35,"created_date":1282117636,"modified_date":1282117636,"has_images":false,"subjects":["education","school"],"visibility":"public","editable":"only_me","has_access":true,"description":"","lang_terms":"sv","lang_definitions":"pl","has_discussion":true},{"id":12732259,"url":"http://quizlet.com/12732259/education-flash-cards/","title":"education","created_by":"deyanira9","term_count":32,"created_date":1340261228,"modified_date":1340264902,"has_images":false,"subjects":["education"],"visibility":"public","editable":"only_me","has_access":true,"description":"midterm","lang_terms":"en","lang_definitions":"en","has_discussion":true},{"id":13082092,"url":"http://quizlet.com/13082092/education-flash-cards/","title":"Education","created_by":"SenoraBaker","term_count":125,"created_date":1344449810,"modified_date":1344449810,"has_images":false,"subjects":[],"visibility":"public","editable":"only_me","has_access":true,"description":"Education","lang_terms":"es","lang_definitions":"en","has_discussion":true},{"id":6041792,"url":"http://quizlet.com/6041792/education-flash-cards/","title":"Education","created_by":"dukeachiver10","term_count":24,"created_date":1311170690,"modified_date":1311170690,"has_images":false,"subjects":[],"visibility":"public","editable":"only_me","has_access":true,"description":"these
+        are the flash cards for education class","lang_terms":"en","lang_definitions":"en","has_discussion":true},{"id":11025390,"url":"http://quizlet.com/11025390/education-flash-cards/","title":"Education.","created_by":"utshelly","term_count":4,"created_date":1332935063,"modified_date":1332935063,"has_images":false,"subjects":[],"visibility":"public","editable":"only_me","has_access":true,"description":"LC
+        Home Economics: Education contributes to a child''s development in the following
+        ways.","lang_terms":"en","lang_definitions":"en","has_discussion":true},{"id":30794767,"url":"http://quizlet.com/30794767/education-flash-cards/","title":"Education","created_by":"LubaMendelevich","term_count":91,"created_date":1384807330,"modified_date":1385028798,"has_images":false,"subjects":["English"],"visibility":"public","editable":"password","has_access":true,"description":"Vocabulary
+        on topic of education","lang_terms":"en","lang_definitions":"en","has_discussion":true},{"id":721155,"url":"http://quizlet.com/721155/education-flash-cards/","title":"Education","created_by":"laurendiffey","term_count":18,"created_date":1234288021,"modified_date":1234288021,"has_images":false,"subjects":["german
+        vocabulary"],"visibility":"public","editable":"only_me","has_access":true,"description":"18
+        words on Education","lang_terms":"en","lang_definitions":"de","has_discussion":true}]}'
+    http_version: 
+  recorded_at: Fri, 22 Nov 2013 19:52:47 GMT
+recorded_with: VCR 2.6.0
