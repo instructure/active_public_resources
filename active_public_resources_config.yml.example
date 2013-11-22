@@ -6,3 +6,5 @@ vimeo:
 youtube:
 schooltube:
 khan_academy:
+quizlet:
+  client_id: QUIZLET_CLIENT_ID

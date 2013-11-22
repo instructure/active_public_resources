@@ -6,10 +6,6 @@ module ActivePublicResources
         raise NotImplementedError.new("You must implement perform_request.")
       end
 
-      def as_json(*args)
-        raise NotImplementedError.new("You must implement as_json.")
-      end
-
       protected
 
       def validate_options(opts, req=[])

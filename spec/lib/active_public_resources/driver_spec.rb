@@ -5,7 +5,7 @@ describe ActivePublicResources::Drivers::Driver do
   it "should raises NotImplementedError" do
     class ActivePublicResources::Drivers::Foo < ActivePublicResources::Drivers::Driver
     end
-    [:perform_request, :as_json].each do |mthd|
+    [:perform_request].each do |mthd|
       expect {
         ActivePublicResources::Drivers::Foo.new.send(mthd)
       }.to raise_error(NotImplementedError)
@@ -15,9 +15,8 @@ describe ActivePublicResources::Drivers::Driver do
   it "should not raise error when methods are overridden" do
     class ActivePublicResources::Drivers::Foo < ActivePublicResources::Drivers::Driver
       def perform_request(*args); end
-      def as_json(*args); end
     end
-    [:perform_request, :as_json].each do |mthd|
+    [:perform_request].each do |mthd|
       expect {
         ActivePublicResources::Drivers::Foo.new.send(mthd)
       }.not_to raise_error
