@@ -2,7 +2,7 @@ require 'vimeo'
 
 module ActivePublicResources
   module Drivers
-    class VimeoDriver < Driver
+    class Vimeo < Driver
       attr_reader :client
 
       DEFAULT_CRITERIA = {
@@ -42,7 +42,7 @@ module ActivePublicResources
       #                                            this is not supported yet - https://developer.vimeo.com/api/docs/spec
       #
       # @example Request
-      #   driver = ActivePublicResources::Drivers::VimeoDriver.new({ .. config options .. })
+      #   driver = ActivePublicResources::Drivers::Vimeo.new({ .. config options .. })
       #   results = driver.perform_request({ query: 'education' })
       #     
       # @example Returns
@@ -97,6 +97,30 @@ module ActivePublicResources
 
     private
 
+      def sort(val)
+        case val
+          when APR::RequestCriteria::SORT_RELEVANCE
+            'relevant'
+          when APR::RequestCriteria::SORT_RECENT
+            'newest'
+          when APR::RequestCriteria::SORT_POPULAR
+            'most_played'
+          else
+            'relevant'
+        end
+      end
+
+      def content_filter(val)
+        case val
+          when APR::RequestCriteria::CONTENT_FILTER_NONE
+            'safe'
+          when APR::RequestCriteria::CONTENT_FILTER_STRICT
+            'safe'
+          else
+            'safe'
+        end
+      end
+
       def parse_results(request_criteria, results)
         @driver_response = DriverResponse.new(
           :criteria      => request_criteria,
@@ -132,11 +156,23 @@ module ActivePublicResources
         video.num_comments  = data['number_of_comments'].to_i
         video.created_date  = Date.parse(data['upload_date'])
         video.username      = data['owner']['display_name']
-        video.embed_html    = "<iframe src=\"//player.vimeo.com/video/#{data['id']}\"" +
-                              " width=\"640\" height=\"360\" frameborder=\"0\"" +
-                              " webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
         video.width         = 640
         video.height        = 360
+
+        # Return Types
+        video.return_types << APR::ReturnTypes::Url.new(
+          :url   => video.url,
+          :text  => video.title,
+          :title => video.title
+        )
+        video.return_types << APR::ReturnTypes::Iframe.new(
+          :url    => "//player.vimeo.com/video/#{data['id']}",
+          :text   => video.title,
+          :title  => video.title,
+          :width  => 640,
+          :height => 360
+        )
+
         video
       end
 

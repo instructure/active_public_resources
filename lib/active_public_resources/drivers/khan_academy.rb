@@ -2,7 +2,7 @@ require 'net/https'
 
 module ActivePublicResources
   module Drivers
-    class KhanAcademyDriver < Driver
+    class KhanAcademy < Driver
 
       BASE_URL = "https://www.khanacademy.org/api/v1/"
 
@@ -88,11 +88,22 @@ module ActivePublicResources
         video.num_comments  = 0
         video.created_date  = data['date_added'].present? ? Date.parse(data['date_added']) : nil
         video.username      = data['author_names'].present? ? data['author_names'].first : ''
-        video.embed_html    = "<iframe src=\"//www.youtube.com/embed/#{data['youtube_id']}?feature=oembed\"" +
-                              " width=\"640\" height=\"360\" frameborder=\"0\"" +
-                              " webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
         video.width         = 640
         video.height        = 360
+
+        # Return Types
+        video.return_types << APR::ReturnTypes::Url.new(
+          :url   => video.url,
+          :text  => video.title,
+          :title => video.title
+        )
+        video.return_types << APR::ReturnTypes::Iframe.new(
+          :url    => "//www.youtube.com/embed/#{data['youtube_id']}?feature=oembed",
+          :text   => video.title,
+          :title  => video.title,
+          :width  => 640,
+          :height => 360
+        )
         video
       end
 
@@ -103,6 +114,13 @@ module ActivePublicResources
         exercise.description   = data['description']
         exercise.thumbnail_url = data['image_url_256']
         exercise.url           = data['ka_url']
+
+        exercise.return_types << APR::ReturnTypes::Url.new(
+          :url   => exercise.url,
+          :text  => exercise.title,
+          :title => exercise.title
+        )
+
         exercise
       end
 

@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = ActivePublicResources::VERSION
   spec.authors       = ["Eric Berry"]
   spec.email         = ["cavneb@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.description   = %q{ Normalized searching and browsing of public resources }
+  spec.summary       = %q{ Normalized searching and browsing of public resources }
+  spec.homepage      = "https://github.com/instructure/active_public_resources"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)

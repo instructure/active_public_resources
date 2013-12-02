@@ -1,0 +1,73 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.khanacademy.org/api/v1/topic/cs
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+      Host:
+      - www.khanacademy.org
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Allow-Credentials:
+      - 'true'
+      X-Ka-Api-Response:
+      - 'true'
+      Cache-Control:
+      - no-cache
+      Set-Cookie:
+      - gae_b_id=X2dhZV9iaW5nb19yYW5kb206TzltRzlnbUdJNXdibXpnUUVTM1Z5TldmUWtNSWUtQzVDaHlTY3MwOQ==;
+        expires=Tue, 02 Dec 2014 20:22:13 GMT; Max-Age=31536000; Path=/
+      Vary:
+      - Accept-Encoding
+      Date:
+      - Mon, 02 Dec 2013 20:22:13 GMT
+      Server:
+      - Google Frontend
+      Expires:
+      - Mon, 02 Dec 2013 20:22:13 GMT
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"icon_src": "", "domain_slug": null, "relative_url": "/cs", "web_url":
+        "", "ka_url": "http://www.khanacademy.org/cs", "translated_standalone_title":
+        "Computer programming", "translated_title": "Computer programming", "gplus_url":
+        "", "id": "xffde7c31", "old_key_name": null, "hide": false, "title": "Computer
+        programming", "child_data": [{"kind": "Topic", "id": "x05187c3c"}, {"kind":
+        "Topic", "id": "x3ae0237e"}], "children": [{"kind": "Topic", "hide": false,
+        "key": "ag5zfmtoYW4tYWNhZGVteXIUCxIFVG9waWMiCXgwNTE4N2MzYww", "internal_id":
+        "x05187c3c", "title": "Drawing and animation", "url": "http://www.khanacademy.org/cs/programming",
+        "translated_title": "Drawing and animation", "node_slug": "programming", "id":
+        "programming", "edit_slug": ""}], "twitter_url": "", "translated_description":
+        "Learn the fundamentals of programming on the Khan Academy Computer Science
+        platform. Explore programs made by others. Write your own programs and share
+        them!", "deleted_mod_time": "2013-07-21T23:11:34Z", "logo_image_url": "",
+        "in_knowledge_map": false, "description": "Learn the fundamentals of programming
+        on the Khan Academy Computer Science platform. Explore programs made by others.
+        Write your own programs and share them!", "x_pos": 0.0, "node_slug": "cs",
+        "deleted": false, "facebook_url": "", "backup_timestamp": "2013-09-06T16:25:14Z",
+        "render_type": "Subject", "background_image_url": "", "background_image_caption":
+        "", "assessment_progress_key": "axffde7c31", "topic_page_url": "/cs", "extended_slug":
+        "cs", "slug": "cs", "tags": [], "kind": "Topic", "in_topic_browser": true,
+        "sha": "d0852f23fe04ed2f9c09ad5a7d1bc75cc258b50d", "standalone_title": "Computer
+        programming", "y_pos": 0.0, "current_revision_key": "d0852f23fe04ed2f9c09ad5a7d1bc75cc258b50d",
+        "content_kind": "Topic"}'
+    http_version: 
+  recorded_at: Mon, 02 Dec 2013 20:22:13 GMT
+recorded_with: VCR 2.7.0

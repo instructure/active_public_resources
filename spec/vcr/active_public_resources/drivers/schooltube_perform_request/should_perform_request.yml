@@ -1,0 +1,810 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.schooltube.com/api/v1/video/search/?limit=25&offset=0&orderby=-view_count&term=education
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+      Host:
+      - www.schooltube.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 02 Dec 2013 20:22:15 GMT
+      Server:
+      - Apache
+      Expires:
+      - Mon, 02 Dec 2013 20:32:17 GMT
+      Vary:
+      - Cookie
+      Cache-Control:
+      - max-age=600
+      Content-Length:
+      - '65975'
+      Last-Modified:
+      - Mon, 02 Dec 2013 20:22:17 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+    body:
+      encoding: UTF-8
+      string: '{"meta": {"has_next": true, "limit": 25, "next": "/api/v1/video/search/?order_by=-view_count&limit=25&offset=25&term=education",
+        "offset": 25}, "objects": [{"allow_embed": true, "allow_rating": true, "channel_url":
+        "/channel/Student Group Travel", "create_date": "November 12, 2009", "create_user":
+        "/api/v1/profile/77332/", "description": "Let American Tours & Travel meet
+        all your groups travel needs by customizing your next student class trip.
+        From theme parks and national monuments, from Music Festivals to performance
+        opportunities, our travel experts are ready to create more than just a top-of-the-line
+        educational experience we''ll create a lifetimes worth of memories. We Choose
+        the Best of the Best for You: We work hard to ensure that every aspect of
+        your trip from hotels, transportation, attractions, and venues meet the highest
+        standards of excellence and quality. Hotels are routinely visited by members
+        of the American Tours & Travel team to check for cleanliness, staff service
+        levels, security, convenience and more. When you choose American Tours & Travel,
+        you are choosing the best. 1-800-243-4365 Licensed, Bonded & Insured ", "duration":
+        102, "edmodo_group": 0, "exclude_from_channel": null, "external_encoded_media_id":
+        null, "external_media_id": null, "external_provider_name": null, "id": "54664",
+        "is_featured": false, "is_locked": false, "is_organization_approved": true,
+        "large_image_url": "http://schooltube-thumbnails.s3.amazonaws.com/c5/c3/dd/df/9c/f6/c5c3dddf-9cf6-c0e5-db1f-898f89c301e2_lg.jpg",
+        "mcore_media_id": null, "mcore_payload": "", "mcore_slug": null, "media_hash":
+        "c5c3dddf-9cf6-c0e5-db1f-898f89c301e2", "meta_info": "", "moderation_status":
+        "Approved", "organization": {"banner": null, "banner_link": null, "city":
+        "Orlando", "create_date": "05/14/2009", "display_override": "American Tours
+        & Travel,  Orlando FL", "id": "218433", "logo_url": "/static/images/organization/default_logo.png",
+        "name": "American Tours & Travel", "rank": 0, "resource_uri": "/api/v1/organization/218433/",
+        "state": "Florida", "update_date": "2009-05-14T16:08:36.353000", "url": "/organization/218433",
+        "video_count": 20}, "original_keywords": "educational student travel, educational
+        school trips, educational school field trips, school educational travel, high
+        school educational trips, high school educational tours, fun educational field
+        trips, fun and educational field trips, educational field trips, educational
+        travel services, educational travel service, educational travel company, educational
+        travel companies, educational travel agent, educational travel agency, educational
+        travel agencies, educational tours for students and teachers, educational
+        student trips, educational group travel, educational fieldtrip, educational
+        field trips for kids, educational field trips, educational field trip ideas,
+        educational feild trips, education travel tours, education travel services,
+        education travel service, education travel company, education travel companies,
+        education travel agent, education field trips, education field trip", "post_to_edmodo":
+        null, "rank": 0.500167, "rating_count": null, "rating_down": null, "rating_up":
+        null, "resource_uri": "/api/v1/video/54664/", "short_url": "http://bit.ly/pk3Sxs",
+        "show_on_homepage": true, "thumbnail_status": null, "thumbnail_url": "http://schooltube-thumbnails.s3.amazonaws.com/c5/c3/dd/df/9c/f6/c5c3dddf-9cf6-c0e5-db1f-898f89c301e2.jpg",
+        "thumbnails": 0, "thumbnails_url": "/api/v1/video/60f374fdba394a70b4ad/thumbnails/",
+        "thumbs_up": 0, "title": "Fun - Educational School Trips - Call American Tours
+        & Travel", "update_date": "2012-04-25T12:21:59.624893", "url": "/video/60f374fdba394a70b4ad/Fun
+        - Educational School Trips - Call American Tours & Travel", "username": "StudentGroupTravel",
+        "view_count": 3513, "vkey": "60f374fdba394a70b4ad"}, {"allow_embed": true,
+        "allow_rating": true, "channel_url": "/channel/East Valley Institute of Technology
+        (EVIT) in Mesa, Arizona", "create_date": "January 09, 2012", "create_user":
+        "/api/v1/profile/258766/", "description": "Students will gain hands-on experience
+        in classroom education on how to manage a classroom, facilitate learning centers
+        and support the development of the whole child. Students participate in individual
+        and group projects, text work, professional development activities and computer
+        lab assignments. These skills and knowledge are then implemented at the on-site
+        Head Start program.   Upon program completion, students are prepared to work
+        in a childcare facility, after-school program, preschool, or pursue additional
+        education in this field. Advanced students participate in an internship.   Education
+        Professions: For the student who knows he or she wants to become a certified
+        teacher, this class will give a jumpstart on training. The college prep curriculum
+        includes a survey study of the teaching profession and educational theories
+        of learning. Students will conduct research, create lessons, and present concepts
+        to peers. They will also research degree programs and apply for scholarships.
+        Each student will participate in job shadowing in a school/class of his or
+        her choice. Students identify their philosophies and develop their leadership
+        styles in this two-year course.", "duration": 124224, "edmodo_group": 0, "exclude_from_channel":
+        null, "external_encoded_media_id": null, "external_media_id": null, "external_provider_name":
+        null, "id": "287628", "is_featured": false, "is_locked": false, "is_organization_approved":
+        true, "large_image_url": "http://schooltube-thumbnails.s3.amazonaws.com/23/3b/1d/8a/3b/1d/233b1d8a-3b1d-11e1-aef4-00188b41f993_lg.jpg",
+        "mcore_media_id": null, "mcore_payload": "", "mcore_slug": null, "media_hash":
+        "233b1d8a-3b1d-11e1-aef4-00188b41f993", "meta_info": "", "moderation_status":
+        "Approved", "organization": {"banner": null, "banner_link": null, "city":
+        "Mesa", "create_date": "07/26/2008", "display_override": "East Valley Institute
+        Of Technology,  Mesa AZ", "id": "115418", "logo_url": "/static/images/organization/default_logo.png",
+        "name": "East Valley Institute Of Technology", "rank": 0, "resource_uri":
+        "/api/v1/organization/115418/", "state": "Arizona", "update_date": "2008-07-26T17:27:44.630000",
+        "url": "/organization/115418", "video_count": 48}, "original_keywords": "Education
+        Arizona educational Education Professions Early Childhood Mesa Arizona career
+        and technical education EVIT", "post_to_edmodo": null, "rank": 0.494784, "rating_count":
+        null, "rating_down": null, "rating_up": null, "resource_uri": "/api/v1/video/287628/",
+        "short_url": "http://bit.ly/AqXdYP", "show_on_homepage": true, "thumbnail_status":
+        null, "thumbnail_url": "http://schooltube-thumbnails.s3.amazonaws.com/23/3b/1d/8a/3b/1d/233b1d8a-3b1d-11e1-aef4-00188b41f993.jpg",
+        "thumbnails": 0, "thumbnails_url": "/api/v1/video/0466d5eb1f6f4ba3975f/thumbnails/",
+        "thumbs_up": 0, "title": "EVIT Early Childhood & Education Professions program
+        in Mesa, Arizona", "update_date": "2012-04-26T01:35:13.522100", "url": "/video/0466d5eb1f6f4ba3975f/EVIT
+        Early Childhood & Education Professions program in Mesa, Arizona", "username":
+        "evitwebmaster", "view_count": 6345, "vkey": "0466d5eb1f6f4ba3975f"}, {"allow_embed":
+        true, "allow_rating": true, "channel_url": "/channel/Moving To Success", "create_date":
+        "July 08, 2013", "create_user": "/api/v1/profile/476551/", "description":
+        "Moving to Success is a developmental elementary physical education curriculum
+        guide.  The curriculum is developed around the content areas of locomotion,
+        body management, educational games, and educational dance.  The goal is to
+        provide students with developmentally-appropriate experiences that lead to
+        the skills, knowledge, and values of how and why to lead a physically-active
+        lifestyle.  This session will focus on assessment in the physical education
+        class. ", "duration": null, "edmodo_group": 0, "exclude_from_channel": null,
+        "external_encoded_media_id": "25995351", "external_media_id": "25995276",
+        "external_provider_name": "heywatch", "id": "574507", "is_featured": false,
+        "is_locked": false, "is_organization_approved": true, "large_image_url": "http://schooltube_encoded.s3.amazonaws.com/thumb/29/08/5d/46/e8/1d/29085d46-e81d-11e2-add9-001c23d1f545_01.jpg",
+        "mcore_media_id": null, "mcore_payload": "", "mcore_slug": null, "media_hash":
+        "29085d46-e81d-11e2-add9-001c23d1f545", "meta_info": "", "moderation_status":
+        "Approved", "organization": {"banner": null, "banner_link": null, "city":
+        "Duncan", "create_date": "07/01/2013", "display_override": "Moving To Success,  Duncan
+        SC", "id": "234881", "logo_url": "/static/images/organization/default_logo.png",
+        "name": "Moving To Success", "rank": 0, "resource_uri": "/api/v1/organization/234881/",
+        "state": "South Carolina", "update_date": "2013-07-01T07:49:18.866755", "url":
+        "/organization/234881", "video_count": 4}, "original_keywords": "Moving To
+        Success, Physical Education, Elementary Physical Education, PE, Games, Gymnastics,
+        Locomotor Patterns, Dance, Education Games, Educational Dance, Body Management,
+        PE Rubrics, PE Assessment, Skill Themes, PE Lessons Plans, Task Extensions,
+        Task Refinements ", "post_to_edmodo": null, "rank": 0.494784, "rating_count":
+        null, "rating_down": null, "rating_up": null, "resource_uri": "/api/v1/video/574507/",
+        "short_url": "http://bit.ly/15s2WIL", "show_on_homepage": true, "thumbnail_status":
+        true, "thumbnail_url": "http://schooltube_encoded.s3.amazonaws.com/thumb/29/08/5d/46/e8/1d/29085d46-e81d-11e2-add9-001c23d1f545_01.jpg",
+        "thumbnails": 1, "thumbnails_url": "/api/v1/video/42ebd99225e4484ba1e7/thumbnails/",
+        "thumbs_up": 0, "title": "Moving To Success: Physical Education Assessment
+        ", "update_date": "2013-07-08T16:22:14.446303", "url": "/video/42ebd99225e4484ba1e7/Moving
+        To Success: Physical Education Assessment ", "username": "Moving2Success",
+        "view_count": 477, "vkey": "42ebd99225e4484ba1e7"}, {"allow_embed": true,
+        "allow_rating": true, "channel_url": "/channel/Assoc. for Career &amp; Technical
+        Education (ACTE)", "create_date": "January 28, 2010", "create_user": "/api/v1/profile/1840/",
+        "description": "http://www.acteonline.org/awards.aspx Bea Paul, job developer
+        at Autry Technology Center, talks about her feelings on winning the Association
+        for Career and Technical Education (ACTE) Outstanding Career and Technical
+        Educator Award for 2009-2010. ACTE is a US education association that works
+        to advance career and technical education, formerly known as vocational education,
+        to prepare youth and adults for careers. Produced by Lorne Thomas, Alex Wright,
+        Chelsey Hardey, Anna-Laura Green and Jacob Holloway of Mount Juliet High School,
+        Wilson County Schools, Tennessee.", "duration": 100, "edmodo_group": 0, "exclude_from_channel":
+        null, "external_encoded_media_id": null, "external_media_id": null, "external_provider_name":
+        null, "id": "68944", "is_featured": false, "is_locked": false, "is_organization_approved":
+        true, "large_image_url": "http://schooltube-thumbnails.s3.amazonaws.com/21/c2/28/43/7a/0f/21c22843-7a0f-17ef-98eb-603275c4ce0c_lg.jpg",
+        "mcore_media_id": null, "mcore_payload": "", "mcore_slug": null, "media_hash":
+        "21c22843-7a0f-17ef-98eb-603275c4ce0c", "meta_info": "", "moderation_status":
+        "Approved", "organization": {"banner": null, "banner_link": null, "city":
+        "Alexandria", "create_date": "08/02/2008", "display_override": "ACTE: Association
+        for Career and Technical Education,  Alexandria VA", "id": "217061", "logo_url":
+        "/static/images/organization/default_logo.png", "name": "ACTE: Association
+        for Career and Technical Education", "rank": 0, "resource_uri": "/api/v1/organization/217061/",
+        "state": "Virginia", "update_date": "2008-08-02T15:32:25.010000", "url": "/organization/217061",
+        "video_count": 133}, "original_keywords": "cte career  tech  technical  ed  education  acte  teacher  educator  winner
+        jobs workforce vocational", "post_to_edmodo": null, "rank": 0.493812, "rating_count":
+        null, "rating_down": null, "rating_up": null, "resource_uri": "/api/v1/video/68944/",
+        "short_url": "http://bit.ly/oZfhdw", "show_on_homepage": true, "thumbnail_status":
+        null, "thumbnail_url": "http://schooltube-thumbnails.s3.amazonaws.com/21/c2/28/43/7a/0f/21c22843-7a0f-17ef-98eb-603275c4ce0c.jpg",
+        "thumbnails": 0, "thumbnails_url": "/api/v1/video/09acac247b6ef3d6d1b6/thumbnails/",
+        "thumbs_up": 0, "title": "ACTE 2009-2010 Outstanding Career and Technical
+        Educator", "update_date": "2012-04-23T14:14:32.402353", "url": "/video/09acac247b6ef3d6d1b6/ACTE
+        2009-2010 Outstanding Career and Technical Educator", "username": "ACTEMedia",
+        "view_count": 2278, "vkey": "09acac247b6ef3d6d1b6"}, {"allow_embed": true,
+        "allow_rating": true, "channel_url": "/channel/PA School Boards Association",
+        "create_date": "October 26, 2011", "create_user": "/api/v1/profile/48452/",
+        "description": "This year at conference, PSBA is launching \"Stand Up for
+        Public Education.\"  This outreach campaign is our opportunity to share the
+        good news of public education -- the successes, the triumphs and the academic
+        gains our students are making. It will require everyone involved with public
+        education to stand together in the face of unwarranted criticism by those
+        individuals and organizations that would prefer public education just go away.
+        PSBA will share statewide successes but it is imperative for you to share
+        your local story.  The main goal of the \"Stand Up for Public Education\"
+        campaign is to provide board members, superintendents, administrators, teachers,
+        parents and students with the tools they will need to spread the good word.",
+        "duration": 426627, "edmodo_group": 0, "exclude_from_channel": null, "external_encoded_media_id":
+        null, "external_media_id": null, "external_provider_name": null, "id": "258564",
+        "is_featured": false, "is_locked": false, "is_organization_approved": true,
+        "large_image_url": "http://schooltube-thumbnails.s3.amazonaws.com/a1/1f/dc/80/ff/e6/a11fdc80-ffe6-11e0-9d3d-00188b41f993_lg.jpg",
+        "mcore_media_id": null, "mcore_payload": "", "mcore_slug": null, "media_hash":
+        "a11fdc80-ffe6-11e0-9d3d-00188b41f993", "meta_info": "", "moderation_status":
+        "Approved", "organization": {"banner": null, "banner_link": null, "city":
+        "Mechanicsburg", "create_date": "03/27/2009", "display_override": "Pennsylvania
+        School Boards Association,  Mechanicsburg PA", "id": "218259", "logo_url":
+        "/static/images/organization/default_logo.png", "name": "Pennsylvania School
+        Boards Association", "rank": 0, "resource_uri": "/api/v1/organization/218259/",
+        "state": "Pennsylvania", "update_date": "2009-03-27T13:22:05.937000", "url":
+        "/organization/218259", "video_count": 92}, "original_keywords": "\"Stand
+        up\" \"public education\" \"school boards\" education community testimonial",
+        "post_to_edmodo": null, "rank": 0.493812, "rating_count": null, "rating_down":
+        null, "rating_up": null, "resource_uri": "/api/v1/video/258564/", "short_url":
+        "http://bit.ly/v6qkFr", "show_on_homepage": true, "thumbnail_status": null,
+        "thumbnail_url": "http://schooltube-thumbnails.s3.amazonaws.com/a1/1f/dc/80/ff/e6/a11fdc80-ffe6-11e0-9d3d-00188b41f993.jpg",
+        "thumbnails": 0, "thumbnails_url": "/api/v1/video/31817736c18540378c53/thumbnails/",
+        "thumbs_up": 1, "title": "Stand Up for Public Education", "update_date": "2012-12-06T03:40:12.489334",
+        "url": "/video/31817736c18540378c53/Stand Up for Public Education", "username":
+        "PSBAvideo", "view_count": 3114, "vkey": "31817736c18540378c53"}, {"allow_embed":
+        true, "allow_rating": true, "channel_url": "/channel/WV Health & Physical
+        Education Teachers", "create_date": "July 22, 2012", "create_user": "/api/v1/profile/334957/",
+        "description": "West Virginia Department of Education and Office of Healthy
+        Schools created the Health and Physical Education Leadership Academy to ensure
+        quality health and physical education programs in the state through professional
+        development sessions based on National Association for Sport and Physical
+        Education (NASPE) and American School Health National Standards aligned with
+        the  West Virginia Content Standards and Objectives (CSOs).  Professional
+        development is essential to develop the next generation of leaders in health
+        and physical education.  Four strands are the foundation for the Health and
+        Physical Education Leadership Academy providing training on Standards Based
+        Instruction and Assessment, Advocacy, Grant Writing and Technology. ", "duration":
+        191359, "edmodo_group": 0, "exclude_from_channel": null, "external_encoded_media_id":
+        null, "external_media_id": null, "external_provider_name": null, "id": "398834",
+        "is_featured": false, "is_locked": false, "is_organization_approved": true,
+        "large_image_url": "http://schooltube-thumbnails.s3.amazonaws.com/7a/62/5a/88/d4/6f/7a625a88-d46f-11e1-a3e8-001c23dcdfb5_lg.jpg",
+        "mcore_media_id": null, "mcore_payload": "", "mcore_slug": null, "media_hash":
+        "7a625a88-d46f-11e1-a3e8-001c23dcdfb5", "meta_info": "", "moderation_status":
+        "Approved", "organization": {"banner": null, "banner_link": null, "city":
+        "Wheeling", "create_date": "07/26/2008", "display_override": "Bridge Street
+        Middle School,  Wheeling WV", "id": "213674", "logo_url": "/static/images/organization/default_logo.png",
+        "name": "Bridge Street Middle School", "rank": 0, "resource_uri": "/api/v1/organization/213674/",
+        "state": "West Virginia", "update_date": "2008-07-26T19:21:25.850000", "url":
+        "/organization/213674", "video_count": 2}, "original_keywords": "lip sync
+        spoof teacher teachers health physical education leadership academy dance
+        dancing cheerleading singing call me maybe carly rae jepsen lesson lessons
+        idea ideas funny awesome classroom gym gymnasium advocacy learn teach teaching
+        performance student students fun", "post_to_edmodo": null, "rank": 0.493812,
+        "rating_count": null, "rating_down": null, "rating_up": null, "resource_uri":
+        "/api/v1/video/398834/", "short_url": "http://bit.ly/MBGuED", "show_on_homepage":
+        true, "thumbnail_status": null, "thumbnail_url": "http://schooltube-thumbnails.s3.amazonaws.com/7a/62/5a/88/d4/6f/7a625a88-d46f-11e1-a3e8-001c23dcdfb5.jpg",
+        "thumbnails": 0, "thumbnails_url": "/api/v1/video/a1f0a7576286429ea177/thumbnails/",
+        "thumbs_up": 19, "title": "WV Health & Physical Education Teachers - Call
+        Me Maybe", "update_date": "2012-12-17T10:36:26.586657", "url": "/video/a1f0a7576286429ea177/WV
+        Health & Physical Education Teachers - Call Me Maybe", "username": "Bridge
+        Street Middle School", "view_count": 4915, "vkey": "a1f0a7576286429ea177"},
+        {"allow_embed": true, "allow_rating": true, "channel_url": "/channel/BrainPOP",
+        "create_date": "December 02, 2013", "create_user": "/api/v1/profile/81043/",
+        "description": "This screencast explains the BrainPOP Educators verification
+        code that adds features, such as My BrainPOP and the Mixer, to your BrainPOP
+        Educators account.", "duration": null, "edmodo_group": 0, "exclude_from_channel":
+        null, "external_encoded_media_id": "30393237", "external_media_id": "30393223",
+        "external_provider_name": "heywatch", "id": "636445", "is_featured": false,
+        "is_locked": false, "is_organization_approved": true, "large_image_url": "http://schooltube_encoded.s3.amazonaws.com/thumb/cb/bc/02/26/5b/78/cbbc0226-5b78-11e3-9c43-001c23db86b0_01.jpg",
+        "mcore_media_id": null, "mcore_payload": "", "mcore_slug": null, "media_hash":
+        "cbbc0226-5b78-11e3-9c43-001c23db86b0", "meta_info": "", "moderation_status":
+        "Approved", "organization": {"banner": null, "banner_link": null, "city":
+        "New York", "create_date": "08/24/2009", "display_override": "BrainPOP,  New
+        York NY", "id": "218752", "logo_url": "/static/images/organization/default_logo.png",
+        "name": "BrainPOP", "rank": 0, "resource_uri": "/api/v1/organization/218752/",
+        "state": "New York", "update_date": "2009-08-24T14:01:31.820000", "url": "/organization/218752",
+        "video_count": 44}, "original_keywords": "\"BrainPOP\", \"Education\", \"Animation\",
+        \"Educator''s account\", \"BrainPOP Educators\", \"Mixer access\", \"Teacher''s
+        how to\", \"My BrainPOP\", \"Verification Code\", \"Educators features\",
+        Educator Code ", "post_to_edmodo": null, "rank": 0.493812, "rating_count":
+        null, "rating_down": null, "rating_up": null, "resource_uri": "/api/v1/video/636445/",
+        "short_url": "http://bit.ly/1dLFTiM", "show_on_homepage": true, "thumbnail_status":
+        true, "thumbnail_url": "http://schooltube_encoded.s3.amazonaws.com/thumb/cb/bc/02/26/5b/78/cbbc0226-5b78-11e3-9c43-001c23db86b0_01.jpg",
+        "thumbnails": 9, "thumbnails_url": "/api/v1/video/75738d0b86da4c23b276/thumbnails/",
+        "thumbs_up": 0, "title": "What is the Educator Code ? ", "update_date": "2013-12-02T10:29:31.848494",
+        "url": "/video/75738d0b86da4c23b276/What is the Educator Code ? ", "username":
+        "brainpop", "view_count": 0, "vkey": "75738d0b86da4c23b276"}, {"allow_embed":
+        true, "allow_rating": true, "channel_url": "/channel/Maryland State Education
+        Association", "create_date": "February 23, 2011", "create_user": "/api/v1/profile/99446/",
+        "description": "On November 8, 2010, MSEA President Clara Floyd; Vice President
+        and Co-Chair of the Council for Educator Effectiveness Betty Weller; President
+        of the Teachers Association of Baltimore County and member of the Council
+        for Educator Effectiveness, Cheryl Bost; and MSEA Executive Director David
+        Helfman testified about the proposed educator evaluation regulations.", "duration":
+        197, "edmodo_group": 0, "exclude_from_channel": null, "external_encoded_media_id":
+        null, "external_media_id": null, "external_provider_name": null, "id": "175350",
+        "is_featured": false, "is_locked": false, "is_organization_approved": true,
+        "large_image_url": "http://schooltube-thumbnails.s3.amazonaws.com/a5/da/ab/a6/ce/a0/a5daaba6-cea0-4773-7213-450eed92ee13_lg.jpg",
+        "mcore_media_id": null, "mcore_payload": "", "mcore_slug": null, "media_hash":
+        "a5daaba6-cea0-4773-7213-450eed92ee13", "meta_info": "", "moderation_status":
+        "Approved", "organization": {"banner": null, "banner_link": null, "city":
+        "Annapolis", "create_date": "02/25/2010", "display_override": "Maryland State
+        Education Association,  Annapolis MD", "id": "220173", "logo_url": "/static/images/organization/default_logo.png",
+        "name": "Maryland State Education Association", "rank": 0, "resource_uri":
+        "/api/v1/organization/220173/", "state": "Maryland", "update_date": "2010-02-25T08:37:47.537000",
+        "url": "/organization/220173", "video_count": 35}, "original_keywords": "education
+        reform Race to the Top", "post_to_edmodo": null, "rank": 0.492642, "rating_count":
+        null, "rating_down": null, "rating_up": null, "resource_uri": "/api/v1/video/175350/",
+        "short_url": "http://bit.ly/pbM6Yk", "show_on_homepage": true, "thumbnail_status":
+        null, "thumbnail_url": "http://schooltube-thumbnails.s3.amazonaws.com/a5/da/ab/a6/ce/a0/a5daaba6-cea0-4773-7213-450eed92ee13.jpg",
+        "thumbnails": 0, "thumbnails_url": "/api/v1/video/5d3065dd21fcb5cecce6/thumbnails/",
+        "thumbs_up": 0, "title": "MSEA and Council for Educator Effectiveness leaders
+        on proposed educator evaluation regulations", "update_date": "2012-04-26T06:40:42.735035",
+        "url": "/video/5d3065dd21fcb5cecce6/MSEA and Council for Educator Effectiveness
+        leaders on proposed educator evaluation regulations", "username": "MarylandEducation",
+        "view_count": 466, "vkey": "5d3065dd21fcb5cecce6"}, {"allow_embed": true,
+        "allow_rating": true, "channel_url": "/channel/BrainPOP", "create_date": "December
+        02, 2013", "create_user": "/api/v1/profile/81043/", "description": "Learn
+        the ins and outs of BrainPOP Educators with this quick tour over some old
+        favorites and updates on what we''ve been up to, including My BrainPOP and
+        the Mixer.", "duration": null, "edmodo_group": 0, "exclude_from_channel":
+        null, "external_encoded_media_id": "30394253", "external_media_id": "30394104",
+        "external_provider_name": "heywatch", "id": "636462", "is_featured": false,
+        "is_locked": false, "is_organization_approved": true, "large_image_url": "http://schooltube_encoded.s3.amazonaws.com/thumb/75/0b/bb/60/5b/7d/750bbb60-5b7d-11e3-b031-001c23d1f545_01.jpg",
+        "mcore_media_id": null, "mcore_payload": "", "mcore_slug": null, "media_hash":
+        "750bbb60-5b7d-11e3-b031-001c23d1f545", "meta_info": "", "moderation_status":
+        "Approved", "organization": {"banner": null, "banner_link": null, "city":
+        "New York", "create_date": "08/24/2009", "display_override": "BrainPOP,  New
+        York NY", "id": "218752", "logo_url": "/static/images/organization/default_logo.png",
+        "name": "BrainPOP", "rank": 0, "resource_uri": "/api/v1/organization/218752/",
+        "state": "New York", "update_date": "2009-08-24T14:01:31.820000", "url": "/organization/218752",
+        "video_count": 44}, "original_keywords": "\"Educational Technology\", \"BrainPOP\",
+        \"BrainPOP Jr. \", BrainPOP ESL\", \"Free Account\", \"My Mixer\", \"Educator''s
+        Homepage\", \"My BrainPOP\", \"Resources\", \"Lesson\", \"Education\", \"Getting
+        Started\", \"Screencast\", \"Tutorials\", \"Lessons\", Educators\", \"BrainPOP
+        Educators\"", "post_to_edmodo": null, "rank": 0.492538, "rating_count": null,
+        "rating_down": null, "rating_up": null, "resource_uri": "/api/v1/video/636462/",
+        "short_url": "http://bit.ly/1gyJhv2", "show_on_homepage": true, "thumbnail_status":
+        true, "thumbnail_url": "http://schooltube_encoded.s3.amazonaws.com/thumb/75/0b/bb/60/5b/7d/750bbb60-5b7d-11e3-b031-001c23d1f545_01.jpg",
+        "thumbnails": 9, "thumbnails_url": "/api/v1/video/dbc0852ff0c547ddb985/thumbnails/",
+        "thumbs_up": 0, "title": "BrainPOP Educators Overview", "update_date": "2013-12-02T10:24:50.673368",
+        "url": "/video/dbc0852ff0c547ddb985/BrainPOP Educators Overview", "username":
+        "brainpop", "view_count": 0, "vkey": "dbc0852ff0c547ddb985"}, {"allow_embed":
+        true, "allow_rating": true, "channel_url": "/channel/Mrs. Laughbon", "create_date":
+        "March 04, 2009", "create_user": "/api/v1/profile/4895/", "description": "Environmental
+        Education Week is April 12-18. PSA #1\r\n\r\nHelp spread the word. Post this
+        public service announcement (PSA) video embed code on blogs, websites and
+        social networks (myspace, facebook, livejournal, etc.).\r\n\r\nEE Week is
+        the largest organized environmental education event in the United States that
+        increases the educational impact of Earth Day by creating a full week of educational
+        preparation, learning, and activities in K-12 classrooms, nature centers,
+        zoos, museums, and aquariums. \r\n\r\nNOTE: If you are interested in creating
+        your own eeweek PSA, check out the resources on this blog post on Classroom
+        2.0: http://www.classroom20.com/profiles/blogs/videobloggingpodcast-project
+        \r\n\r\nMore information and to get involved:\r\nhttp://www.eeweek.org ",
+        "duration": 30, "edmodo_group": 0, "exclude_from_channel": null, "external_encoded_media_id":
+        null, "external_media_id": null, "external_provider_name": null, "id": "24485",
+        "is_featured": false, "is_locked": false, "is_organization_approved": true,
+        "large_image_url": "http://schooltube-thumbnails.s3.amazonaws.com/2d/0e/42/43/48/38/2d0e4243-4838-180a-5605-bcbc662f9f3a_lg.jpg",
+        "mcore_media_id": null, "mcore_payload": "", "mcore_slug": null, "media_hash":
+        "2d0e4243-4838-180a-5605-bcbc662f9f3a", "meta_info": "", "moderation_status":
+        "Approved", "organization": {"banner": null, "banner_link": null, "city":
+        "Port Townsend", "create_date": "07/26/2008", "display_override": "Blue Heron
+        Middle School,  Port Townsend WA", "id": "211216", "logo_url": "/static/images/organization/default_logo.png",
+        "name": "Blue Heron Middle School", "rank": 0, "resource_uri": "/api/v1/organization/211216/",
+        "state": "Washington", "update_date": "2008-07-26T19:16:05.740000", "url":
+        "/organization/211216", "video_count": 43}, "original_keywords": "green Environmental
+        Education Week psa students", "post_to_edmodo": null, "rank": 0.490792, "rating_count":
+        null, "rating_down": null, "rating_up": null, "resource_uri": "/api/v1/video/24485/",
+        "short_url": "http://bit.ly/px5UpV", "show_on_homepage": true, "thumbnail_status":
+        null, "thumbnail_url": "http://schooltube-thumbnails.s3.amazonaws.com/2d/0e/42/43/48/38/2d0e4243-4838-180a-5605-bcbc662f9f3a.jpg",
+        "thumbnails": 0, "thumbnails_url": "/api/v1/video/aa8edb21de6f4069b9f5/thumbnails/",
+        "thumbs_up": 1, "title": "PSA: Environmental Education Week 2009", "update_date":
+        "2012-04-26T06:42:34.910344", "url": "/video/aa8edb21de6f4069b9f5/PSA: Environmental
+        Education Week 2009", "username": "claughbon", "view_count": 4632, "vkey":
+        "aa8edb21de6f4069b9f5"}, {"allow_embed": true, "allow_rating": true, "channel_url":
+        "/channel/Mrs. Laughbon", "create_date": "March 04, 2009", "create_user":
+        "/api/v1/profile/4895/", "description": "Environmental Education Week is April
+        12-18. PSA #2\r\n\r\nHelp spread the word. Post this public service announcement
+        (PSA) video embed code on blogs, websites and social networks (myspace, facebook,
+        livejournal, etc.).\r\n\r\nEE Week is the largest organized environmental
+        education event in the United States that increases the educational impact
+        of Earth Day by creating a full week of educational preparation, learning,
+        and activities in K-12 classrooms, nature centers, zoos, museums, and aquariums.
+        \r\n\r\nNOTE: If you are interested in creating your own eeweek PSA, check
+        out the resources on this blog post on Classroom 2.0: http://www.classroom20.com/profiles/blogs/videobloggingpodcast-project\r\n\r\nMore
+        information and to get involved:\r\nhttp://www.eeweek.org", "duration": 30,
+        "edmodo_group": 0, "exclude_from_channel": null, "external_encoded_media_id":
+        null, "external_media_id": null, "external_provider_name": null, "id": "24486",
+        "is_featured": false, "is_locked": false, "is_organization_approved": true,
+        "large_image_url": "http://schooltube-thumbnails.s3.amazonaws.com/6c/18/63/b1/e1/65/6c1863b1-e165-a704-da77-659eb059c567_lg.jpg",
+        "mcore_media_id": null, "mcore_payload": "", "mcore_slug": null, "media_hash":
+        "6c1863b1-e165-a704-da77-659eb059c567", "meta_info": "", "moderation_status":
+        "Approved", "organization": {"banner": null, "banner_link": null, "city":
+        "Port Townsend", "create_date": "07/26/2008", "display_override": "Blue Heron
+        Middle School,  Port Townsend WA", "id": "211216", "logo_url": "/static/images/organization/default_logo.png",
+        "name": "Blue Heron Middle School", "rank": 0, "resource_uri": "/api/v1/organization/211216/",
+        "state": "Washington", "update_date": "2008-07-26T19:16:05.740000", "url":
+        "/organization/211216", "video_count": 43}, "original_keywords": "green Environmental
+        Education Week psa students", "post_to_edmodo": null, "rank": 0.490792, "rating_count":
+        null, "rating_down": null, "rating_up": null, "resource_uri": "/api/v1/video/24486/",
+        "short_url": "http://bit.ly/nncBth", "show_on_homepage": true, "thumbnail_status":
+        null, "thumbnail_url": "http://schooltube-thumbnails.s3.amazonaws.com/6c/18/63/b1/e1/65/6c1863b1-e165-a704-da77-659eb059c567.jpg",
+        "thumbnails": 0, "thumbnails_url": "/api/v1/video/eccc679670b0487092ac/thumbnails/",
+        "thumbs_up": 0, "title": "PSA: Environmental Education Week 2009 (2)", "update_date":
+        "2012-04-26T02:27:05.716549", "url": "/video/eccc679670b0487092ac/PSA: Environmental
+        Education Week 2009 (2)", "username": "claughbon", "view_count": 3727, "vkey":
+        "eccc679670b0487092ac"}, {"allow_embed": true, "allow_rating": true, "channel_url":
+        "/channel/Mrs. Laughbon", "create_date": "March 04, 2009", "create_user":
+        "/api/v1/profile/4895/", "description": "Environmental Education Week is April
+        12-18. PSA #3\r\n\r\nHelp spread the word. Post this public service announcement
+        (PSA) video embed code on blogs, websites and social networks (myspace, facebook,
+        livejournal, etc.).\r\n\r\nEE Week is the largest organized environmental
+        education event in the United States that increases the educational impact
+        of Earth Day by creating a full week of educational preparation, learning,
+        and activities in K-12 classrooms, nature centers, zoos, museums, and aquariums.
+        \r\n\r\nNOTE: If you are interested in creating your own eeweek PSA, check
+        out the resources on this blog post on Classroom 2.0: http://www.classroom20.com/profiles/blogs/videobloggingpodcast-project\r\n\r\nMore
+        information and to get involved:\r\nhttp://www.eeweek.org ", "duration": 30,
+        "edmodo_group": 0, "exclude_from_channel": null, "external_encoded_media_id":
+        null, "external_media_id": null, "external_provider_name": null, "id": "24489",
+        "is_featured": false, "is_locked": false, "is_organization_approved": true,
+        "large_image_url": "http://schooltube-thumbnails.s3.amazonaws.com/5c/dd/ca/af/78/6f/5cddcaaf-786f-d8c1-4a9c-aabe83fb4915_lg.jpg",
+        "mcore_media_id": null, "mcore_payload": "", "mcore_slug": null, "media_hash":
+        "5cddcaaf-786f-d8c1-4a9c-aabe83fb4915", "meta_info": "", "moderation_status":
+        "Approved", "organization": {"banner": null, "banner_link": null, "city":
+        "Port Townsend", "create_date": "07/26/2008", "display_override": "Blue Heron
+        Middle School,  Port Townsend WA", "id": "211216", "logo_url": "/static/images/organization/default_logo.png",
+        "name": "Blue Heron Middle School", "rank": 0, "resource_uri": "/api/v1/organization/211216/",
+        "state": "Washington", "update_date": "2008-07-26T19:16:05.740000", "url":
+        "/organization/211216", "video_count": 43}, "original_keywords": "green Environmental
+        Education Week psa students", "post_to_edmodo": null, "rank": 0.490792, "rating_count":
+        null, "rating_down": null, "rating_up": null, "resource_uri": "/api/v1/video/24489/",
+        "short_url": "http://bit.ly/rn9RRz", "show_on_homepage": true, "thumbnail_status":
+        null, "thumbnail_url": "http://schooltube-thumbnails.s3.amazonaws.com/5c/dd/ca/af/78/6f/5cddcaaf-786f-d8c1-4a9c-aabe83fb4915.jpg",
+        "thumbnails": 0, "thumbnails_url": "/api/v1/video/b8770ea0bec04d58a934/thumbnails/",
+        "thumbs_up": 0, "title": "PSA: Environmental Education Week 2009 (3)", "update_date":
+        "2012-04-25T12:17:29.566037", "url": "/video/b8770ea0bec04d58a934/PSA: Environmental
+        Education Week 2009 (3)", "username": "claughbon", "view_count": 3012, "vkey":
+        "b8770ea0bec04d58a934"}, {"allow_embed": true, "allow_rating": true, "channel_url":
+        "/channel/Mrs. Laughbon", "create_date": "March 04, 2009", "create_user":
+        "/api/v1/profile/4895/", "description": "Environmental Education Week is April
+        12-18. PSA #1\r\n\r\nHelp spread the word. Post this public service announcement
+        (PSA) video embed code on blogs, websites and social networks (myspace, facebook,
+        livejournal, etc.).\r\n\r\nEE Week is the largest organized environmental
+        education event in the United States that increases the educational impact
+        of Earth Day by creating a full week of educational preparation, learning,
+        and activities in K-12 classrooms, nature centers, zoos, museums, and aquariums.
+        \r\n\r\nNOTE: If you are interested in creating your own eeweek PSA, check
+        out the resources on this blog post on Classroom 2.0: http://www.classroom20.com/profiles/blogs/videobloggingpodcast-project
+        \r\n\r\nMore information and to get involved:\r\nhttp://www.eeweek.org ",
+        "duration": 29, "edmodo_group": 0, "exclude_from_channel": null, "external_encoded_media_id":
+        null, "external_media_id": null, "external_provider_name": null, "id": "24497",
+        "is_featured": false, "is_locked": false, "is_organization_approved": true,
+        "large_image_url": "http://schooltube-thumbnails.s3.amazonaws.com/7f/d8/53/cb/48/75/7fd853cb-4875-0b82-91b7-801daea857ba_lg.jpg",
+        "mcore_media_id": null, "mcore_payload": "", "mcore_slug": null, "media_hash":
+        "7fd853cb-4875-0b82-91b7-801daea857ba", "meta_info": "", "moderation_status":
+        "Approved", "organization": {"banner": null, "banner_link": null, "city":
+        "Port Townsend", "create_date": "07/26/2008", "display_override": "Blue Heron
+        Middle School,  Port Townsend WA", "id": "211216", "logo_url": "/static/images/organization/default_logo.png",
+        "name": "Blue Heron Middle School", "rank": 0, "resource_uri": "/api/v1/organization/211216/",
+        "state": "Washington", "update_date": "2008-07-26T19:16:05.740000", "url":
+        "/organization/211216", "video_count": 43}, "original_keywords": "green Environmental
+        Education Week psa students", "post_to_edmodo": null, "rank": 0.490792, "rating_count":
+        null, "rating_down": null, "rating_up": null, "resource_uri": "/api/v1/video/24497/",
+        "short_url": "http://bit.ly/q9D61w", "show_on_homepage": true, "thumbnail_status":
+        null, "thumbnail_url": "http://schooltube-thumbnails.s3.amazonaws.com/7f/d8/53/cb/48/75/7fd853cb-4875-0b82-91b7-801daea857ba.jpg",
+        "thumbnails": 0, "thumbnails_url": "/api/v1/video/757fda2e313548c5a572/thumbnails/",
+        "thumbs_up": 0, "title": "PSA: Environmental Education Week 2009 (4)", "update_date":
+        "2012-04-26T08:17:56.866343", "url": "/video/757fda2e313548c5a572/PSA: Environmental
+        Education Week 2009 (4)", "username": "claughbon", "view_count": 3015, "vkey":
+        "757fda2e313548c5a572"}, {"allow_embed": true, "allow_rating": true, "channel_url":
+        "/channel/SymbalooEDU", "create_date": "June 24, 2011", "create_user": "/api/v1/profile/264392/",
+        "description": "Randy Hollinger was one of the first educators to meet the
+        radar of Team Symbaloo. By way of a viral video made by one of his 7th grade
+        science students we were able to connect with Randy and learn how Symbaloo
+        was first being used in the classroom. It was due to feedback from educators
+        like Randy that we began to build a special Symbaloo for educators. SymbalooEDU
+        was born less than one year ago and is rapidly growing as the tool of choice
+        for educators looking to help their students organize their online life.",
+        "duration": 338, "edmodo_group": 0, "exclude_from_channel": null, "external_encoded_media_id":
+        null, "external_media_id": null, "external_provider_name": null, "id": "228929",
+        "is_featured": false, "is_locked": false, "is_organization_approved": true,
+        "large_image_url": "http://schooltube-thumbnails.s3.amazonaws.com/b4/0b/63/4b/28/6a/b40b634b-286a-b273-e035-057129eb5c0b_lg.jpg",
+        "mcore_media_id": null, "mcore_payload": "", "mcore_slug": null, "media_hash":
+        "b40b634b-286a-b273-e035-057129eb5c0b", "meta_info": "", "moderation_status":
+        "Approved", "organization": {"banner": null, "banner_link": null, "city":
+        "Costa Mesa", "create_date": "04/05/2011", "display_override": "SymbalooEDU,  Costa
+        Mesa CA", "id": "224840", "logo_url": "/static/images/organization/default_logo.png",
+        "name": "SymbalooEDU", "rank": 0, "resource_uri": "/api/v1/organization/224840/",
+        "state": "California", "update_date": "2011-04-05T13:51:01.660000", "url":
+        "/organization/224840", "video_count": 60}, "original_keywords": "Symbaloo
+        SymbalooEDU Educator Randy Hollinger ISTE 2011 Student", "post_to_edmodo":
+        null, "rank": 0.490792, "rating_count": null, "rating_down": null, "rating_up":
+        null, "resource_uri": "/api/v1/video/228929/", "short_url": "http://bit.ly/oawJm0",
+        "show_on_homepage": true, "thumbnail_status": null, "thumbnail_url": "http://schooltube-thumbnails.s3.amazonaws.com/b4/0b/63/4b/28/6a/b40b634b-286a-b273-e035-057129eb5c0b.jpg",
+        "thumbnails": 0, "thumbnails_url": "/api/v1/video/b46c362eeef8c52493c9/thumbnails/",
+        "thumbs_up": 0, "title": "SymbalooEDU Spotlight Educator: Randy Hollinger",
+        "update_date": "2012-04-24T08:10:07.549602", "url": "/video/b46c362eeef8c52493c9/SymbalooEDU
+        Spotlight Educator: Randy Hollinger", "username": "SymbalooEDU", "view_count":
+        1207, "vkey": "b46c362eeef8c52493c9"}, {"allow_embed": true, "allow_rating":
+        true, "channel_url": "/channel/Pymatuning Valley High School", "create_date":
+        "August 30, 2011", "create_user": "/api/v1/profile/146745/", "description":
+        "Sasheen Phillips, Director of Curriculum and Assessment at the Ohio Board
+        of Education, presents the upcoming changes to the Ohio Education Standards.
+        The presentation took place on 8/25/11 at Jefferson Area High School in Jefferson,
+        Ohio. The Ashtabula County Educational Service Center organized the event.",
+        "duration": 3720, "edmodo_group": 0, "exclude_from_channel": null, "external_encoded_media_id":
+        null, "external_media_id": null, "external_provider_name": null, "id": "236099",
+        "is_featured": false, "is_locked": false, "is_organization_approved": true,
+        "large_image_url": "http://schooltube-thumbnails.s3.amazonaws.com/d8/9d/f1/7d/d6/49/d89df17d-d649-9ad7-d413-16e3e807691d_lg.jpg",
+        "mcore_media_id": null, "mcore_payload": "", "mcore_slug": null, "media_hash":
+        "d89df17d-d649-9ad7-d413-16e3e807691d", "meta_info": "", "moderation_status":
+        "Approved", "organization": {"banner": null, "banner_link": null, "city":
+        "Andover", "create_date": "07/26/2008", "display_override": "Pymatuning Valley
+        High School,  Andover OH", "id": "182989", "logo_url": "/static/images/organization/default_logo.png",
+        "name": "Pymatuning Valley High School", "rank": 0, "resource_uri": "/api/v1/organization/182989/",
+        "state": "Ohio", "update_date": "2012-01-26T08:26:52.643705", "url": "/organization/182989",
+        "video_count": 989}, "original_keywords": "Sasheen Phillips Ohio Department
+        of Education Ashtabula Count Educational Service Center New State Standards",
+        "post_to_edmodo": null, "rank": 0.490792, "rating_count": null, "rating_down":
+        null, "rating_up": null, "resource_uri": "/api/v1/video/236099/", "short_url":
+        "http://bit.ly/pwzXyt", "show_on_homepage": true, "thumbnail_status": null,
+        "thumbnail_url": "http://schooltube-thumbnails.s3.amazonaws.com/d8/9d/f1/7d/d6/49/d89df17d-d649-9ad7-d413-16e3e807691d.jpg",
+        "thumbnails": 0, "thumbnails_url": "/api/v1/video/dd9345d92db56f227e5e/thumbnails/",
+        "thumbs_up": 0, "title": "Sasheen Phillips, Ohio Board of Education Presentation",
+        "update_date": "2012-04-26T09:04:33.726543", "url": "/video/dd9345d92db56f227e5e/Sasheen
+        Phillips, Ohio Board of Education Presentation", "username": "pymatuningvalley",
+        "view_count": 1333, "vkey": "dd9345d92db56f227e5e"}, {"allow_embed": true,
+        "allow_rating": true, "channel_url": "/channel/FANUC Robotics America CERT
+        Program", "create_date": "February 13, 2012", "create_user": "/api/v1/profile/323605/",
+        "description": "Jessica Beltran, an engineer at FANUC Robotics, talks about
+        how she got into robotic engineering and the importance of STEM education.",
+        "duration": 189890, "edmodo_group": 0, "exclude_from_channel": null, "external_encoded_media_id":
+        null, "external_media_id": null, "external_provider_name": null, "id": "309640",
+        "is_featured": false, "is_locked": false, "is_organization_approved": true,
+        "large_image_url": "http://schooltube-thumbnails.s3.amazonaws.com/0a/c9/dd/46/56/56/0ac9dd46-5656-11e1-ada0-00188b41f993_lg.jpg",
+        "mcore_media_id": null, "mcore_payload": "", "mcore_slug": null, "media_hash":
+        "0ac9dd46-5656-11e1-ada0-00188b41f993", "meta_info": "", "moderation_status":
+        "Approved", "organization": {"banner": null, "banner_link": null, "city":
+        "Rochester Hills", "create_date": "12/13/2011", "display_override": "FANUC
+        Robotics,  Rochester Hills MI", "id": "227028", "logo_url": "/static/images/organization/default_logo.png",
+        "name": "FANUC Robotics", "rank": 0, "resource_uri": "/api/v1/organization/227028/",
+        "state": "Michigan", "update_date": "2012-11-29T14:22:06.244958", "url": "/organization/227028",
+        "video_count": 17}, "original_keywords": "STEM, STEM Education, Robotics,
+        Robotics Engineering, Engineering, Industrial Engineering, Engineering School,
+        FANUC, FANUC Robotics, Robotic Education, Education Robots, FANUC Education,
+        FANUC Training, CERT, FANUC CERT", "post_to_edmodo": null, "rank": 0.490792,
+        "rating_count": null, "rating_down": null, "rating_up": null, "resource_uri":
+        "/api/v1/video/309640/", "short_url": "http://bit.ly/zOIW7Z", "show_on_homepage":
+        true, "thumbnail_status": null, "thumbnail_url": "http://schooltube-thumbnails.s3.amazonaws.com/0a/c9/dd/46/56/56/0ac9dd46-5656-11e1-ada0-00188b41f993.jpg",
+        "thumbnails": 0, "thumbnails_url": "/api/v1/video/16c722ef367b4a13b885/thumbnails/",
+        "thumbs_up": 0, "title": "FANUC Robotics Engineer Jessica Beltran talks Robotics,
+        STEM Education", "update_date": "2012-04-25T09:08:17.064857", "url": "/video/16c722ef367b4a13b885/FANUC
+        Robotics Engineer Jessica Beltran talks Robotics, STEM Education", "username":
+        "cert", "view_count": 814, "vkey": "16c722ef367b4a13b885"}, {"allow_embed":
+        true, "allow_rating": true, "channel_url": "/channel/Knox County Public Schools
+        - Kentucky", "create_date": "February 18, 2012", "create_user": "/api/v1/profile/82522/",
+        "description": "February 19-25, 2012 is Gifted Education Week in the Knox
+        County Public Schools (KY).   Students, educators, and higher education representatives
+        signed a proclamation on February 16 declaring the week \"Gifted Education
+        Week\" in the school district.", "duration": 531048, "edmodo_group": 0, "exclude_from_channel":
+        null, "external_encoded_media_id": null, "external_media_id": null, "external_provider_name":
+        null, "id": "313589", "is_featured": false, "is_locked": false, "is_organization_approved":
+        true, "large_image_url": "http://schooltube-thumbnails.s3.amazonaws.com/a2/ef/66/10/5a/50/a2ef6610-5a50-11e1-b3ed-00188b41f993_lg.jpg",
+        "mcore_media_id": null, "mcore_payload": "", "mcore_slug": null, "media_hash":
+        "a2ef6610-5a50-11e1-b3ed-00188b41f993", "meta_info": "", "moderation_status":
+        "Approved", "organization": {"banner": null, "banner_link": null, "city":
+        "Barbourville", "create_date": "03/07/2011", "display_override": "Knox County
+        Public Schools,  Barbourville KY", "id": "224429", "logo_url": "/static/images/organization/default_logo.png",
+        "name": "Knox County Public Schools", "rank": 0, "resource_uri": "/api/v1/organization/224429/",
+        "state": "Kentucky", "update_date": "2011-03-07T13:16:16.723000", "url": "/organization/224429",
+        "video_count": 178}, "original_keywords": "Gifted Education Week GT Talented
+        Gift Proclamation Kentucky Knox County Public Schools KY Barbourville Union
+        College", "post_to_edmodo": null, "rank": 0.490792, "rating_count": null,
+        "rating_down": null, "rating_up": null, "resource_uri": "/api/v1/video/313589/",
+        "short_url": "http://bit.ly/zmepdY", "show_on_homepage": true, "thumbnail_status":
+        null, "thumbnail_url": "http://schooltube-thumbnails.s3.amazonaws.com/a2/ef/66/10/5a/50/a2ef6610-5a50-11e1-b3ed-00188b41f993.jpg",
+        "thumbnails": 0, "thumbnails_url": "/api/v1/video/c919295aa5034f9fbea5/thumbnails/",
+        "thumbs_up": 0, "title": "Gifted Education Week Proclamation Signing", "update_date":
+        "2012-04-24T14:23:05.441209", "url": "/video/c919295aa5034f9fbea5/Gifted Education
+        Week Proclamation Signing", "username": "knoxkyschools", "view_count": 549,
+        "vkey": "c919295aa5034f9fbea5"}, {"allow_embed": true, "allow_rating": true,
+        "channel_url": "/channel/RCOE TV", "create_date": "May 09, 2012", "create_user":
+        "/api/v1/profile/116956/", "description": "Meet Linde Cobb, an Administrative
+        Assistant to the Board of Education in Alvord Unified School District, the
+        2012 Riverside County Confidential Employee of the Year.", "duration": 118952,
+        "edmodo_group": 0, "exclude_from_channel": null, "external_encoded_media_id":
+        null, "external_media_id": null, "external_provider_name": null, "id": "373931",
+        "is_featured": false, "is_locked": false, "is_organization_approved": true,
+        "large_image_url": "http://schooltube-thumbnails.s3.amazonaws.com/8c/dc/d1/4a/99/e9/8cdcd14a-99e9-11e1-b50c-001c23dcdfb5_lg.jpg",
+        "mcore_media_id": null, "mcore_payload": "", "mcore_slug": null, "media_hash":
+        "8cdcd14a-99e9-11e1-b50c-001c23dcdfb5", "meta_info": "", "moderation_status":
+        "Approved", "organization": {"banner": null, "banner_link": null, "city":
+        "Riverside", "create_date": "08/12/2010", "display_override": "Riverside County
+        Office of Education,  Riverside CA", "id": "221607", "logo_url": "/static/images/organization/default_logo.png",
+        "name": "Riverside County Office of Education", "rank": 0, "resource_uri":
+        "/api/v1/organization/221607/", "state": "California", "update_date": "2010-08-12T10:59:40.623000",
+        "url": "/organization/221607", "video_count": 88}, "original_keywords": "Riverside
+        County Office of Education; RCOE TV; Education; Excellence in Education; Confidential
+        Employees; Awards; Alvord Unified School District; Celebrating Educators;
+        Cobb ", "post_to_edmodo": null, "rank": 0.490792, "rating_count": null, "rating_down":
+        null, "rating_up": null, "resource_uri": "/api/v1/video/373931/", "short_url":
+        "http://bit.ly/Jzav4N", "show_on_homepage": true, "thumbnail_status": null,
+        "thumbnail_url": "http://schooltube-thumbnails.s3.amazonaws.com/8c/dc/d1/4a/99/e9/8cdcd14a-99e9-11e1-b50c-001c23dcdfb5.jpg",
+        "thumbnails": 0, "thumbnails_url": "/api/v1/video/1cf0bc75e6a3456d8b4f/thumbnails/",
+        "thumbs_up": 0, "title": "Celebrating Educators 2012:  Linde Cobb", "update_date":
+        "2012-05-13T22:22:53.624139", "url": "/video/1cf0bc75e6a3456d8b4f/Celebrating
+        Educators 2012:  Linde Cobb", "username": "RCOETV", "view_count": 207, "vkey":
+        "1cf0bc75e6a3456d8b4f"}, {"allow_embed": true, "allow_rating": true, "channel_url":
+        "/channels/", "create_date": "May 25, 2012", "create_user": "/api/v1/profile/344426/",
+        "description": "Character Education that works \u2013 Student Interviews Children
+        (K-5) talk about what they learn in Character Education class.  In class they
+        sing songs, talk about their feelings and what choices to make in real-life
+        experiences.  Students want to do the talking, they want to do the sharing,
+        and they want to analyze the life skills they have learned in class.  Once
+        you get them taking about Character Education, its hands off \u2013 that is
+        when you, as the teacher, listen and learn.  Directed by Harold B. Pritchett,
+        Character Education Teacher.", "duration": 531382, "edmodo_group": 0, "exclude_from_channel":
+        null, "external_encoded_media_id": null, "external_media_id": null, "external_provider_name":
+        null, "id": "387958", "is_featured": false, "is_locked": false, "is_organization_approved":
+        true, "large_image_url": "http://schooltube-thumbnails.s3.amazonaws.com/cf/c8/a8/2c/a6/d1/cfc8a82c-a6d1-11e1-a179-001c23db86b0_lg.jpg",
+        "mcore_media_id": null, "mcore_payload": "", "mcore_slug": null, "media_hash":
+        "cfc8a82c-a6d1-11e1-a179-001c23db86b0", "meta_info": "", "moderation_status":
+        "Approved", "organization": {"banner": null, "banner_link": null, "city":
+        "Wilmington", "create_date": "07/26/2008", "display_override": "Warner Elementary
+        School,  Wilmington DE", "id": "131089", "logo_url": "/static/images/organization/default_logo.png",
+        "name": "Warner Elementary School", "rank": 0, "resource_uri": "/api/v1/organization/131089/",
+        "state": "Delaware", "update_date": "2012-03-22T07:45:53.386855", "url": "/organization/131089",
+        "video_count": 13}, "original_keywords": "Warner, elementary, school, children,
+        Wilmington, Delaware, testing, scores, comprehensive, assessment, DCAS, News,
+        kids, tips, believe, focus, reading, New, Harold, Pritchett, education, teaching,
+        teacher, inner city, character, red clay, consolidated, school district, music,
+        student, month, anger, management, goal, setting, lynch, students, bully,
+        bullies, achievement, value, community, supper, self, aware", "post_to_edmodo":
+        null, "rank": 0.490792, "rating_count": null, "rating_down": null, "rating_up":
+        null, "resource_uri": "/api/v1/video/387958/", "short_url": "http://bit.ly/V6B7Dy",
+        "show_on_homepage": true, "thumbnail_status": null, "thumbnail_url": "http://schooltube-thumbnails.s3.amazonaws.com/cf/c8/a8/2c/a6/d1/cfc8a82c-a6d1-11e1-a179-001c23db86b0.jpg",
+        "thumbnails": 0, "thumbnails_url": "/api/v1/video/ab84a5c1b26f41a7a49c/thumbnails/",
+        "thumbs_up": 0, "title": "Character Education that works \u2013 Student Interviews",
+        "update_date": "2013-01-15T00:30:44.840620", "url": "/video/ab84a5c1b26f41a7a49c/Character
+        Education that works \u2013 Student Interviews", "username": "hbpy2k", "view_count":
+        1603, "vkey": "ab84a5c1b26f41a7a49c"}, {"allow_embed": true, "allow_rating":
+        true, "channel_url": "/channel/2012 EOC Video Contest", "create_date": "May
+        03, 2013", "create_user": "/api/v1/profile/398690/", "description": "New Carolina''s
+        The Future of Education in South Carolina: Hunter Bliss, Lexington High School
+        Senior and Travis Allen, Founder and CEO, iSchool Initiative\r\n\r\nHunter
+        Bliss, a senior at Lexington High School and winner of our Technology and
+        Education video contest discusses his vision for how technology can change
+        education in the classroom and beyond. \r\n\r\nTravis, Founder and CEO of
+        the iSchool Initiative, talks about his journey with technology and education
+        and how the idea for iSchool was born. Travis has traveled the glob with the
+        iSchool Initiative, worked with hundreds of schools in more than 25 states,
+        and the US Department of Education. Additionally, through The iSchool Initiative,
+        he consults with schools on how to integrate technology into the classroom
+        and learning environment in a successful way. ", "duration": null, "edmodo_group":
+        0, "exclude_from_channel": null, "external_encoded_media_id": "24047856",
+        "external_media_id": "24047334", "external_provider_name": "heywatch", "id":
+        "549973", "is_featured": false, "is_locked": false, "is_organization_approved":
+        true, "large_image_url": "http://schooltube_encoded.s3.amazonaws.com/thumb/dd/5f/3d/fa/b4/1a/dd5f3dfa-b41a-11e2-bcf0-001c23d1f545_01.jpg",
+        "mcore_media_id": null, "mcore_payload": "", "mcore_slug": null, "media_hash":
+        "dd5f3dfa-b41a-11e2-bcf0-001c23d1f545", "meta_info": "", "moderation_status":
+        "Approved", "organization": {"banner": null, "banner_link": null, "city":
+        "Columbia", "create_date": "10/05/2012", "display_override": "South Carolina
+        Education Oversight Committee,  Columbia SC", "id": "232193", "logo_url":
+        "/static/images/organization/default_logo.png", "name": "South Carolina Education
+        Oversight Committee", "rank": 0, "resource_uri": "/api/v1/organization/232193/",
+        "state": "South Carolina", "update_date": "2012-10-05T07:11:39.959172", "url":
+        "/organization/232193", "video_count": 7}, "original_keywords": "", "post_to_edmodo":
+        null, "rank": 0.490792, "rating_count": null, "rating_down": null, "rating_up":
+        null, "resource_uri": "/api/v1/video/549973/", "short_url": "http://bit.ly/113q01w",
+        "show_on_homepage": true, "thumbnail_status": true, "thumbnail_url": "http://schooltube_encoded.s3.amazonaws.com/thumb/dd/5f/3d/fa/b4/1a/dd5f3dfa-b41a-11e2-bcf0-001c23d1f545_01.jpg",
+        "thumbnails": 1, "thumbnails_url": "/api/v1/video/d4aa50b8243f41da85ee/thumbnails/",
+        "thumbs_up": 0, "title": "New Carolina''s The Future of Education in South
+        Carolina: Hunter Bliss, Lexington High School Senior and Travis Allen, Founder
+        and CEO, iSchool Initiative", "update_date": "2013-05-03T15:16:10.646170",
+        "url": "/video/d4aa50b8243f41da85ee/New Carolina''s The Future of Education
+        in South Carolina: Hunter Bliss, Lexington High School Senior and Travis Allen,
+        Founder and CEO, iSchool Initiative", "username": "eocacct", "view_count":
+        363, "vkey": "d4aa50b8243f41da85ee"}, {"allow_embed": true, "allow_rating":
+        true, "channel_url": "/channel/Ladue Horton Watkins HS", "create_date": "September
+        16, 2013", "create_user": "/api/v1/profile/4262/", "description": "Educators
+        all over the world are allowing their students the opportunity to create videos
+        to show comprehension of their subject matter. The ease and accessibility
+        of mobile devices has allowed for this educational paradigm shift. In this
+        video, teachers from a variety of subjects offer their advice to other educators
+        on why to incorporate video into the classroom.", "duration": null, "edmodo_group":
+        0, "exclude_from_channel": null, "external_encoded_media_id": "28044970",
+        "external_media_id": "28044905", "external_provider_name": "heywatch", "id":
+        "592308", "is_featured": false, "is_locked": false, "is_organization_approved":
+        true, "large_image_url": "http://schooltube_encoded.s3.amazonaws.com/thumb/30/ad/55/42/1e/eb/30ad5542-1eeb-11e3-88da-001c23dcdfb5_07.jpg",
+        "mcore_media_id": null, "mcore_payload": "", "mcore_slug": null, "media_hash":
+        "30ad5542-1eeb-11e3-88da-001c23dcdfb5", "meta_info": "", "moderation_status":
+        "Approved", "organization": {"banner": null, "banner_link": null, "city":
+        "Saint Louis", "create_date": "07/26/2008", "display_override": "Ladue Horton
+        Watkins High School,  Saint Louis MO", "id": "166862", "logo_url": "/static/images/organization/default_logo.png",
+        "name": "Ladue Horton Watkins High School", "rank": 0, "resource_uri": "/api/v1/organization/166862/",
+        "state": "Missouri", "update_date": "2012-01-25T13:23:09.194303", "url": "/organization/166862",
+        "video_count": 1675}, "original_keywords": "Video,Video in the Classroom,Educators,
+        Advice,video,classroom,education,digital,media,mobile,device,21st Century
+        skills,Lesson,Teacher,Student", "post_to_edmodo": null, "rank": 0.490792,
+        "rating_count": null, "rating_down": null, "rating_up": null, "resource_uri":
+        "/api/v1/video/592308/", "short_url": "http://bit.ly/150vGWd", "show_on_homepage":
+        true, "thumbnail_status": true, "thumbnail_url": "http://schooltube_encoded.s3.amazonaws.com/thumb/30/ad/55/42/1e/eb/30ad5542-1eeb-11e3-88da-001c23dcdfb5_07.jpg",
+        "thumbnails": 9, "thumbnails_url": "/api/v1/video/53aee87628744f728d7b/thumbnails/",
+        "thumbs_up": 0, "title": "Video in the Classroom - Educators Advice", "update_date":
+        "2013-09-16T09:25:59.399071", "url": "/video/53aee87628744f728d7b/Video in
+        the Classroom - Educators Advice", "username": "dgoble", "view_count": 140,
+        "vkey": "53aee87628744f728d7b"}, {"allow_embed": true, "allow_rating": true,
+        "channel_url": "/channel/Ladue Horton Watkins HS", "create_date": "September
+        16, 2013", "create_user": "/api/v1/profile/4262/", "description": "Educators
+        all over the world are allowing their students the opportunity to create videos
+        to show comprehension of their subject matter. The ease and accessibility
+        of mobile devices has allowed for this educational paradigm shift. \r\n\r\nIn
+        this video, teachers from a variety of subjects offer their success stories
+        to other educators on why to incorporate video into the classroom.", "duration":
+        null, "edmodo_group": 0, "exclude_from_channel": null, "external_encoded_media_id":
+        "28045380", "external_media_id": "28045246", "external_provider_name": "heywatch",
+        "id": "592316", "is_featured": false, "is_locked": false, "is_organization_approved":
+        true, "large_image_url": "http://schooltube_encoded.s3.amazonaws.com/thumb/3d/e8/72/40/1e/ec/3de87240-1eec-11e3-adbe-001c23db86b0_01.jpg",
+        "mcore_media_id": null, "mcore_payload": "", "mcore_slug": null, "media_hash":
+        "3de87240-1eec-11e3-adbe-001c23db86b0", "meta_info": "", "moderation_status":
+        "Approved", "organization": {"banner": null, "banner_link": null, "city":
+        "Saint Louis", "create_date": "07/26/2008", "display_override": "Ladue Horton
+        Watkins High School,  Saint Louis MO", "id": "166862", "logo_url": "/static/images/organization/default_logo.png",
+        "name": "Ladue Horton Watkins High School", "rank": 0, "resource_uri": "/api/v1/organization/166862/",
+        "state": "Missouri", "update_date": "2012-01-25T13:23:09.194303", "url": "/organization/166862",
+        "video_count": 1675}, "original_keywords": "Video in the Classroom, educators,
+        success, stories, video,classroom,education,digital,media,mobile,device,21st
+        Century skills,Lesson,Teacher,Student", "post_to_edmodo": null, "rank": 0.490792,
+        "rating_count": null, "rating_down": null, "rating_up": null, "resource_uri":
+        "/api/v1/video/592316/", "short_url": "http://bit.ly/150xezt", "show_on_homepage":
+        true, "thumbnail_status": true, "thumbnail_url": "http://schooltube_encoded.s3.amazonaws.com/thumb/3d/e8/72/40/1e/ec/3de87240-1eec-11e3-adbe-001c23db86b0_01.jpg",
+        "thumbnails": 36, "thumbnails_url": "/api/v1/video/7806a64525bc4a238873/thumbnails/",
+        "thumbs_up": 0, "title": "Video in the Classroom - Educator Success Stories
+        ", "update_date": "2013-09-16T09:36:46.117544", "url": "/video/7806a64525bc4a238873/Video
+        in the Classroom - Educator Success Stories ", "username": "dgoble", "view_count":
+        300, "vkey": "7806a64525bc4a238873"}, {"allow_embed": true, "allow_rating":
+        true, "channel_url": "/channel/Ladue Horton Watkins HS", "create_date": "September
+        16, 2013", "create_user": "/api/v1/profile/4262/", "description": "Educators
+        all over the world are allowing their students the opportunity to create videos
+        to show comprehension of their subject matter. The ease and accessibility
+        of mobile devices has allowed for this educational paradigm shift. \r\n\r\nIn
+        this video, teachers from a variety of subjects offer their experience using
+        student videos to other educators on why to incorporate video into the classroom.",
+        "duration": null, "edmodo_group": 0, "exclude_from_channel": null, "external_encoded_media_id":
+        "28045477", "external_media_id": "28045409", "external_provider_name": "heywatch",
+        "id": "592327", "is_featured": false, "is_locked": false, "is_organization_approved":
+        true, "large_image_url": "http://schooltube_encoded.s3.amazonaws.com/thumb/94/7b/e6/ae/1e/ed/947be6ae-1eed-11e3-9ff5-001c23d1f545_01.jpg",
+        "mcore_media_id": null, "mcore_payload": "", "mcore_slug": null, "media_hash":
+        "947be6ae-1eed-11e3-9ff5-001c23d1f545", "meta_info": "", "moderation_status":
+        "Approved", "organization": {"banner": null, "banner_link": null, "city":
+        "Saint Louis", "create_date": "07/26/2008", "display_override": "Ladue Horton
+        Watkins High School,  Saint Louis MO", "id": "166862", "logo_url": "/static/images/organization/default_logo.png",
+        "name": "Ladue Horton Watkins High School", "rank": 0, "resource_uri": "/api/v1/organization/166862/",
+        "state": "Missouri", "update_date": "2012-01-25T13:23:09.194303", "url": "/organization/166862",
+        "video_count": 1675}, "original_keywords": "Video in the Classroom, experience,advice,video,classroom,education,digital,media,mobile,device,21st
+        Century skills,Lesson,Teacher,Student,experience,educators", "post_to_edmodo":
+        null, "rank": 0.490792, "rating_count": null, "rating_down": null, "rating_up":
+        null, "resource_uri": "/api/v1/video/592327/", "short_url": "http://bit.ly/150xvSY",
+        "show_on_homepage": true, "thumbnail_status": true, "thumbnail_url": "http://schooltube_encoded.s3.amazonaws.com/thumb/94/7b/e6/ae/1e/ed/947be6ae-1eed-11e3-9ff5-001c23d1f545_01.jpg",
+        "thumbnails": 9, "thumbnails_url": "/api/v1/video/86f9d1ada03940d2a4a3/thumbnails/",
+        "thumbs_up": 0, "title": "Video in the Classroom - Educators Experience",
+        "update_date": "2013-09-16T09:38:45.853892", "url": "/video/86f9d1ada03940d2a4a3/Video
+        in the Classroom - Educators Experience", "username": "dgoble", "view_count":
+        196, "vkey": "86f9d1ada03940d2a4a3"}, {"allow_embed": true, "allow_rating":
+        true, "channel_url": "/channel/Army Education", "create_date": "October 06,
+        2010", "create_user": "/api/v1/profile/123565/", "description": "Army education
+        podcast highlighting education partnerships", "duration": 127, "edmodo_group":
+        0, "exclude_from_channel": null, "external_encoded_media_id": null, "external_media_id":
+        null, "external_provider_name": null, "id": "121905", "is_featured": false,
+        "is_locked": false, "is_organization_approved": true, "large_image_url": "http://schooltube-thumbnails.s3.amazonaws.com/fb/7e/7b/89/6d/91/fb7e7b89-6d91-2e9d-fcb2-c16d991ef740_lg.jpg",
+        "mcore_media_id": null, "mcore_payload": "", "mcore_slug": null, "media_hash":
+        "fb7e7b89-6d91-2e9d-fcb2-c16d991ef740", "meta_info": "", "moderation_status":
+        "Approved", "organization": {"banner": null, "banner_link": null, "city":
+        "Fort Knox", "create_date": "09/10/2010", "display_override": "U.S. Army Marketing
+        and Research Group,  Fort Knox KY", "id": "222648", "logo_url": "/static/images/organization/default_logo.png",
+        "name": "U.S. Army Marketing and Research Group", "rank": 0, "resource_uri":
+        "/api/v1/organization/222648/", "state": "Kentucky", "update_date": "2013-06-28T10:10:26.245468",
+        "url": "/organization/222648", "video_count": 59}, "original_keywords": "Army
+        education", "post_to_edmodo": null, "rank": 0.490635, "rating_count": null,
+        "rating_down": null, "rating_up": null, "resource_uri": "/api/v1/video/121905/",
+        "short_url": "http://bit.ly/nf2ykr", "show_on_homepage": true, "thumbnail_status":
+        null, "thumbnail_url": "http://schooltube-thumbnails.s3.amazonaws.com/fb/7e/7b/89/6d/91/fb7e7b89-6d91-2e9d-fcb2-c16d991ef740.jpg",
+        "thumbnails": 0, "thumbnails_url": "/api/v1/video/1f251874659e680e491b/thumbnails/",
+        "thumbs_up": 0, "title": "Army Education Podcast - Education Partners", "update_date":
+        "2012-04-25T04:52:33.784062", "url": "/video/1f251874659e680e491b/Army Education
+        Podcast - Education Partners", "username": "armyed", "view_count": 955, "vkey":
+        "1f251874659e680e491b"}, {"allow_embed": true, "allow_rating": true, "channel_url":
+        "/channels/", "create_date": "October 30, 2008", "create_user": "/api/v1/profile/48949/",
+        "description": "Futurist education", "duration": 2, "edmodo_group": 0, "exclude_from_channel":
+        null, "external_encoded_media_id": null, "external_media_id": null, "external_provider_name":
+        null, "id": "13261", "is_featured": false, "is_locked": false, "is_organization_approved":
+        true, "large_image_url": "http://schooltube-thumbnails.s3.amazonaws.com/f2/89/db/7a/b2/ea/f289db7a-b2ea-3042-17dc-154c8ceb60ca_lg.jpg",
+        "mcore_media_id": null, "mcore_payload": "", "mcore_slug": null, "media_hash":
+        "f289db7a-b2ea-3042-17dc-154c8ceb60ca", "meta_info": "", "moderation_status":
+        "Approved", "organization": {"banner": null, "banner_link": null, "city":
+        "Fellsmere", "create_date": "10/24/2008", "display_override": "Indian River
+        State College,  Fellsmere FL", "id": "217551", "logo_url": "/static/images/organization/default_logo.png",
+        "name": "Indian River State College", "rank": 0, "resource_uri": "/api/v1/organization/217551/",
+        "state": "Florida", "update_date": "2008-10-24T10:06:22.163000", "url": "/organization/217551",
+        "video_count": 3}, "original_keywords": "Education, Future, world Education,
+        Around the world, building education, Commercial and Fillmaker,Technical",
+        "post_to_edmodo": null, "rank": 0.488258, "rating_count": null, "rating_down":
+        null, "rating_up": null, "resource_uri": "/api/v1/video/13261/", "short_url":
+        "http://bit.ly/peYRdI", "show_on_homepage": true, "thumbnail_status": null,
+        "thumbnail_url": "http://schooltube-thumbnails.s3.amazonaws.com/f2/89/db/7a/b2/ea/f289db7a-b2ea-3042-17dc-154c8ceb60ca.jpg",
+        "thumbnails": 0, "thumbnails_url": "/api/v1/video/0aadbf3ac2664d6ca12a/thumbnails/",
+        "thumbs_up": 0, "title": "Education Around The world", "update_date": "2012-04-25T18:17:35.912996",
+        "url": "/video/0aadbf3ac2664d6ca12a/Education Around The world", "username":
+        "elyprod@yahoo.fr", "view_count": 4638, "vkey": "0aadbf3ac2664d6ca12a"}]}'
+    http_version: 
+  recorded_at: Mon, 02 Dec 2013 20:22:18 GMT
+recorded_with: VCR 2.7.0
