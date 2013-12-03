@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/instructure/active_public_resources.png)](https://travis-ci.org/instructure/active_public_resources)
 [![Code Climate](https://codeclimate.com/github/instructure/active_public_resources.png)](https://codeclimate.com/github/instructure/active_public_resources)
+[![Gemnasium](https://gemnasium.com/instructure/active_public_resources.png)](https://gemnasium.com/instructure/active_public_resources)
 
 Active Public Resources is a collection of resources online which return embeddable or linkable
 resources. This gem normalizes the requests and responses into response type objects.
