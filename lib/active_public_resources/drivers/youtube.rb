@@ -2,7 +2,7 @@ require 'net/https'
 
 module ActivePublicResources
   module Drivers
-    class YoutubeDriver < Driver
+    class Youtube < Driver
 
       def perform_request(request_criteria)
         request_criteria.validate_presence!([:query])
@@ -11,9 +11,9 @@ module ActivePublicResources
         params = {
           'v'           => 2,
           'q'           => request_criteria.query,
-          'orderby'     => normalize_request_criteria(request_criteria, 'sort'),
+          'orderby'     => sort(request_criteria.sort),
           'alt'         => 'json',
-          'safeSearch'  => normalize_request_criteria(request_criteria, 'content_filter') || 'strict',
+          'safeSearch'  => content_filter(request_criteria.content_filter),
           'start-index' => request_criteria.page || 1,
           'max-results' => request_criteria.per_page || 25
         }
@@ -28,24 +28,27 @@ module ActivePublicResources
 
     private
 
-      def normalize_request_criteria(request_criteria, field_name)
-        case field_name
-          when 'sort'
-            case request_criteria.instance_variable_get("@#{field_name}")
-              when 'relevant'
-                return 'relevance'
-              else
-                return 'relevance'
-            end
-          when 'content_filter'
-            case request_criteria.instance_variable_get("@#{field_name}")
-              when 'safe'
-                return 'strict'
-              else
-                return 'strict'
-            end
+      def sort(val)
+        case val
+          when APR::RequestCriteria::SORT_RELEVANCE
+            'relevance'
+          when APR::RequestCriteria::SORT_RECENT
+            'relevance'
+          when APR::RequestCriteria::SORT_POPULAR
+            'relevance'
           else
-            request_criteria.instance_variable_get("@#{field_name}")
+            'relevance'
+        end
+      end
+
+      def content_filter(val)
+        case val
+          when APR::RequestCriteria::CONTENT_FILTER_NONE
+            'strict'
+          when APR::RequestCriteria::CONTENT_FILTER_STRICT
+            'strict'
+          else
+            'strict'
         end
       end
 
@@ -73,7 +76,7 @@ module ActivePublicResources
 
       def parse_video(data)
         video_id = data['id']['$t'].split(':').last
-        video = ActivePublicResources::ResponseTypes::Video.new
+        video = APR::ResponseTypes::Video.new
         video.id            = video_id
         video.title         = data['title']['$t']
         video.description   = data['media$group']['media$description']['$t']
@@ -85,11 +88,23 @@ module ActivePublicResources
         video.num_comments  = data['gd$comments'] ? data['gd$comments']['gd$feedLink']['countHint'] : 0
         video.created_date  = Date.parse(data['published']['$t'])
         video.username      = data['author'][0]['name']['$t']
-        video.embed_html    = "<iframe src=\"//www.youtube.com/embed/#{video_id}?feature=oembed\"" +
-                              " width=\"640\" height=\"360\" frameborder=\"0\"" +
-                              " webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
         video.width         = 640
         video.height        = 360
+
+        # Return Types
+        video.return_types << APR::ReturnTypes::Url.new(
+          :url   => video.url,
+          :text  => video.title,
+          :title => video.title
+        )
+        video.return_types << APR::ReturnTypes::Iframe.new(
+          :url    => "//www.youtube.com/embed/#{video_id}?feature=oembed",
+          :text   => video.title,
+          :title  => video.title,
+          :width  => 640,
+          :height => 360
+        )
+
         video
       end
 

@@ -1,8 +1,7 @@
 module ActivePublicResources
   module ResponseTypes
     class Quiz < BaseResponseType
-      attr_accessor :url, :term_count, :created_date, :has_images, :subjects,
-                    :embed_html
+      attr_accessor :url, :term_count, :created_date, :has_images, :subjects
 
       def kind
         'quiz'

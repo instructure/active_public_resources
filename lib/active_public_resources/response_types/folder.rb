@@ -4,9 +4,10 @@ module ActivePublicResources
       attr_accessor :parent_id, :videos, :exercises, :images
 
       def initialize
-        @videos = []
+        super
+        @videos    = []
         @exercises = []
-        @images = []
+        @images    = []
       end
 
       def kind

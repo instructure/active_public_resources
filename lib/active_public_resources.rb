@@ -8,17 +8,25 @@ require "active_public_resources/request_criteria"
 # Drivers
 require "active_public_resources/driver"
 require "active_public_resources/driver_response"
-require "active_public_resources/drivers/vimeo_driver"
-require "active_public_resources/drivers/youtube_driver"
-require "active_public_resources/drivers/schooltube_driver"
-require "active_public_resources/drivers/khan_academy_driver"
-require "active_public_resources/drivers/quizlet_driver"
+require "active_public_resources/drivers/vimeo"
+require "active_public_resources/drivers/youtube"
+require "active_public_resources/drivers/schooltube"
+require "active_public_resources/drivers/khan_academy"
+require "active_public_resources/drivers/quizlet"
+
+# Return Types
+require "active_public_resources/base_return_type"
+require "active_public_resources/return_types/file"
+require "active_public_resources/return_types/iframe"
+require "active_public_resources/return_types/image_url"
+require "active_public_resources/return_types/oembed"
+require "active_public_resources/return_types/url"
 
 # Response Types
 require "active_public_resources/base_response_type"
 require "active_public_resources/response_types/video"
-require "active_public_resources/response_types/exercise"
 require "active_public_resources/response_types/image"
+require "active_public_resources/response_types/exercise"
 require "active_public_resources/response_types/folder"
 require "active_public_resources/response_types/quiz"
 
@@ -43,3 +51,5 @@ module ActivePublicResources
     }
   end
 end
+
+APR = ActivePublicResources

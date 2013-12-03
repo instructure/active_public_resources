@@ -1,0 +1,577 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.khanacademy.org/api/v1/topic/social-structures
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+      Host:
+      - www.khanacademy.org
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Allow-Credentials:
+      - 'true'
+      X-Ka-Api-Response:
+      - 'true'
+      Cache-Control:
+      - no-cache
+      Set-Cookie:
+      - gae_b_id=X2dhZV9iaW5nb19yYW5kb206ZG5vcmhWXzBvV0ZNZnhHejhBN01lT1RaemhtdHVvVlJPSzllb0hlaw==;
+        expires=Tue, 02 Dec 2014 20:22:14 GMT; Max-Age=31536000; Path=/
+      Vary:
+      - Accept-Encoding
+      Date:
+      - Mon, 02 Dec 2013 20:22:14 GMT
+      Server:
+      - Google Frontend
+      Expires:
+      - Mon, 02 Dec 2013 20:22:14 GMT
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"icon_src": "", "domain_slug": "science", "relative_url": "/science/mcat/society-and-culture/social-structures",
+        "web_url": "", "ka_url": "http://www.khanacademy.org/science/mcat/society-and-culture/social-structures",
+        "translated_standalone_title": "Social structures", "translated_title": "Social
+        structures", "gplus_url": "", "id": "x42de2b74", "old_key_name": null, "hide":
+        false, "title": "Social structures", "child_data": [{"kind": "Video", "id":
+        "xe303d24f"}, {"kind": "Video", "id": "x9142bef1"}, {"kind": "Video", "id":
+        "xa989056e"}, {"kind": "Video", "id": "x16b3cdcc"}, {"kind": "Video", "id":
+        "xfeb2aec4"}, {"kind": "Video", "id": "x58b50eab"}, {"kind": "Exercise", "id":
+        "xd53ad0de"}, {"kind": "Exercise", "id": "xf52a6bc0"}], "children": [{"kind":
+        "Video", "hide": false, "key": "ag5zfmtoYW4tYWNhZGVteXIUCxIFVmlkZW8iCXhlMzAzZDI0Zgw",
+        "internal_id": "xe303d24f", "title": "Institutions", "url": "http://www.khanacademy.org/video/institutions",
+        "translated_title": "Institutions", "node_slug": "v/institutions", "id": "institutions",
+        "edit_slug": "edit/v/xe303d24f"}, {"kind": "Video", "hide": false, "key":
+        "ag5zfmtoYW4tYWNhZGVteXIUCxIFVmlkZW8iCXg5MTQyYmVmMQw", "internal_id": "x9142bef1",
+        "title": "Conflict theory", "url": "http://www.khanacademy.org/video/conflict-theory",
+        "translated_title": "Conflict theory", "node_slug": "v/conflict-theory", "id":
+        "conflict-theory", "edit_slug": "edit/v/x9142bef1"}, {"kind": "Video", "hide":
+        false, "key": "ag5zfmtoYW4tYWNhZGVteXIUCxIFVmlkZW8iCXhhOTg5MDU2ZQw", "internal_id":
+        "xa989056e", "title": "Functionalism", "url": "http://www.khanacademy.org/video/functionalism",
+        "translated_title": "Functionalism", "node_slug": "v/functionalism", "id":
+        "functionalism", "edit_slug": "edit/v/xa989056e"}, {"kind": "Video", "hide":
+        false, "key": "ag5zfmtoYW4tYWNhZGVteXIUCxIFVmlkZW8iCXgxNmIzY2RjYww", "internal_id":
+        "x16b3cdcc", "title": "Social constructionism", "url": "http://www.khanacademy.org/video/social-constructionism",
+        "translated_title": "Social constructionism", "node_slug": "v/social-constructionism",
+        "id": "social-constructionism", "edit_slug": "edit/v/x16b3cdcc"}, {"kind":
+        "Video", "hide": false, "key": "ag5zfmtoYW4tYWNhZGVteXIUCxIFVmlkZW8iCXhmZWIyYWVjNAw",
+        "internal_id": "xfeb2aec4", "title": "Symbolic interactionism", "url": "http://www.khanacademy.org/video/symbolic-interactionism",
+        "translated_title": "Symbolic interactionism", "node_slug": "v/symbolic-interactionism",
+        "id": "symbolic-interactionism", "edit_slug": "edit/v/xfeb2aec4"}, {"kind":
+        "Video", "hide": false, "key": "ag5zfmtoYW4tYWNhZGVteXIUCxIFVmlkZW8iCXg1OGI1MGVhYgw",
+        "internal_id": "x58b50eab", "title": "Social theories overview", "url": "http://www.khanacademy.org/video/social-theories-overview",
+        "translated_title": "Social theories overview", "node_slug": "v/social-theories-overview",
+        "id": "social-theories-overview", "edit_slug": "edit/v/x58b50eab"}, {"kind":
+        "Exercise", "hide": false, "key": "ag5zfmtoYW4tYWNhZGVteXIXCxIIRXhlcmNpc2UiCXhkNTNhZDBkZQw",
+        "internal_id": "xd53ad0de", "title": "Social structures - Passage 1", "url":
+        "http://www.khanacademy.org/exercise/social-structures---passage-1", "translated_title":
+        "Social structures - Passage 1", "node_slug": "e/social-structures---passage-1",
+        "id": "social-structures---passage-1", "edit_slug": "edit/e/xd53ad0de"}, {"kind":
+        "Exercise", "hide": false, "key": "ag5zfmtoYW4tYWNhZGVteXIXCxIIRXhlcmNpc2UiCXhmNTJhNmJjMAw",
+        "internal_id": "xf52a6bc0", "title": "Social structures - Passage 2", "url":
+        "http://www.khanacademy.org/exercise/social-structures---passage-2", "translated_title":
+        "Social structures - Passage 2", "node_slug": "e/social-structures---passage-2",
+        "id": "social-structures---passage-2", "edit_slug": "edit/e/xf52a6bc0"}],
+        "twitter_url": "", "translated_description": "9A: What is a society? How do
+        we humans all live together in such highly populated cities? How does a society
+        change? Learn about some sociologic theories that have been proposed that
+        try to address some of these important questions!  By Sydney Brown.", "deleted_mod_time":
+        null, "logo_image_url": "", "in_knowledge_map": false, "description": "9A:
+        What is a society? How do we humans all live together in such highly populated
+        cities? How does a society change? Learn about some sociologic theories that
+        have been proposed that try to address some of these important questions!  By
+        Sydney Brown.", "x_pos": 0.0, "node_slug": "social-structures", "deleted":
+        false, "facebook_url": "", "backup_timestamp": "2013-10-10T01:44:36Z", "render_type":
+        "Tutorial", "background_image_url": "", "background_image_caption": "", "assessment_progress_key":
+        "ax42de2b74", "topic_page_url": "/science/mcat/society-and-culture/social-structures",
+        "extended_slug": "science/mcat/society-and-culture/social-structures", "slug":
+        "social-structures", "tags": [], "kind": "Topic", "in_topic_browser": false,
+        "sha": "a6c2f207a5f586ad5e361669cc908ddbf2d1b885", "standalone_title": "Social
+        structures", "y_pos": 0.0, "current_revision_key": "a6c2f207a5f586ad5e361669cc908ddbf2d1b885",
+        "content_kind": "Topic"}'
+    http_version: 
+  recorded_at: Mon, 02 Dec 2013 20:22:14 GMT
+- request:
+    method: get
+    uri: https://www.khanacademy.org/api/v1/topic/social-structures/videos
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+      Host:
+      - www.khanacademy.org
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Allow-Credentials:
+      - 'true'
+      X-Ka-Api-Response:
+      - 'true'
+      Cache-Control:
+      - no-cache
+      Set-Cookie:
+      - gae_b_id=X2dhZV9iaW5nb19yYW5kb206cnNZc1d5ajJvaGt1QkhyQUNTM0NGcmJfSUx6UTVTbmExZDNldGh3bA==;
+        expires=Tue, 02 Dec 2014 20:22:14 GMT; Max-Age=31536000; Path=/
+      Vary:
+      - Accept-Encoding
+      Date:
+      - Mon, 02 Dec 2013 20:22:14 GMT
+      Server:
+      - Google Frontend
+      Expires:
+      - Mon, 02 Dec 2013 20:22:14 GMT
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        W3sidHJhbnNsYXRlZF95b3V0dWJlX2lkIjogIjlLUjFiYWQ3NnFnIiwgInJl
+        bGF0aXZlX3VybCI6ICIvdmlkZW8vaW5zdGl0dXRpb25zIiwgImhhc19xdWVz
+        dGlvbnMiOiBmYWxzZSwgImtleXdvcmRzIjogImluc3RpdHV0aW9ucyIsICJr
+        YV91cmwiOiAiaHR0cDovL3d3dy5raGFuYWNhZGVteS5vcmcvdmlkZW8vaW5z
+        dGl0dXRpb25zIiwgImR1cmF0aW9uIjogMjA3LCAidHJhbnNsYXRlZF90aXRs
+        ZSI6ICJJbnN0aXR1dGlvbnMiLCAidHJhbnNsYXRlZF9kZXNjcmlwdGlvbl9o
+        dG1sIjogIjxwPjxzcGFuIGNsYXNzPVwieXQtdWktZWxsaXBzaXMtd3JhcHBl
+        clwiIGRhdGEtb3JpZ2luYWwtaHRtbD1cIkluc3RpdHV0aW9ucyBhcmUgc3Ry
+        dWN0dXJlcyBvZiBzb2NpZXR5IHRoYXQgZnVsZmlsbCB0aGUgbmVlZHMgb2Yg
+        dGhlIHNvY2lldHkuIE5vdCBvbmx5IGFyZSB0aGV5IGVzc2VudGlhbCB0byB0
+        aGUgc29jaWV0eSdzIG5lZWRzLCB0aGV5IGFsc28gaGVscCB0byBidWlsZCB0
+        aGUgc29jaWV0eSBpdHNlbGYuICBCeSBTeWRuZXkgQnJvd24uXG4gICAgICBc
+        Ij5JbnN0aXR1dGlvbnMgYXJlIHN0cnVjdHVyZXMgb2Ygc29jaWV0eSB0aGF0
+        IGZ1bGZpbGwgdGhlIG5lZWRzIG9mIHRoZSBzb2NpZXR5LiBOb3Qgb25seSBh
+        cmUgdGhleSBlc3NlbnRpYWwgdG8gdGhlIHNvY2lldHkmIzM5O3MgbmVlZHMs
+        IHRoZXkgYWxzbyBoZWxwIHRvIGJ1aWxkIHRoZSBzb2NpZXR5IGl0c2VsZi4g
+        QnkgU3lkbmV5IEJyb3duLjxcL3NwYW4+PFwvcD5cbiIsICJpZCI6ICJ4ZTMw
+        M2QyNGYiLCAiZGVzY3JpcHRpb25faHRtbCI6ICI8cD48c3BhbiBjbGFzcz1c
+        Inl0LXVpLWVsbGlwc2lzLXdyYXBwZXJcIiBkYXRhLW9yaWdpbmFsLWh0bWw9
+        XCJJbnN0aXR1dGlvbnMgYXJlIHN0cnVjdHVyZXMgb2Ygc29jaWV0eSB0aGF0
+        IGZ1bGZpbGwgdGhlIG5lZWRzIG9mIHRoZSBzb2NpZXR5LiBOb3Qgb25seSBh
+        cmUgdGhleSBlc3NlbnRpYWwgdG8gdGhlIHNvY2lldHkncyBuZWVkcywgdGhl
+        eSBhbHNvIGhlbHAgdG8gYnVpbGQgdGhlIHNvY2lldHkgaXRzZWxmLiAgQnkg
+        U3lkbmV5IEJyb3duLlxuICAgICAgXCI+SW5zdGl0dXRpb25zIGFyZSBzdHJ1
+        Y3R1cmVzIG9mIHNvY2lldHkgdGhhdCBmdWxmaWxsIHRoZSBuZWVkcyBvZiB0
+        aGUgc29jaWV0eS4gTm90IG9ubHkgYXJlIHRoZXkgZXNzZW50aWFsIHRvIHRo
+        ZSBzb2NpZXR5JiMzOTtzIG5lZWRzLCB0aGV5IGFsc28gaGVscCB0byBidWls
+        ZCB0aGUgc29jaWV0eSBpdHNlbGYuIEJ5IFN5ZG5leSBCcm93bi48XC9zcGFu
+        PjxcL3A+XG4iLCAidGl0bGUiOiAiSW5zdGl0dXRpb25zIiwgInByb2dyZXNz
+        X2tleSI6ICJ2eGUzMDNkMjRmIiwgImVkaXRfc2x1ZyI6ICJlZGl0L3YveGUz
+        MDNkMjRmIiwgImF1dGhvcl9uYW1lcyI6IFsiU3lkbmV5IEJyb3duIl0sICJk
+        ZWxldGVkX21vZF90aW1lIjogbnVsbCwgImRlc2NyaXB0aW9uIjogIkluc3Rp
+        dHV0aW9ucyBhcmUgc3RydWN0dXJlcyBvZiBzb2NpZXR5IHRoYXQgZnVsZmls
+        bCB0aGUgbmVlZHMgb2YgdGhlIHNvY2lldHkuIE5vdCBvbmx5IGFyZSB0aGV5
+        IGVzc2VudGlhbCB0byB0aGUgc29jaWV0eSdzIG5lZWRzLCB0aGV5IGFsc28g
+        aGVscCB0byBidWlsZCB0aGUgc29jaWV0eSBpdHNlbGYuIEJ5IFN5ZG5leSBC
+        cm93bi5cbiIsICJleHRyYV9wcm9wZXJ0aWVzIjogeyJvcmlnaW5hbF91cmwi
+        OiAiIn0sICJub2RlX3NsdWciOiAidi9pbnN0aXR1dGlvbnMiLCAiZGVsZXRl
+        ZCI6IGZhbHNlLCAiYmFja3VwX3RpbWVzdGFtcCI6ICIyMDEzLTEwLTEwVDAx
+        OjQ0OjM3WiIsICJkYXRlX2FkZGVkIjogIjIwMTMtMTAtMTBUMDE6NDQ6Mzda
+        IiwgImRvd25sb2FkX3VybHMiOiB7Im1wNCI6ICJodHRwOi8vczMuYW1hem9u
+        YXdzLmNvbS9LQS15b3V0dWJlLWNvbnZlcnRlZC85S1IxYmFkNzZxZy5tcDQv
+        OUtSMWJhZDc2cWcubXA0IiwgInBuZyI6ICJodHRwOi8vczMuYW1hem9uYXdz
+        LmNvbS9LQS15b3V0dWJlLWNvbnZlcnRlZC85S1IxYmFkNzZxZy5tcDQvOUtS
+        MWJhZDc2cWcucG5nIiwgIm0zdTgiOiAiaHR0cDovL3MzLmFtYXpvbmF3cy5j
+        b20vS0EteW91dHViZS1jb252ZXJ0ZWQvOUtSMWJhZDc2cWcubTN1OC85S1Ix
+        YmFkNzZxZy5tM3U4In0sICJ0cmFuc2xhdGVkX3lvdXR1YmVfbGFuZyI6ICJl
+        biIsICJraW5kIjogIlZpZGVvIiwgInVybCI6ICJodHRwOi8vd3d3LnlvdXR1
+        YmUuY29tL3dhdGNoP3Y9OUtSMWJhZDc2cWcmZmVhdHVyZT15b3V0dWJlX2dk
+        YXRhX3BsYXllciIsICJrYV91c2VyX2xpY2Vuc2UiOiAiY2MtYnktbmMtc2Ei
+        LCAiZ2xvYmFsX2lkIjogInZ4ZTMwM2QyNGYiLCAic2hhIjogIjY5NjM2YTgy
+        NWJiYjRmODgzMTI2MjlkNTg4YmQ3YWFhNjgyN2I1NjYiLCAidHJhbnNsYXRl
+        ZF9kZXNjcmlwdGlvbiI6ICJJbnN0aXR1dGlvbnMgYXJlIHN0cnVjdHVyZXMg
+        b2Ygc29jaWV0eSB0aGF0IGZ1bGZpbGwgdGhlIG5lZWRzIG9mIHRoZSBzb2Np
+        ZXR5LiBOb3Qgb25seSBhcmUgdGhleSBlc3NlbnRpYWwgdG8gdGhlIHNvY2ll
+        dHkncyBuZWVkcywgdGhleSBhbHNvIGhlbHAgdG8gYnVpbGQgdGhlIHNvY2ll
+        dHkgaXRzZWxmLiBCeSBTeWRuZXkgQnJvd24uXG4iLCAiaW1hZ2VfdXJsIjog
+        Imh0dHBzOi8vaW1nLnlvdXR1YmUuY29tL3ZpLzlLUjFiYWQ3NnFnL2hxZGVm
+        YXVsdC5qcGciLCAieW91dHViZV9pZCI6ICI5S1IxYmFkNzZxZyIsICJwb3Np
+        dGlvbiI6IDEsICJjb250ZW50X2tpbmQiOiAiVmlkZW8iLCAicmVhZGFibGVf
+        aWQiOiAiaW5zdGl0dXRpb25zIn0sIHsidHJhbnNsYXRlZF95b3V0dWJlX2lk
+        IjogIkxQWVRuZEZGVGtvIiwgInJlbGF0aXZlX3VybCI6ICIvdmlkZW8vY29u
+        ZmxpY3QtdGhlb3J5IiwgImhhc19xdWVzdGlvbnMiOiBmYWxzZSwgImtleXdv
+        cmRzIjogImNvbmZsaWN0IHRoZW9yeSIsICJrYV91cmwiOiAiaHR0cDovL3d3
+        dy5raGFuYWNhZGVteS5vcmcvdmlkZW8vY29uZmxpY3QtdGhlb3J5IiwgImR1
+        cmF0aW9uIjogMjc4LCAidHJhbnNsYXRlZF90aXRsZSI6ICJDb25mbGljdCB0
+        aGVvcnkiLCAidHJhbnNsYXRlZF9kZXNjcmlwdGlvbl9odG1sIjogIjxwPjxz
+        cGFuIGNsYXNzPVwieXQtdWktZWxsaXBzaXMtd3JhcHBlclwiIGRhdGEtb3Jp
+        Z2luYWwtaHRtbD1cIkNvbmZsaWN0IHRoZW9yeSBvYnNlcnZlcyBob3cgdGhl
+        IHVucmVzdCBpbiBhIHNvY2lldHkgd2lsbCBjYXVzZSBpdCB0byBjaGFuZ2Ug
+        YW5kIGV2b2x2ZSB0byByZWxpZXZlIHRoZSB0ZW5zaW9uLiAgQnkgU3lkbmV5
+        IEJyb3duLlxuICAgICAgXCI+Q29uZmxpY3QgdGhlb3J5IG9ic2VydmVzIGhv
+        dyB0aGUgdW5yZXN0IGluIGEgc29jaWV0eSB3aWxsIGNhdXNlIGl0IHRvIGNo
+        YW5nZSBhbmQgZXZvbHZlIHRvIHJlbGlldmUgdGhlIHRlbnNpb24uIEJ5IFN5
+        ZG5leSBCcm93bi4gPFwvc3Bhbj48XC9wPlxuIiwgImlkIjogIng5MTQyYmVm
+        MSIsICJkZXNjcmlwdGlvbl9odG1sIjogIjxwPjxzcGFuIGNsYXNzPVwieXQt
+        dWktZWxsaXBzaXMtd3JhcHBlclwiIGRhdGEtb3JpZ2luYWwtaHRtbD1cIkNv
+        bmZsaWN0IHRoZW9yeSBvYnNlcnZlcyBob3cgdGhlIHVucmVzdCBpbiBhIHNv
+        Y2lldHkgd2lsbCBjYXVzZSBpdCB0byBjaGFuZ2UgYW5kIGV2b2x2ZSB0byBy
+        ZWxpZXZlIHRoZSB0ZW5zaW9uLiAgQnkgU3lkbmV5IEJyb3duLlxuICAgICAg
+        XCI+Q29uZmxpY3QgdGhlb3J5IG9ic2VydmVzIGhvdyB0aGUgdW5yZXN0IGlu
+        IGEgc29jaWV0eSB3aWxsIGNhdXNlIGl0IHRvIGNoYW5nZSBhbmQgZXZvbHZl
+        IHRvIHJlbGlldmUgdGhlIHRlbnNpb24uIEJ5IFN5ZG5leSBCcm93bi4gPFwv
+        c3Bhbj48XC9wPlxuIiwgInRpdGxlIjogIkNvbmZsaWN0IHRoZW9yeSIsICJw
+        cm9ncmVzc19rZXkiOiAidng5MTQyYmVmMSIsICJlZGl0X3NsdWciOiAiZWRp
+        dC92L3g5MTQyYmVmMSIsICJhdXRob3JfbmFtZXMiOiBbIlN5ZG5leSBCcm93
+        biJdLCAiZGVsZXRlZF9tb2RfdGltZSI6IG51bGwsICJkZXNjcmlwdGlvbiI6
+        ICJDb25mbGljdCB0aGVvcnkgb2JzZXJ2ZXMgaG93IHRoZSB1bnJlc3QgaW4g
+        YSBzb2NpZXR5IHdpbGwgY2F1c2UgaXQgdG8gY2hhbmdlIGFuZCBldm9sdmUg
+        dG8gcmVsaWV2ZSB0aGUgdGVuc2lvbi4gQnkgU3lkbmV5IEJyb3duLiBcbiIs
+        ICJleHRyYV9wcm9wZXJ0aWVzIjogeyJvcmlnaW5hbF91cmwiOiAiIn0sICJu
+        b2RlX3NsdWciOiAidi9jb25mbGljdC10aGVvcnkiLCAiZGVsZXRlZCI6IGZh
+        bHNlLCAiYmFja3VwX3RpbWVzdGFtcCI6ICIyMDEzLTEwLTEwVDAxOjQ0OjM2
+        WiIsICJkYXRlX2FkZGVkIjogIjIwMTMtMTAtMTBUMDE6NDQ6MzZaIiwgImRv
+        d25sb2FkX3VybHMiOiB7Im1wNCI6ICJodHRwOi8vczMuYW1hem9uYXdzLmNv
+        bS9LQS15b3V0dWJlLWNvbnZlcnRlZC9MUFlUbmRGRlRrby5tcDQvTFBZVG5k
+        RkZUa28ubXA0IiwgInBuZyI6ICJodHRwOi8vczMuYW1hem9uYXdzLmNvbS9L
+        QS15b3V0dWJlLWNvbnZlcnRlZC9MUFlUbmRGRlRrby5tcDQvTFBZVG5kRkZU
+        a28ucG5nIiwgIm0zdTgiOiAiaHR0cDovL3MzLmFtYXpvbmF3cy5jb20vS0Et
+        eW91dHViZS1jb252ZXJ0ZWQvTFBZVG5kRkZUa28ubTN1OC9MUFlUbmRGRlRr
+        by5tM3U4In0sICJ0cmFuc2xhdGVkX3lvdXR1YmVfbGFuZyI6ICJlbiIsICJr
+        aW5kIjogIlZpZGVvIiwgInVybCI6ICJodHRwOi8vd3d3LnlvdXR1YmUuY29t
+        L3dhdGNoP3Y9TFBZVG5kRkZUa28mZmVhdHVyZT15b3V0dWJlX2dkYXRhX3Bs
+        YXllciIsICJrYV91c2VyX2xpY2Vuc2UiOiAiY2MtYnktbmMtc2EiLCAiZ2xv
+        YmFsX2lkIjogInZ4OTE0MmJlZjEiLCAic2hhIjogIjc4Nzc5ZTI2NmFmYWM1
+        NTExNTgzZmRlNjUxNzJkMDAyMWQzOGQ3MDAiLCAidHJhbnNsYXRlZF9kZXNj
+        cmlwdGlvbiI6ICJDb25mbGljdCB0aGVvcnkgb2JzZXJ2ZXMgaG93IHRoZSB1
+        bnJlc3QgaW4gYSBzb2NpZXR5IHdpbGwgY2F1c2UgaXQgdG8gY2hhbmdlIGFu
+        ZCBldm9sdmUgdG8gcmVsaWV2ZSB0aGUgdGVuc2lvbi4gQnkgU3lkbmV5IEJy
+        b3duLiBcbiIsICJpbWFnZV91cmwiOiAiaHR0cHM6Ly9pbWcueW91dHViZS5j
+        b20vdmkvTFBZVG5kRkZUa28vaHFkZWZhdWx0LmpwZyIsICJ5b3V0dWJlX2lk
+        IjogIkxQWVRuZEZGVGtvIiwgInBvc2l0aW9uIjogMiwgImNvbnRlbnRfa2lu
+        ZCI6ICJWaWRlbyIsICJyZWFkYWJsZV9pZCI6ICJjb25mbGljdC10aGVvcnki
+        fSwgeyJ0cmFuc2xhdGVkX3lvdXR1YmVfaWQiOiAiLTgzdlZlU0MyX2ciLCAi
+        cmVsYXRpdmVfdXJsIjogIi92aWRlby9mdW5jdGlvbmFsaXNtIiwgImhhc19x
+        dWVzdGlvbnMiOiBmYWxzZSwgImtleXdvcmRzIjogImZ1bnRpb25hbGlzbSIs
+        ICJrYV91cmwiOiAiaHR0cDovL3d3dy5raGFuYWNhZGVteS5vcmcvdmlkZW8v
+        ZnVuY3Rpb25hbGlzbSIsICJkdXJhdGlvbiI6IDM0MiwgInRyYW5zbGF0ZWRf
+        dGl0bGUiOiAiRnVuY3Rpb25hbGlzbSIsICJ0cmFuc2xhdGVkX2Rlc2NyaXB0
+        aW9uX2h0bWwiOiAiPHA+PHNwYW4gY2xhc3M9XCJ5dC11aS1lbGxpcHNpcy13
+        cmFwcGVyXCIgZGF0YS1vcmlnaW5hbC1odG1sPVwiRnVuY3Rpb25hbGlzbSBp
+        cyBhIHRoZW9yeSBvZiBzb2NpZXR5IHRoYXQgZm9jdXNlcyBvbiB0aGUgc3Ry
+        dWN0dXJlcyB0aGF0IGNyZWF0ZSB0aGUgc29jaWV0eSBhbmQgb24gaG93IHRo
+        ZSBzb2NpZXR5IGlzIGFibGUgdG8gcmVtYWluIHN0YWJsZS4gIEJ5IFN5ZG5l
+        eSBCcm93bi5cbiAgICAgIFwiPkZ1bmN0aW9uYWxpc20gaXMgYSB0aGVvcnkg
+        b2Ygc29jaWV0eSB0aGF0IGZvY3VzZXMgb24gdGhlIHN0cnVjdHVyZXMgdGhh
+        dCBjcmVhdGUgdGhlIHNvY2lldHkgYW5kIG9uIGhvdyB0aGUgc29jaWV0eSBp
+        cyBhYmxlIHRvIHJlbWFpbiBzdGFibGUuIEJ5IFN5ZG5leSBCcm93bi4gPFwv
+        c3Bhbj48XC9wPlxuIiwgImlkIjogInhhOTg5MDU2ZSIsICJkZXNjcmlwdGlv
+        bl9odG1sIjogIjxwPjxzcGFuIGNsYXNzPVwieXQtdWktZWxsaXBzaXMtd3Jh
+        cHBlclwiIGRhdGEtb3JpZ2luYWwtaHRtbD1cIkZ1bmN0aW9uYWxpc20gaXMg
+        YSB0aGVvcnkgb2Ygc29jaWV0eSB0aGF0IGZvY3VzZXMgb24gdGhlIHN0cnVj
+        dHVyZXMgdGhhdCBjcmVhdGUgdGhlIHNvY2lldHkgYW5kIG9uIGhvdyB0aGUg
+        c29jaWV0eSBpcyBhYmxlIHRvIHJlbWFpbiBzdGFibGUuICBCeSBTeWRuZXkg
+        QnJvd24uXG4gICAgICBcIj5GdW5jdGlvbmFsaXNtIGlzIGEgdGhlb3J5IG9m
+        IHNvY2lldHkgdGhhdCBmb2N1c2VzIG9uIHRoZSBzdHJ1Y3R1cmVzIHRoYXQg
+        Y3JlYXRlIHRoZSBzb2NpZXR5IGFuZCBvbiBob3cgdGhlIHNvY2lldHkgaXMg
+        YWJsZSB0byByZW1haW4gc3RhYmxlLiBCeSBTeWRuZXkgQnJvd24uIDxcL3Nw
+        YW4+PFwvcD5cbiIsICJ0aXRsZSI6ICJGdW5jdGlvbmFsaXNtIiwgInByb2dy
+        ZXNzX2tleSI6ICJ2eGE5ODkwNTZlIiwgImVkaXRfc2x1ZyI6ICJlZGl0L3Yv
+        eGE5ODkwNTZlIiwgImF1dGhvcl9uYW1lcyI6IFsiU3lkbmV5IEJyb3duIl0s
+        ICJkZWxldGVkX21vZF90aW1lIjogbnVsbCwgImRlc2NyaXB0aW9uIjogIkZ1
+        bmN0aW9uYWxpc20gaXMgYSB0aGVvcnkgb2Ygc29jaWV0eSB0aGF0IGZvY3Vz
+        ZXMgb24gdGhlIHN0cnVjdHVyZXMgdGhhdCBjcmVhdGUgdGhlIHNvY2lldHkg
+        YW5kIG9uIGhvdyB0aGUgc29jaWV0eSBpcyBhYmxlIHRvIHJlbWFpbiBzdGFi
+        bGUuIEJ5IFN5ZG5leSBCcm93bi4gXG4iLCAiZXh0cmFfcHJvcGVydGllcyI6
+        IHsib3JpZ2luYWxfdXJsIjogIiJ9LCAibm9kZV9zbHVnIjogInYvZnVuY3Rp
+        b25hbGlzbSIsICJkZWxldGVkIjogZmFsc2UsICJiYWNrdXBfdGltZXN0YW1w
+        IjogIjIwMTMtMTAtMTBUMDE6NDQ6MzZaIiwgImRhdGVfYWRkZWQiOiAiMjAx
+        My0xMC0xMFQwMTo0NDozNloiLCAiZG93bmxvYWRfdXJscyI6IHsibXA0Ijog
+        Imh0dHA6Ly9zMy5hbWF6b25hd3MuY29tL0tBLXlvdXR1YmUtY29udmVydGVk
+        Ly04M3ZWZVNDMl9nLm1wNC8tODN2VmVTQzJfZy5tcDQiLCAicG5nIjogImh0
+        dHA6Ly9zMy5hbWF6b25hd3MuY29tL0tBLXlvdXR1YmUtY29udmVydGVkLy04
+        M3ZWZVNDMl9nLm1wNC8tODN2VmVTQzJfZy5wbmciLCAibTN1OCI6ICJodHRw
+        Oi8vczMuYW1hem9uYXdzLmNvbS9LQS15b3V0dWJlLWNvbnZlcnRlZC8tODN2
+        VmVTQzJfZy5tM3U4Ly04M3ZWZVNDMl9nLm0zdTgifSwgInRyYW5zbGF0ZWRf
+        eW91dHViZV9sYW5nIjogImVuIiwgImtpbmQiOiAiVmlkZW8iLCAidXJsIjog
+        Imh0dHA6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj0tODN2VmVTQzJfZyZm
+        ZWF0dXJlPXlvdXR1YmVfZ2RhdGFfcGxheWVyIiwgImthX3VzZXJfbGljZW5z
+        ZSI6ICJjYy1ieS1uYy1zYSIsICJnbG9iYWxfaWQiOiAidnhhOTg5MDU2ZSIs
+        ICJzaGEiOiAiN2QwZmE0NjEyODI0ZmY0YzNhMTVjMGVjMWQ1MzA0ZWM3OTc1
+        Y2RjMiIsICJ0cmFuc2xhdGVkX2Rlc2NyaXB0aW9uIjogIkZ1bmN0aW9uYWxp
+        c20gaXMgYSB0aGVvcnkgb2Ygc29jaWV0eSB0aGF0IGZvY3VzZXMgb24gdGhl
+        IHN0cnVjdHVyZXMgdGhhdCBjcmVhdGUgdGhlIHNvY2lldHkgYW5kIG9uIGhv
+        dyB0aGUgc29jaWV0eSBpcyBhYmxlIHRvIHJlbWFpbiBzdGFibGUuIEJ5IFN5
+        ZG5leSBCcm93bi4gXG4iLCAiaW1hZ2VfdXJsIjogImh0dHBzOi8vaW1nLnlv
+        dXR1YmUuY29tL3ZpLy04M3ZWZVNDMl9nL2hxZGVmYXVsdC5qcGciLCAieW91
+        dHViZV9pZCI6ICItODN2VmVTQzJfZyIsICJwb3NpdGlvbiI6IDMsICJjb250
+        ZW50X2tpbmQiOiAiVmlkZW8iLCAicmVhZGFibGVfaWQiOiAiZnVuY3Rpb25h
+        bGlzbSJ9LCB7InRyYW5zbGF0ZWRfeW91dHViZV9pZCI6ICI1VTJYQUpOYXpp
+        ayIsICJyZWxhdGl2ZV91cmwiOiAiL3ZpZGVvL3NvY2lhbC1jb25zdHJ1Y3Rp
+        b25pc20iLCAiaGFzX3F1ZXN0aW9ucyI6IGZhbHNlLCAia2V5d29yZHMiOiAi
+        c29jaWFsIGNvbnN0cnVjdGlvbmlzbSIsICJrYV91cmwiOiAiaHR0cDovL3d3
+        dy5raGFuYWNhZGVteS5vcmcvdmlkZW8vc29jaWFsLWNvbnN0cnVjdGlvbmlz
+        bSIsICJkdXJhdGlvbiI6IDE2NiwgInRyYW5zbGF0ZWRfdGl0bGUiOiAiU29j
+        aWFsIGNvbnN0cnVjdGlvbmlzbSIsICJ0cmFuc2xhdGVkX2Rlc2NyaXB0aW9u
+        X2h0bWwiOiAiPHA+U29jaWFsIGNvbnN0cnVjdGlvbmlzbSBvYnNlcnZlcyBo
+        b3cgdGhlIGludGVyYWN0aW9ucyBvZiBpbmRpdmlkdWFscyB3aXRoIHRoZWly
+        IHNvY2lldHkgYW5kIHRoZSB3b3JsZCBhcm91bmQgdGhlbSBnaXZlcyBtZWFu
+        aW5nIHRvIG90aGVyd2lzZSB3b3J0aGxlc3MgdGhpbmdzIGFuZCBjcmVhdGVz
+        IHRoZSByZWFsaXR5IG9mIHRoZSBzb2NpZXR5LiZuYnNwOyBCeSBTeWRuZXkg
+        QnJvd24uPFwvcD5cbiIsICJpZCI6ICJ4MTZiM2NkY2MiLCAiZGVzY3JpcHRp
+        b25faHRtbCI6ICI8cD5Tb2NpYWwgY29uc3RydWN0aW9uaXNtIG9ic2VydmVz
+        IGhvdyB0aGUgaW50ZXJhY3Rpb25zIG9mIGluZGl2aWR1YWxzIHdpdGggdGhl
+        aXIgc29jaWV0eSBhbmQgdGhlIHdvcmxkIGFyb3VuZCB0aGVtIGdpdmVzIG1l
+        YW5pbmcgdG8gb3RoZXJ3aXNlIHdvcnRobGVzcyB0aGluZ3MgYW5kIGNyZWF0
+        ZXMgdGhlIHJlYWxpdHkgb2YgdGhlIHNvY2lldHkuJm5ic3A7IEJ5IFN5ZG5l
+        eSBCcm93bi48XC9wPlxuIiwgInRpdGxlIjogIlNvY2lhbCBjb25zdHJ1Y3Rp
+        b25pc20iLCAicHJvZ3Jlc3Nfa2V5IjogInZ4MTZiM2NkY2MiLCAiZWRpdF9z
+        bHVnIjogImVkaXQvdi94MTZiM2NkY2MiLCAiYXV0aG9yX25hbWVzIjogWyJT
+        eWRuZXkgQnJvd24iXSwgImRlbGV0ZWRfbW9kX3RpbWUiOiBudWxsLCAiZGVz
+        Y3JpcHRpb24iOiAiU29jaWFsIGNvbnN0cnVjdGlvbmlzbSBvYnNlcnZlcyBo
+        b3cgdGhlIGludGVyYWN0aW9ucyBvZiBpbmRpdmlkdWFscyB3aXRoIHRoZWly
+        IHNvY2lldHkgYW5kIHRoZSB3b3JsZCBhcm91bmQgdGhlbSBnaXZlcyBtZWFu
+        aW5nIHRvIG90aGVyd2lzZSB3b3J0aGxlc3MgdGhpbmdzIGFuZCBjcmVhdGVz
+        IHRoZSByZWFsaXR5IG9mIHRoZSBzb2NpZXR5LsKgIEJ5IFN5ZG5leSBCcm93
+        bi5cbiIsICJleHRyYV9wcm9wZXJ0aWVzIjogeyJvcmlnaW5hbF91cmwiOiAi
+        In0sICJub2RlX3NsdWciOiAidi9zb2NpYWwtY29uc3RydWN0aW9uaXNtIiwg
+        ImRlbGV0ZWQiOiBmYWxzZSwgImJhY2t1cF90aW1lc3RhbXAiOiAiMjAxMy0x
+        MC0xMFQwMTo0NDozN1oiLCAiZGF0ZV9hZGRlZCI6ICIyMDEzLTEwLTEwVDAx
+        OjQ0OjM3WiIsICJkb3dubG9hZF91cmxzIjogeyJtcDQiOiAiaHR0cDovL3Mz
+        LmFtYXpvbmF3cy5jb20vS0EteW91dHViZS1jb252ZXJ0ZWQvNVUyWEFKTmF6
+        aWsubXA0LzVVMlhBSk5hemlrLm1wNCIsICJwbmciOiAiaHR0cDovL3MzLmFt
+        YXpvbmF3cy5jb20vS0EteW91dHViZS1jb252ZXJ0ZWQvNVUyWEFKTmF6aWsu
+        bXA0LzVVMlhBSk5hemlrLnBuZyIsICJtM3U4IjogImh0dHA6Ly9zMy5hbWF6
+        b25hd3MuY29tL0tBLXlvdXR1YmUtY29udmVydGVkLzVVMlhBSk5hemlrLm0z
+        dTgvNVUyWEFKTmF6aWsubTN1OCJ9LCAidHJhbnNsYXRlZF95b3V0dWJlX2xh
+        bmciOiAiZW4iLCAia2luZCI6ICJWaWRlbyIsICJ1cmwiOiAiaHR0cDovL3d3
+        dy55b3V0dWJlLmNvbS93YXRjaD92PTVVMlhBSk5hemlrJmZlYXR1cmU9eW91
+        dHViZV9nZGF0YV9wbGF5ZXIiLCAia2FfdXNlcl9saWNlbnNlIjogImNjLWJ5
+        LW5jLXNhIiwgImdsb2JhbF9pZCI6ICJ2eDE2YjNjZGNjIiwgInNoYSI6ICI4
+        NGZlMmRhMmQ0NjU0M2M4MjU4NzUyZjBmZTY1YzdjYzc5MGZkM2RhIiwgInRy
+        YW5zbGF0ZWRfZGVzY3JpcHRpb24iOiAiU29jaWFsIGNvbnN0cnVjdGlvbmlz
+        bSBvYnNlcnZlcyBob3cgdGhlIGludGVyYWN0aW9ucyBvZiBpbmRpdmlkdWFs
+        cyB3aXRoIHRoZWlyIHNvY2lldHkgYW5kIHRoZSB3b3JsZCBhcm91bmQgdGhl
+        bSBnaXZlcyBtZWFuaW5nIHRvIG90aGVyd2lzZSB3b3J0aGxlc3MgdGhpbmdz
+        IGFuZCBjcmVhdGVzIHRoZSByZWFsaXR5IG9mIHRoZSBzb2NpZXR5LsKgIEJ5
+        IFN5ZG5leSBCcm93bi5cbiIsICJpbWFnZV91cmwiOiAiaHR0cHM6Ly9pbWcu
+        eW91dHViZS5jb20vdmkvNVUyWEFKTmF6aWsvaHFkZWZhdWx0LmpwZyIsICJ5
+        b3V0dWJlX2lkIjogIjVVMlhBSk5hemlrIiwgInBvc2l0aW9uIjogNCwgImNv
+        bnRlbnRfa2luZCI6ICJWaWRlbyIsICJyZWFkYWJsZV9pZCI6ICJzb2NpYWwt
+        Y29uc3RydWN0aW9uaXNtIn0sIHsidHJhbnNsYXRlZF95b3V0dWJlX2lkIjog
+        IlV4MkU2dWhFVmswIiwgInJlbGF0aXZlX3VybCI6ICIvdmlkZW8vc3ltYm9s
+        aWMtaW50ZXJhY3Rpb25pc20iLCAiaGFzX3F1ZXN0aW9ucyI6IGZhbHNlLCAi
+        a2V5d29yZHMiOiAic3ltYm9saWMgaW50ZXJhY3Rpb25pc20iLCAia2FfdXJs
+        IjogImh0dHA6Ly93d3cua2hhbmFjYWRlbXkub3JnL3ZpZGVvL3N5bWJvbGlj
+        LWludGVyYWN0aW9uaXNtIiwgImR1cmF0aW9uIjogMjE1LCAidHJhbnNsYXRl
+        ZF90aXRsZSI6ICJTeW1ib2xpYyBpbnRlcmFjdGlvbmlzbSIsICJ0cmFuc2xh
+        dGVkX2Rlc2NyaXB0aW9uX2h0bWwiOiAiIiwgImlkIjogInhmZWIyYWVjNCIs
+        ICJkZXNjcmlwdGlvbl9odG1sIjogIiIsICJ0aXRsZSI6ICJTeW1ib2xpYyBp
+        bnRlcmFjdGlvbmlzbSIsICJwcm9ncmVzc19rZXkiOiAidnhmZWIyYWVjNCIs
+        ICJlZGl0X3NsdWciOiAiZWRpdC92L3hmZWIyYWVjNCIsICJhdXRob3JfbmFt
+        ZXMiOiBbIlN5ZG5leSBCcm93biJdLCAiZGVsZXRlZF9tb2RfdGltZSI6IG51
+        bGwsICJkZXNjcmlwdGlvbiI6ICIiLCAiZXh0cmFfcHJvcGVydGllcyI6IHsi
+        b3JpZ2luYWxfdXJsIjogIiJ9LCAibm9kZV9zbHVnIjogInYvc3ltYm9saWMt
+        aW50ZXJhY3Rpb25pc20iLCAiZGVsZXRlZCI6IGZhbHNlLCAiYmFja3VwX3Rp
+        bWVzdGFtcCI6ICIyMDEzLTEwLTEwVDAxOjQ0OjM3WiIsICJkYXRlX2FkZGVk
+        IjogIjIwMTMtMTAtMTBUMDE6NDQ6MzdaIiwgImRvd25sb2FkX3VybHMiOiB7
+        Im1wNCI6ICJodHRwOi8vczMuYW1hem9uYXdzLmNvbS9LQS15b3V0dWJlLWNv
+        bnZlcnRlZC9VeDJFNnVoRVZrMC5tcDQvVXgyRTZ1aEVWazAubXA0IiwgInBu
+        ZyI6ICJodHRwOi8vczMuYW1hem9uYXdzLmNvbS9LQS15b3V0dWJlLWNvbnZl
+        cnRlZC9VeDJFNnVoRVZrMC5tcDQvVXgyRTZ1aEVWazAucG5nIiwgIm0zdTgi
+        OiAiaHR0cDovL3MzLmFtYXpvbmF3cy5jb20vS0EteW91dHViZS1jb252ZXJ0
+        ZWQvVXgyRTZ1aEVWazAubTN1OC9VeDJFNnVoRVZrMC5tM3U4In0sICJ0cmFu
+        c2xhdGVkX3lvdXR1YmVfbGFuZyI6ICJlbiIsICJraW5kIjogIlZpZGVvIiwg
+        InVybCI6ICJodHRwOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9VXgyRTZ1
+        aEVWazAmZmVhdHVyZT15b3V0dWJlX2dkYXRhX3BsYXllciIsICJrYV91c2Vy
+        X2xpY2Vuc2UiOiAiY2MtYnktbmMtc2EiLCAiZ2xvYmFsX2lkIjogInZ4ZmVi
+        MmFlYzQiLCAic2hhIjogImYwYjE3YTZkZWQzYzdhZDI5Mzc1ZTk4OTdkZmVk
+        NjdiY2U1YjI4OGYiLCAidHJhbnNsYXRlZF9kZXNjcmlwdGlvbiI6ICIiLCAi
+        aW1hZ2VfdXJsIjogImh0dHBzOi8vaW1nLnlvdXR1YmUuY29tL3ZpL1V4MkU2
+        dWhFVmswL2hxZGVmYXVsdC5qcGciLCAieW91dHViZV9pZCI6ICJVeDJFNnVo
+        RVZrMCIsICJwb3NpdGlvbiI6IDUsICJjb250ZW50X2tpbmQiOiAiVmlkZW8i
+        LCAicmVhZGFibGVfaWQiOiAic3ltYm9saWMtaW50ZXJhY3Rpb25pc20ifSwg
+        eyJ0cmFuc2xhdGVkX3lvdXR1YmVfaWQiOiAiS3BhTGNoRnBKWjgiLCAicmVs
+        YXRpdmVfdXJsIjogIi92aWRlby9zb2NpYWwtdGhlb3JpZXMtb3ZlcnZpZXci
+        LCAiaGFzX3F1ZXN0aW9ucyI6IGZhbHNlLCAia2V5d29yZHMiOiAic29jaWFs
+        IHRoZW9yaWVzIG92ZXJ2aWV3IiwgImthX3VybCI6ICJodHRwOi8vd3d3Lmto
+        YW5hY2FkZW15Lm9yZy92aWRlby9zb2NpYWwtdGhlb3JpZXMtb3ZlcnZpZXci
+        LCAiZHVyYXRpb24iOiAyNTEsICJ0cmFuc2xhdGVkX3RpdGxlIjogIlNvY2lh
+        bCB0aGVvcmllcyBvdmVydmlldyIsICJ0cmFuc2xhdGVkX2Rlc2NyaXB0aW9u
+        X2h0bWwiOiAiPHA+QW4gb3ZlcnZpZXcgb2YgZnVuY3Rpb25hbGlzbSwgY29u
+        ZmxpY3QgdGhlb3J5LCBzb2NpYWwgY29uc3RydWN0aW9uaXNtLCBhbmQgc3lt
+        Ym9saWMgaW50ZXJhY3Rpb25pc20gdG8gaGVscCB5b3Uga2VlcCB0aGVtIGFs
+        bCBzdHJhaWdodC4mbmJzcDsgQnkgU3lkbmV5IEJyb3duLjxcL3A+XG4iLCAi
+        aWQiOiAieDU4YjUwZWFiIiwgImRlc2NyaXB0aW9uX2h0bWwiOiAiPHA+QW4g
+        b3ZlcnZpZXcgb2YgZnVuY3Rpb25hbGlzbSwgY29uZmxpY3QgdGhlb3J5LCBz
+        b2NpYWwgY29uc3RydWN0aW9uaXNtLCBhbmQgc3ltYm9saWMgaW50ZXJhY3Rp
+        b25pc20gdG8gaGVscCB5b3Uga2VlcCB0aGVtIGFsbCBzdHJhaWdodC4mbmJz
+        cDsgQnkgU3lkbmV5IEJyb3duLjxcL3A+XG4iLCAidGl0bGUiOiAiU29jaWFs
+        IHRoZW9yaWVzIG92ZXJ2aWV3IiwgInByb2dyZXNzX2tleSI6ICJ2eDU4YjUw
+        ZWFiIiwgImVkaXRfc2x1ZyI6ICJlZGl0L3YveDU4YjUwZWFiIiwgImF1dGhv
+        cl9uYW1lcyI6IFsiU3lkbmV5IEJyb3duIl0sICJkZWxldGVkX21vZF90aW1l
+        IjogbnVsbCwgImRlc2NyaXB0aW9uIjogIkFuIG92ZXJ2aWV3IG9mIGZ1bmN0
+        aW9uYWxpc20sIGNvbmZsaWN0IHRoZW9yeSwgc29jaWFsIGNvbnN0cnVjdGlv
+        bmlzbSwgYW5kIHN5bWJvbGljIGludGVyYWN0aW9uaXNtIHRvIGhlbHAgeW91
+        IGtlZXAgdGhlbSBhbGwgc3RyYWlnaHQuwqAgQnkgU3lkbmV5IEJyb3duLlxu
+        IiwgImV4dHJhX3Byb3BlcnRpZXMiOiB7Im9yaWdpbmFsX3VybCI6ICIifSwg
+        Im5vZGVfc2x1ZyI6ICJ2L3NvY2lhbC10aGVvcmllcy1vdmVydmlldyIsICJk
+        ZWxldGVkIjogZmFsc2UsICJiYWNrdXBfdGltZXN0YW1wIjogIjIwMTMtMTAt
+        MTBUMDE6NDQ6MzdaIiwgImRhdGVfYWRkZWQiOiAiMjAxMy0xMC0xMFQwMTo0
+        NDozN1oiLCAiZG93bmxvYWRfdXJscyI6IHsibXA0IjogImh0dHA6Ly9zMy5h
+        bWF6b25hd3MuY29tL0tBLXlvdXR1YmUtY29udmVydGVkL0twYUxjaEZwSlo4
+        Lm1wNC9LcGFMY2hGcEpaOC5tcDQiLCAicG5nIjogImh0dHA6Ly9zMy5hbWF6
+        b25hd3MuY29tL0tBLXlvdXR1YmUtY29udmVydGVkL0twYUxjaEZwSlo4Lm1w
+        NC9LcGFMY2hGcEpaOC5wbmciLCAibTN1OCI6ICJodHRwOi8vczMuYW1hem9u
+        YXdzLmNvbS9LQS15b3V0dWJlLWNvbnZlcnRlZC9LcGFMY2hGcEpaOC5tM3U4
+        L0twYUxjaEZwSlo4Lm0zdTgifSwgInRyYW5zbGF0ZWRfeW91dHViZV9sYW5n
+        IjogImVuIiwgImtpbmQiOiAiVmlkZW8iLCAidXJsIjogImh0dHA6Ly93d3cu
+        eW91dHViZS5jb20vd2F0Y2g/dj1LcGFMY2hGcEpaOCZmZWF0dXJlPXlvdXR1
+        YmVfZ2RhdGFfcGxheWVyIiwgImthX3VzZXJfbGljZW5zZSI6ICJjYy1ieS1u
+        Yy1zYSIsICJnbG9iYWxfaWQiOiAidng1OGI1MGVhYiIsICJzaGEiOiAiMGVl
+        MGVmODE3NTMxNGE2ZGZlMzRlODcxNDBmYWY0NWExZTZkZjIzMiIsICJ0cmFu
+        c2xhdGVkX2Rlc2NyaXB0aW9uIjogIkFuIG92ZXJ2aWV3IG9mIGZ1bmN0aW9u
+        YWxpc20sIGNvbmZsaWN0IHRoZW9yeSwgc29jaWFsIGNvbnN0cnVjdGlvbmlz
+        bSwgYW5kIHN5bWJvbGljIGludGVyYWN0aW9uaXNtIHRvIGhlbHAgeW91IGtl
+        ZXAgdGhlbSBhbGwgc3RyYWlnaHQuwqAgQnkgU3lkbmV5IEJyb3duLlxuIiwg
+        ImltYWdlX3VybCI6ICJodHRwczovL2ltZy55b3V0dWJlLmNvbS92aS9LcGFM
+        Y2hGcEpaOC9ocWRlZmF1bHQuanBnIiwgInlvdXR1YmVfaWQiOiAiS3BhTGNo
+        RnBKWjgiLCAicG9zaXRpb24iOiA2LCAiY29udGVudF9raW5kIjogIlZpZGVv
+        IiwgInJlYWRhYmxlX2lkIjogInNvY2lhbC10aGVvcmllcy1vdmVydmlldyJ9
+        XQ==
+    http_version: 
+  recorded_at: Mon, 02 Dec 2013 20:22:14 GMT
+- request:
+    method: get
+    uri: https://www.khanacademy.org/api/v1/topic/social-structures/exercises
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+      Host:
+      - www.khanacademy.org
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Allow-Credentials:
+      - 'true'
+      X-Ka-Api-Response:
+      - 'true'
+      Cache-Control:
+      - no-cache
+      Set-Cookie:
+      - gae_b_id=X2dhZV9iaW5nb19yYW5kb206VzhydDE0WmhjVkZwTmNTOGRnOEg0NEdEY3dQNFBhT2xfdThlQTNpbg==;
+        expires=Tue, 02 Dec 2014 20:22:14 GMT; Max-Age=31536000; Path=/
+      Vary:
+      - Accept-Encoding
+      Date:
+      - Mon, 02 Dec 2013 20:22:14 GMT
+      Server:
+      - Google Frontend
+      Expires:
+      - Mon, 02 Dec 2013 20:22:14 GMT
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '[{"translated_short_display_name": "social", "assessment_items": ["ag5zfmtoYW4tYWNhZGVteXIlCxIOQXNzZXNzbWVudEl0ZW0iEXhiNjA0YmI4NDU5OTlhYzQ4DA",
+        "ag5zfmtoYW4tYWNhZGVteXIlCxIOQXNzZXNzbWVudEl0ZW0iEXg2NTZmMmQ4Y2JhNjc1NzRlDA",
+        "ag5zfmtoYW4tYWNhZGVteXIlCxIOQXNzZXNzbWVudEl0ZW0iEXhkYzA4YjdjMmRkODZlMmUzDA",
+        "ag5zfmtoYW4tYWNhZGVteXIlCxIOQXNzZXNzbWVudEl0ZW0iEXgzZjhiYWIwYzUxNzM5NDcxDA",
+        "ag5zfmtoYW4tYWNhZGVteXIlCxIOQXNzZXNzbWVudEl0ZW0iEXgwZjliMjdmMjlhYzJiNzEwDA",
+        "ag5zfmtoYW4tYWNhZGVteXIlCxIOQXNzZXNzbWVudEl0ZW0iEXhmMDRhZjljZjM5NzAzZTNkDA"],
+        "relative_url": "/exercise/social-structures---passage-1", "file_name": null,
+        "author_name": "Sydney Brown", "creation_date": "2013-10-10T01:44:36Z", "uses_assessment_items":
+        true, "all_assessment_item_keys": ["ag5zfmtoYW4tYWNhZGVteXIlCxIOQXNzZXNzbWVudEl0ZW0iEXhiNjA0YmI4NDU5OTlhYzQ4DA",
+        "ag5zfmtoYW4tYWNhZGVteXIlCxIOQXNzZXNzbWVudEl0ZW0iEXg2NTZmMmQ4Y2JhNjc1NzRlDA",
+        "ag5zfmtoYW4tYWNhZGVteXIlCxIOQXNzZXNzbWVudEl0ZW0iEXhkYzA4YjdjMmRkODZlMmUzDA",
+        "ag5zfmtoYW4tYWNhZGVteXIlCxIOQXNzZXNzbWVudEl0ZW0iEXgzZjhiYWIwYzUxNzM5NDcxDA",
+        "ag5zfmtoYW4tYWNhZGVteXIlCxIOQXNzZXNzbWVudEl0ZW0iEXgwZjliMjdmMjlhYzJiNzEwDA",
+        "ag5zfmtoYW4tYWNhZGVteXIlCxIOQXNzZXNzbWVudEl0ZW0iEXhmMDRhZjljZjM5NzAzZTNkDA"],
+        "ka_url": "http://www.khanacademy.org/exercise/social-structures---passage-1",
+        "v_position": 0, "translated_title": "Social structures - Passage 1", "translated_description_html":
+        "", "id": "xd53ad0de", "display_name": "Social structures - Passage 1", "tracking_document_url":
+        null, "description_html": "", "sha": "d031ef03ec993ac8fa89899e84010a655e87fc92",
+        "tags": [], "progress_key": "exd53ad0de", "edit_slug": "edit/e/xd53ad0de",
+        "summative": false, "live": true, "translated_description": "", "pretty_display_name":
+        "Social structures - Passage 1", "deleted_mod_time": null, "description":
+        "", "translated_pretty_display_name": "Social structures - Passage 1", "node_slug":
+        "e/social-structures---passage-1", "deleted": false, "backup_timestamp": "2013-10-10T01:44:36Z",
+        "problem_types": [{"items": [{"sha": "1edc46c31146eba073c589dfd2991319ebf5f396",
+        "live": true, "id": "xb604bb845999ac48"}, {"sha": "9a532a9eca13985aa61116deba615323337fa170",
+        "live": true, "id": "x656f2d8cba67574e"}, {"sha": "78b48ebabb8a788c540a2204d07b3e73eaa9a52e",
+        "live": true, "id": "xdc08b7c2dd86e2e3"}, {"sha": "689d1a9678539fa0bd629a2020829aad3b26c9e4",
+        "live": true, "id": "x3f8bab0c51739471"}, {"sha": "adc745e39c0b5d41f11ec16edaf14c7554a36e26",
+        "live": true, "id": "x0f9b27f29ac2b710"}, {"sha": "ee9ecc8fe50066a57688f7577a79fa576aa02cfa",
+        "live": true, "id": "xf04af9cf39703e3d"}], "name": "A"}], "curated_related_videos":
+        [], "covers": [], "h_position": 0, "translated_display_name": "Social structures
+        - Passage 1", "kind": "Exercise", "sha1": "f08599ff1878e5f06e5cfdfb63278402c0276f6c",
+        "name": "social-structures---passage-1", "prerequisites": [], "assessment_item_tags":
+        [], "title": "Social structures - Passage 1", "global_id": "exd53ad0de", "seconds_per_fast_problem":
+        4.0, "short_display_name": "social", "image_url": "https://ka-exercise-screenshots.s3.amazonaws.com/social-structures---passage-1.png",
+        "tutorial_only": true, "current_revision_key": "d031ef03ec993ac8fa89899e84010a655e87fc92",
+        "image_url_256": "https://ka-exercise-screenshots.s3.amazonaws.com/social-structures---passage-1_256.png",
+        "content_kind": "Exercise"}, {"translated_short_display_name": "social", "assessment_items":
+        ["ag5zfmtoYW4tYWNhZGVteXIlCxIOQXNzZXNzbWVudEl0ZW0iEXhmODlhMjExNmM1ZDM3ODU2DA",
+        "ag5zfmtoYW4tYWNhZGVteXIlCxIOQXNzZXNzbWVudEl0ZW0iEXhiNDVmMzc3OTYzNDk2N2MwDA",
+        "ag5zfmtoYW4tYWNhZGVteXIlCxIOQXNzZXNzbWVudEl0ZW0iEXg2MWNmMTU0OTZmNGExNzY1DA",
+        "ag5zfmtoYW4tYWNhZGVteXIlCxIOQXNzZXNzbWVudEl0ZW0iEXhlYTQ4ZjcwMmFlMzM2YWE1DA"],
+        "relative_url": "/exercise/social-structures---passage-2", "file_name": null,
+        "author_name": "Sydney Brown", "creation_date": "2013-10-10T01:44:37Z", "uses_assessment_items":
+        true, "all_assessment_item_keys": ["ag5zfmtoYW4tYWNhZGVteXIlCxIOQXNzZXNzbWVudEl0ZW0iEXhmODlhMjExNmM1ZDM3ODU2DA",
+        "ag5zfmtoYW4tYWNhZGVteXIlCxIOQXNzZXNzbWVudEl0ZW0iEXhiNDVmMzc3OTYzNDk2N2MwDA",
+        "ag5zfmtoYW4tYWNhZGVteXIlCxIOQXNzZXNzbWVudEl0ZW0iEXg2MWNmMTU0OTZmNGExNzY1DA",
+        "ag5zfmtoYW4tYWNhZGVteXIlCxIOQXNzZXNzbWVudEl0ZW0iEXhlYTQ4ZjcwMmFlMzM2YWE1DA"],
+        "ka_url": "http://www.khanacademy.org/exercise/social-structures---passage-2",
+        "v_position": 0, "translated_title": "Social structures - Passage 2", "translated_description_html":
+        "", "id": "xf52a6bc0", "display_name": "Social structures - Passage 2", "tracking_document_url":
+        null, "description_html": "", "sha": "0cee0140a45b6a45ffd4fda5f8c23fb1c431ed1d",
+        "tags": [], "progress_key": "exf52a6bc0", "edit_slug": "edit/e/xf52a6bc0",
+        "summative": false, "live": true, "translated_description": "", "pretty_display_name":
+        "Social structures - Passage 2", "deleted_mod_time": null, "description":
+        "", "translated_pretty_display_name": "Social structures - Passage 2", "node_slug":
+        "e/social-structures---passage-2", "deleted": false, "backup_timestamp": "2013-10-10T01:44:37Z",
+        "problem_types": [{"items": [{"sha": "b7e05159ba707667617d6f622cfc4cc8644534ab",
+        "live": true, "id": "xf89a2116c5d37856"}, {"sha": "5a340f579e65320684166b12a8d94d6b85f13186",
+        "live": true, "id": "xb45f3779634967c0"}, {"sha": "8e281a4f52b1dac21bb8badba2ff77903a7ddf9e",
+        "live": true, "id": "x61cf15496f4a1765"}, {"sha": "8c2ba6a28dc4547fa0c32acacc252b2ff0f30ad8",
+        "live": true, "id": "xea48f702ae336aa5"}], "name": "A"}], "curated_related_videos":
+        [], "covers": [], "h_position": 0, "translated_display_name": "Social structures
+        - Passage 2", "kind": "Exercise", "sha1": "49328287fa22f442fc9f3dbe61f7b1fdc8eb19b3",
+        "name": "social-structures---passage-2", "prerequisites": [], "assessment_item_tags":
+        [], "title": "Social structures - Passage 2", "global_id": "exf52a6bc0", "seconds_per_fast_problem":
+        4.0, "short_display_name": "social", "image_url": "https://ka-exercise-screenshots.s3.amazonaws.com/social-structures---passage-2.png",
+        "tutorial_only": true, "current_revision_key": "0cee0140a45b6a45ffd4fda5f8c23fb1c431ed1d",
+        "image_url_256": "https://ka-exercise-screenshots.s3.amazonaws.com/social-structures---passage-2_256.png",
+        "content_kind": "Exercise"}]'
+    http_version: 
+  recorded_at: Mon, 02 Dec 2013 20:22:14 GMT
+recorded_with: VCR 2.7.0

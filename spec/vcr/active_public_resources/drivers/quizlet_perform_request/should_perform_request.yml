@@ -1,0 +1,72 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.quizlet.com/2.0/search/sets?client_id=QUIZLET_CLIENT_ID&page=1&per_page=25&q=dogs
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+      Host:
+      - api.quizlet.com
+  response:
+    status:
+      code: 200
+      message: Ok
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Mon, 02 Dec 2013 20:22:15 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '1732'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - fs=mx74l3; expires=Thu, 30-Nov-2023 20:22:15 GMT; path=/
+      - new=1; path=/
+      - qi2=Zgy-gnNfBHStgG8q9klSidud-JshxJSqBjF4vhF-nkQ; expires=Thu, 30-Nov-2023
+        20:22:15 GMT; path=/; domain=.quizlet.com; httponly
+      - setpage-welcomed=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/
+      Cache-Control:
+      - no-cache, must-revalidate
+      Expires:
+      - Mon, 26 Jul 1997 05:00:00 GMT
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: UTF-8
+      string: '{"total_results":5001,"total_pages":201,"page":1,"image_set_count":9,"sets":[{"id":23752218,"url":"http://quizlet.com/23752218/dogs-flash-cards/","title":"Dogs","created_by":"randomsolider23","term_count":12,"created_date":1369449049,"modified_date":1371274979,"has_images":false,"subjects":["Dogs"],"visibility":"public","editable":"only_me","has_access":true,"description":"DOGS,
+        DOGS, DOGS!!!!!!!!","lang_terms":"en","lang_definitions":"en","has_discussion":false},{"id":9833328,"url":"http://quizlet.com/9833328/dogs-flash-cards/","title":"dogs","created_by":"shuzoo","term_count":5,"created_date":1328725470,"modified_date":1328725470,"has_images":false,"subjects":["dogs
+        and puppys"],"visibility":"public","editable":"only_me","has_access":true,"description":"dogs
+        old dogs","lang_terms":"en","lang_definitions":"en","has_discussion":true},{"id":20089637,"url":"http://quizlet.com/20089637/dogs-flash-cards/","title":"dogs","created_by":"haileyboal22","term_count":6,"created_date":1361491597,"modified_date":1361491597,"has_images":false,"subjects":["dogs"],"visibility":"public","editable":"only_me","has_access":true,"description":"dogs
+        dogs","lang_terms":"en","lang_definitions":"en","has_discussion":true},{"id":3317786,"url":"http://quizlet.com/3317786/dogs-flash-cards/","title":"Dogs","created_by":"flamingo202","term_count":11,"created_date":1288908377,"modified_date":1288908377,"has_images":true,"subjects":[],"visibility":"public","editable":"only_me","has_access":true,"description":"Dogs,
+        dogs, dogs!","lang_terms":"en","lang_definitions":"photo","has_discussion":true},{"id":30332159,"url":"http://quizlet.com/30332159/dogs-flash-cards/","title":"Dogs","created_by":"PenguinAttack236","term_count":10,"created_date":1384272724,"modified_date":1384294409,"has_images":true,"subjects":["Types
+        of dogs"],"visibility":"public","editable":"only_me","has_access":true,"description":"Dogs
+        in a human world, man''s bestfriend and also and pillow for when you need
+        one.If you get lonly, throw a ball and watch a dog chew it up and you get
+        mad and you throw a sticka nd laugh when it eats it whole!!","lang_terms":"en","lang_definitions":"en","has_discussion":false},{"id":30349921,"url":"http://quizlet.com/30349921/dogs-flash-cards/","title":"Dogs","created_by":"king-jordans","term_count":11,"created_date":1384283460,"modified_date":1384283460,"has_images":true,"subjects":[],"visibility":"public","editable":"only_me","has_access":true,"description":"Dogs,
+        dogs, dogs!","lang_terms":"en","lang_definitions":"photo","has_discussion":true},{"id":1151280,"url":"http://quizlet.com/1151280/dogs-flash-cards/","title":"dogs","created_by":"Pujolsfan93","term_count":7,"created_date":1253210865,"modified_date":1253210865,"has_images":false,"subjects":["dogs"],"visibility":"public","editable":"only_me","has_access":true,"description":"dogs","lang_terms":"en","lang_definitions":"en","has_discussion":true},{"id":9094064,"url":"http://quizlet.com/9094064/dog-flash-cards/","title":"dog","created_by":"jamosullivan","term_count":2,"created_date":1326282087,"modified_date":1326283556,"has_images":false,"subjects":[],"visibility":"public","editable":"only_me","has_access":true,"description":"dog\ndog","lang_terms":"en","lang_definitions":"en","has_discussion":true},{"id":8358260,"url":"http://quizlet.com/8358260/dogs-flash-cards/","title":"Dogs","created_by":"sasha6213","term_count":4,"created_date":1322864942,"modified_date":1322924799,"has_images":false,"subjects":["Dogs"],"visibility":"public","editable":"only_me","has_access":true,"description":"About
+        some dog breeds","lang_terms":"en","lang_definitions":"en","has_discussion":true},{"id":11347518,"url":"http://quizlet.com/11347518/dog-flash-cards/","title":"dog","created_by":"smazyfun","term_count":2,"created_date":1334328742,"modified_date":1334328742,"has_images":false,"subjects":["dog"],"visibility":"public","editable":"only_me","has_access":true,"description":"dog","lang_terms":"en","lang_definitions":"en","has_discussion":true},{"id":24475253,"url":"http://quizlet.com/24475253/dogs-flash-cards/","title":"dogs","created_by":"didi101","term_count":10,"created_date":1372423681,"modified_date":1372423681,"has_images":true,"subjects":["dogs"],"visibility":"public","editable":"only_me","has_access":true,"description":"I
+        love dogs because they are cute","lang_terms":"en","lang_definitions":"photo","has_discussion":true},{"id":17907542,"url":"http://quizlet.com/17907542/dogs-flash-cards/","title":"DOGS","created_by":"J3lackEagle","term_count":2,"created_date":1356022360,"modified_date":1356022360,"has_images":false,"subjects":["DOGS"],"visibility":"public","editable":"only_me","has_access":true,"description":"DOGS","lang_terms":"en","lang_definitions":"en","has_discussion":true},{"id":27811602,"url":"http://quizlet.com/27811602/dogs-flash-cards/","title":"Dogs","created_by":"salewcrew318","term_count":2,"created_date":1381174760,"modified_date":1381174760,"has_images":true,"subjects":[],"visibility":"public","editable":"only_me","has_access":true,"description":"Who
+        is better ,Dogs or Cats? \nI think Dogs.\nExplain your arguement.","lang_terms":"en","lang_definitions":"photo","has_discussion":true},{"id":167805,"url":"http://quizlet.com/167805/dogs-flash-cards/","title":"dogs","created_by":"samantha93","term_count":9,"created_date":1201642733,"modified_date":1201642733,"has_images":false,"subjects":[],"visibility":"public","editable":"only_me","has_access":true,"description":"i
+        love dogs\r\ndogs rule \r\ncats drool","lang_terms":"en","lang_definitions":"en","has_discussion":true},{"id":705302,"url":"http://quizlet.com/705302/dog-flash-cards/","title":"Dog","created_by":"PatrickDawson","term_count":2,"created_date":1233753329,"modified_date":1233753329,"has_images":false,"subjects":["Dog"],"visibility":"public","editable":"only_me","has_access":true,"description":"Dog","lang_terms":"??","lang_definitions":"??","has_discussion":true},{"id":12326429,"url":"http://quizlet.com/12326429/dogs-flash-cards/","title":"dogs","created_by":"wallbrown","term_count":5,"created_date":1337811613,"modified_date":1358455292,"has_images":true,"subjects":["dogs"],"visibility":"public","editable":"only_me","has_access":true,"description":"tell
+        u about dogs","lang_terms":"en","lang_definitions":"en","has_discussion":true},{"id":18200431,"url":"http://quizlet.com/18200431/dogs-flash-cards/","title":"dogs","created_by":"bagolem","term_count":2,"created_date":1357704890,"modified_date":1357704890,"has_images":true,"subjects":["dogs"],"visibility":"public","editable":"only_me","has_access":true,"description":"dogs","lang_terms":"en","lang_definitions":"en","has_discussion":true},{"id":4255542,"url":"http://quizlet.com/4255542/dogs-flash-cards/","title":"Dogs","created_by":"3083","term_count":2,"created_date":1296585295,"modified_date":1296585295,"has_images":false,"subjects":["dogs"],"visibility":"public","editable":"only_me","has_access":true,"description":"Dogs","lang_terms":"en","lang_definitions":"en","has_discussion":true},{"id":29963295,"url":"http://quizlet.com/29963295/dogs-flash-cards/","title":"DOGS!","created_by":"jcwvet","term_count":2,"created_date":1383774556,"modified_date":1384984609,"has_images":false,"subjects":["Dogs"],"visibility":"public","editable":"only_me","has_access":true,"description":"In
+        this set you learn about different types of dog breeds and books.","lang_terms":"en","lang_definitions":"en","has_discussion":true},{"id":20117952,"url":"http://quizlet.com/20117952/dog-flash-cards/","title":"dog","created_by":"JStack86","term_count":8,"created_date":1361553680,"modified_date":1361553680,"has_images":false,"subjects":["Dog.."],"visibility":"public","editable":"only_me","has_access":true,"description":"dog","lang_terms":"en","lang_definitions":"en","has_discussion":true},{"id":4174613,"url":"http://quizlet.com/4174613/dogs-flash-cards/","title":"Dogs","created_by":"ilovetrissy","term_count":4,"created_date":1296011551,"modified_date":1296011608,"has_images":true,"subjects":["dog
+        breeds"],"visibility":"public","editable":"only_me","has_access":true,"description":"Dogs
+        of all sizes and looks.","lang_terms":"en","lang_definitions":"en","has_discussion":false},{"id":28306999,"url":"http://quizlet.com/28306999/dogs-flash-cards/","title":"dogs","created_by":"lovedaddymommy","term_count":10,"created_date":1381788208,"modified_date":1383128762,"has_images":false,"subjects":[],"visibility":"public","editable":"only_me","has_access":true,"description":"this
+        set is about dogs and what to buy them and what kind of dogs.","lang_terms":"en","lang_definitions":"en","has_discussion":false},{"id":2934769,"url":"http://quizlet.com/2934769/dogs-flash-cards/","title":"dogs","created_by":"pmckenney","term_count":20,"created_date":1286074529,"modified_date":1292689148,"has_images":true,"subjects":["dogs"],"visibility":"public","editable":"classes","has_access":true,"description":"dogs","lang_terms":"en","lang_definitions":"en","has_discussion":true},{"id":20084246,"url":"http://quizlet.com/20084246/dogs-flash-cards/","title":"dogs","created_by":"izzycat321","term_count":5,"created_date":1361485220,"modified_date":1361485220,"has_images":false,"subjects":["dogs"],"visibility":"public","editable":"only_me","has_access":true,"description":"dogs","lang_terms":"en","lang_definitions":"en","has_discussion":false},{"id":19034256,"url":"http://quizlet.com/19034256/dog-flash-cards/","title":"Dog","created_by":"MikeSpadaro","term_count":2,"created_date":1359466263,"modified_date":1359466263,"has_images":false,"subjects":["dog"],"visibility":"public","editable":"only_me","has_access":true,"description":"just
+        dog","lang_terms":"en","lang_definitions":"en","has_discussion":true}]}'
+    http_version: 
+  recorded_at: Mon, 02 Dec 2013 20:22:15 GMT
+recorded_with: VCR 2.7.0

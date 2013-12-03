@@ -2,7 +2,7 @@ require 'net/https'
 
 module ActivePublicResources
   module Drivers
-    class SchooltubeDriver < Driver
+    class Schooltube < Driver
 
       def perform_request(request_criteria)
         request_criteria.validate_presence!([:query])
@@ -74,11 +74,23 @@ module ActivePublicResources
         video.num_comments  = 0
         video.created_date  = Date.parse(data['create_date'])
         video.username      = data['username']
-        video.embed_html    = "<iframe src=\"//www.schooltube.com/embed/#{data['vkey']}\"" +
-                              " width=\"640\" height=\"360\" frameborder=\"0\"" +
-                              " webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
         video.width         = 640
         video.height        = 360
+
+        # Return Types
+        video.return_types << APR::ReturnTypes::Url.new(
+          :url   => video.url,
+          :text  => video.title,
+          :title => video.title
+        )
+        video.return_types << APR::ReturnTypes::Iframe.new(
+          :url    => "//www.schooltube.com/embed/#{data['vkey']}",
+          :text   => video.title,
+          :title  => video.title,
+          :width  => 640,
+          :height => 360
+        )
+
         video
       end
 

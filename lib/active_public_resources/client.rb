@@ -5,7 +5,7 @@ module ActivePublicResources
 
       @drivers = {}
       ActivePublicResources.symbolize_keys(config).each do |k, v|
-        klass = "ActivePublicResources::Drivers::#{k.to_s.split('_').map(&:capitalize).join}Driver".constantize
+        klass = "ActivePublicResources::Drivers::#{k.to_s.split('_').map(&:capitalize).join}".constantize
         @drivers[k] = (v.present? ? klass.new(v) : klass.new)
       end
     end

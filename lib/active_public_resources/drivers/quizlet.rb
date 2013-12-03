@@ -2,7 +2,7 @@ require 'net/https'
 
 module ActivePublicResources
   module Drivers
-    class QuizletDriver < Driver
+    class Quizlet < Driver
 
       def initialize(config_options={})
         validate_options(config_options, [:client_id])
@@ -55,12 +55,35 @@ module ActivePublicResources
         quiz.description   = data['description']
         quiz.url           = data['url']
         quiz.term_count    = data['term_count']
-        quiz.created_date  = Time.at(data['created_date']).to_date
+        quiz.created_date  = Time.at(data['created_date']).utc.to_date
         quiz.has_images    = data['has_images']
         quiz.subjects      = data['subjects']
+        
+        # Return Types
+
+        quiz.return_types << APR::ReturnTypes::Url.new(
+          :url   => quiz.url,
+          :text  => quiz.title,
+          :title => quiz.title
+        )
 
         # See http://quizlet.com/help/can-i-embed-quizlet-on-my-website
-        quiz.embed_html    = "<iframe src=\"https://quizlet.com/#{data['id']}/flashcards/embedv2\" height=\"410\" width=\"100%\" style=\"border:0;\"></iframe>"
+        { flashcards: "Flashcards",
+          learn: "Learn",
+          scatter: "Scatter",
+          speller: "Speller",
+          test: "Test",
+          spacerace: "Space Race" }.each do |k,v|
+
+          quiz.return_types << APR::ReturnTypes::Iframe.new(
+            :url    => "https://quizlet.com/#{data['id']}/#{k}/embedv2",
+            :text   => v,
+            :title  => quiz.title,
+            :width  => "100%",
+            :height => 410
+          )
+        end
+
         quiz
       end
 

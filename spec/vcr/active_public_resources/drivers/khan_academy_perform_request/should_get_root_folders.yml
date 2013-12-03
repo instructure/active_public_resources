@@ -1,0 +1,119 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.khanacademy.org/api/v1/topic/root
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+      Host:
+      - www.khanacademy.org
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Allow-Credentials:
+      - 'true'
+      X-Ka-Api-Response:
+      - 'true'
+      Cache-Control:
+      - no-cache
+      Set-Cookie:
+      - gae_b_id=X2dhZV9iaW5nb19yYW5kb206N1ZJQmFkc3VXeW44UXVVRU04SkxHcm9HOHBLUmJrZk5LQ250UWNiaQ==;
+        expires=Tue, 02 Dec 2014 20:22:13 GMT; Max-Age=31536000; Path=/
+      Vary:
+      - Accept-Encoding
+      Date:
+      - Mon, 02 Dec 2013 20:22:13 GMT
+      Server:
+      - Google Frontend
+      Expires:
+      - Mon, 02 Dec 2013 20:22:13 GMT
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"icon_src": "", "domain_slug": null, "relative_url": null, "web_url":
+        "", "ka_url": "http://www.khanacademy.orgNone", "translated_standalone_title":
+        "Khan Academy", "translated_title": "Khan Academy", "gplus_url": "", "id":
+        "x00000000", "old_key_name": "7SATIJAdRLq1gMbKcjtTmLAbeMSrfYZjJOnqUmQu", "hide":
+        true, "title": "Khan Academy", "child_data": [{"kind": "Topic", "id": "x29232c6b"},
+        {"kind": "Topic", "id": "x7a488390"}, {"kind": "Topic", "id": "xb92336a2"},
+        {"kind": "Topic", "id": "x5ca94af1"}, {"kind": "Topic", "id": "x905db83d"},
+        {"kind": "Topic", "id": "x54390c7e"}, {"kind": "Topic", "id": "xffde7c31"},
+        {"kind": "Topic", "id": "xd1039e22"}, {"kind": "Topic", "id": "x6a4a5e33"},
+        {"kind": "Topic", "id": "xf48da0d3"}, {"kind": "Topic", "id": "xcc477d6b"},
+        {"kind": "Topic", "id": "xfbfcb2c7"}, {"kind": "Topic", "id": "x68f6d0db"},
+        {"kind": "Topic", "id": "x54f76d4b"}], "children": [{"kind": "Topic", "hide":
+        false, "key": "ag5zfmtoYW4tYWNhZGVteXIUCxIFVG9waWMiCXgyOTIzMmM2Ygw", "internal_id":
+        "x29232c6b", "title": "New and noteworthy", "url": "http://www.khanacademy.org/new-and-noteworthy",
+        "translated_title": "New and noteworthy", "node_slug": "new-and-noteworthy",
+        "id": "new-and-noteworthy", "edit_slug": ""}, {"kind": "Topic", "hide": false,
+        "key": "ag5zfmtoYW4tYWNhZGVteXIUCxIFVG9waWMiCXg3YTQ4ODM5MAw", "internal_id":
+        "x7a488390", "title": "Math", "url": "http://www.khanacademy.orgNone", "translated_title":
+        "Math", "node_slug": "math", "id": "math", "edit_slug": ""}, {"kind": "Topic",
+        "hide": false, "key": "ag5zfmtoYW4tYWNhZGVteXIUCxIFVG9waWMiCXhiOTIzMzZhMgw",
+        "internal_id": "xb92336a2", "title": "Science ", "url": "http://www.khanacademy.orgNone",
+        "translated_title": "Science ", "node_slug": "science", "id": "science", "edit_slug":
+        ""}, {"kind": "Topic", "hide": false, "key": "ag5zfmtoYW4tYWNhZGVteXIUCxIFVG9waWMiCXg1Y2E5NGFmMQw",
+        "internal_id": "x5ca94af1", "title": "Economics and finance", "url": "http://www.khanacademy.orgNone",
+        "translated_title": "Economics and finance", "node_slug": "economics-finance-domain",
+        "id": "economics-finance-domain", "edit_slug": ""}, {"kind": "Topic", "hide":
+        false, "key": "ag5zfmtoYW4tYWNhZGVteXIUCxIFVG9waWMiCXg5MDVkYjgzZAw", "internal_id":
+        "x905db83d", "title": "Humanities", "url": "http://www.khanacademy.orgNone",
+        "translated_title": "Humanities", "node_slug": "humanities", "id": "humanities",
+        "edit_slug": ""}, {"kind": "Topic", "hide": false, "key": "ag5zfmtoYW4tYWNhZGVteXIUCxIFVG9waWMiCXg1NDM5MGM3ZQw",
+        "internal_id": "x54390c7e", "title": "Partner content", "url": "http://www.khanacademy.orgNone",
+        "translated_title": "Partner content", "node_slug": "partner-content", "id":
+        "partner-content", "edit_slug": ""}, {"kind": "Topic", "hide": false, "key":
+        "ag5zfmtoYW4tYWNhZGVteXIUCxIFVG9waWMiCXhmZmRlN2MzMQw", "internal_id": "xffde7c31",
+        "title": "Computer programming", "url": "http://www.khanacademy.org/cs", "translated_title":
+        "Computer programming", "node_slug": "cs", "id": "cs", "edit_slug": ""}, {"kind":
+        "Topic", "hide": false, "key": "ag5zfmtoYW4tYWNhZGVteXIUCxIFVG9waWMiCXhkMTAzOWUyMgw",
+        "internal_id": "xd1039e22", "title": "Talks and interviews", "url": "http://www.khanacademy.org/talks-and-interviews",
+        "translated_title": "Talks and interviews", "node_slug": "talks-and-interviews",
+        "id": "talks-and-interviews", "edit_slug": ""}, {"kind": "Topic", "hide":
+        false, "key": "ag5zfmtoYW4tYWNhZGVteXIUCxIFVG9waWMiCXg2YTRhNWUzMww", "internal_id":
+        "x6a4a5e33", "title": "Coach resources", "url": "http://www.khanacademy.org/coach-res",
+        "translated_title": "Coach resources", "node_slug": "coach-res", "id": "coach-res",
+        "edit_slug": ""}, {"kind": "Topic", "hide": true, "key": "ag5zfmtoYW4tYWNhZGVteXIUCxIFVG9waWMiCXhmNDhkYTBkMww",
+        "internal_id": "xf48da0d3", "title": "Removed videos (hidden)", "url": "http://www.khanacademy.orgNone",
+        "translated_title": "Removed videos (hidden)", "node_slug": "removed-videos",
+        "id": "removed-videos", "edit_slug": ""}, {"kind": "Topic", "hide": true,
+        "key": "ag5zfmtoYW4tYWNhZGVteXIUCxIFVG9waWMiCXhjYzQ3N2Q2Ygw", "internal_id":
+        "xcc477d6b", "title": "Uncategorized exercises", "url": "http://www.khanacademy.org/None",
+        "translated_title": "Uncategorized exercises", "node_slug": "uncategorized-exercises",
+        "id": "uncategorized-exercises", "edit_slug": ""}, {"kind": "Topic", "hide":
+        true, "key": "ag5zfmtoYW4tYWNhZGVteXIUCxIFVG9waWMiCXhmYmZjYjJjNww", "internal_id":
+        "xfbfcb2c7", "title": "Private content", "url": "http://www.khanacademy.org/None",
+        "translated_title": "Private content", "node_slug": "private", "id": "private",
+        "edit_slug": ""}, {"kind": "Topic", "hide": true, "key": "ag5zfmtoYW4tYWNhZGVteXIUCxIFVG9waWMiCXg2OGY2ZDBkYgw",
+        "internal_id": "x68f6d0db", "title": "Common Core math", "url": "http://www.khanacademy.orgNone",
+        "translated_title": "Common Core math", "node_slug": "common-core", "id":
+        "common-core", "edit_slug": ""}, {"kind": "Topic", "hide": false, "key": "ag5zfmtoYW4tYWNhZGVteXIUCxIFVG9waWMiCXg1NGY3NmQ0Ygw",
+        "internal_id": "x54f76d4b", "title": "Hour of Code", "url": "http://www.khanacademy.org/hour-of-code",
+        "translated_title": "Hour of Code", "node_slug": "hour-of-code", "id": "hour-of-code",
+        "edit_slug": ""}], "twitter_url": "", "translated_description": "", "deleted_mod_time":
+        "2013-07-13T00:03:08Z", "logo_image_url": "", "in_knowledge_map": false, "description":
+        "", "x_pos": 0.0, "node_slug": "root", "deleted": false, "facebook_url": "",
+        "backup_timestamp": "2013-09-30T18:25:08Z", "render_type": "Root", "background_image_url":
+        "", "background_image_caption": "", "assessment_progress_key": "ax00000000",
+        "topic_page_url": null, "extended_slug": null, "slug": "root", "tags": [],
+        "kind": "Topic", "in_topic_browser": true, "sha": "cd292393092733892a8b6d924ce40d9c7e86e35a",
+        "standalone_title": "Khan Academy", "y_pos": 0.0, "current_revision_key":
+        "cd292393092733892a8b6d924ce40d9c7e86e35a", "content_kind": "Topic"}'
+    http_version: 
+  recorded_at: Mon, 02 Dec 2013 20:22:13 GMT
+recorded_with: VCR 2.7.0
