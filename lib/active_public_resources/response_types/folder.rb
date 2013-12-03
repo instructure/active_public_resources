@@ -5,13 +5,10 @@ module ActivePublicResources
 
       def initialize
         super
+        @kind = 'folder'
         @videos    = []
         @exercises = []
         @images    = []
-      end
-
-      def kind
-        'folder'
       end
     end
   end

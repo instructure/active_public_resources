@@ -1,7 +1,9 @@
 module ActivePublicResources
   module ReturnTypes
     class BaseReturnType
-      attr_accessor :url
+      include ::ActiveModel::Serialization
+      
+      attr_accessor :url, :return_type
 
       def initialize(args)
         args.each do |k,v|
@@ -9,8 +11,8 @@ module ActivePublicResources
         end
       end
 
-      def return_type
-        raise NotImplementedError.new("You must implement return_type.")
+      def attributes
+        instance_values
       end
     end
   end

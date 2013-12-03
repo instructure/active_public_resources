@@ -1,6 +1,8 @@
 require "active_support"
 require "active_support/core_ext/object/blank"
 require "active_support/core_ext/string/inflections"
+require "active_model"
+
 require "active_public_resources/version"
 require "active_public_resources/client"
 require "active_public_resources/request_criteria"

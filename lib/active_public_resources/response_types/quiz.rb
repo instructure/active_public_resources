@@ -3,8 +3,9 @@ module ActivePublicResources
     class Quiz < BaseResponseType
       attr_accessor :url, :term_count, :created_date, :has_images, :subjects
 
-      def kind
-        'quiz'
+      def initialize
+        super
+        @kind = 'quiz'
       end
     end
   end

@@ -3,8 +3,9 @@ module ActivePublicResources
     class Image < BaseResponseType
       attr_accessor :url, :width, :height
 
-      def kind
-        'image'
+      def initialize
+        super
+        @kind = 'image'
       end
     end
   end
