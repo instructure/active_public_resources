@@ -54,6 +54,7 @@ module ActivePublicResources
         quiz.title         = data['title']
         quiz.description   = data['description']
         quiz.url           = data['url']
+        quiz.username      = data['username']
         quiz.term_count    = data['term_count']
         quiz.created_date  = Time.at(data['created_date']).utc.to_date
         quiz.has_images    = data['has_images']

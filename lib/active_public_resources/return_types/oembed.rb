@@ -3,8 +3,8 @@ module ActivePublicResources
     class Oembed < BaseReturnType
       attr_accessor :endpoint
 
-      def return_type
-        'oembed'
+      def initialize(args)
+        super(args.merge(:return_type => 'oembed'))
       end
     end
   end

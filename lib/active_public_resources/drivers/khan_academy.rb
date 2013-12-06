@@ -82,6 +82,7 @@ module ActivePublicResources
         video.description   = data['description']
         video.thumbnail_url = data['image_url']
         video.url           = data['url']
+        video.embed_url     = "//www.youtube.com/embed/#{data['youtube_id']}?feature=oembed"
         video.duration      = data['duration'] ? data['duration'].to_i : 0
         video.num_views     = 0
         video.num_likes     = 0
