@@ -15,7 +15,7 @@ describe APR::Drivers::Youtube do
       search_criteria = APR::RequestCriteria.new({:query => "education"})
       results = driver.perform_request(search_criteria)
       next_criteria = results.next_criteria
-      next_criteria.page.should eq(2)
+      next_criteria.page.should eq(26)
       next_criteria.per_page.should eq(25)
       results.total_items.should eq(1000000)
       results.items.length.should eq(25)

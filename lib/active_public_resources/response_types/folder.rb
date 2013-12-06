@@ -1,17 +1,11 @@
 module ActivePublicResources
   module ResponseTypes
     class Folder < BaseResponseType
-      attr_accessor :parent_id, :videos, :exercises, :images
+      attr_accessor :parent_id
 
       def initialize
         super
-        @videos    = []
-        @exercises = []
-        @images    = []
-      end
-
-      def kind
-        'folder'
+        @kind = 'folder'
       end
     end
   end

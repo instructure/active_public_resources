@@ -33,9 +33,9 @@ module ActivePublicResources
           when APR::RequestCriteria::SORT_RELEVANCE
             'relevance'
           when APR::RequestCriteria::SORT_RECENT
-            'relevance'
+            'published'
           when APR::RequestCriteria::SORT_POPULAR
-            'relevance'
+            'viewCount'
           else
             'relevance'
         end
@@ -62,13 +62,13 @@ module ActivePublicResources
       end
 
       def next_criteria(request_criteria, results)
-        page     = results['feed']['openSearch$startIndex']['$t'].to_i
-        per_page = results['feed']['openSearch$itemsPerPage']['$t'].to_i
-        total    = results['feed']['openSearch$totalResults']['$t'].to_i
-        if ((page * per_page) < total)
+        start_index = results['feed']['openSearch$startIndex']['$t'].to_i
+        per_page    = results['feed']['openSearch$itemsPerPage']['$t'].to_i
+        total       = results['feed']['openSearch$totalResults']['$t'].to_i
+        if (start_index + per_page) < total
           return RequestCriteria.new({
             :query    => request_criteria.query,
-            :page     => page + 1,
+            :page     => start_index + per_page,
             :per_page => per_page
           })
         end
@@ -82,6 +82,7 @@ module ActivePublicResources
         video.description   = data['media$group']['media$description']['$t']
         video.thumbnail_url = data['media$group']['media$thumbnail'][0]['url']
         video.url           = data['media$group']['media$player']['url']
+        video.embed_url     = "//www.youtube.com/embed/#{video_id}?feature=oembed"
         video.duration      = data['media$group']['yt$duration']['seconds'].to_i
         video.num_views     = data['yt$statistics'] ? data['yt$statistics']['viewCount'].to_i : 0
         video.num_likes     = data['yt$rating'] ? data['yt$rating']['numLikes'].to_i : 0
