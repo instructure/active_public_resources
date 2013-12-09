@@ -68,7 +68,7 @@ module ActivePublicResources
         video.description   = data['description']
         video.thumbnail_url = data['thumbnail_url']
         video.url           = data['short_url']
-        video.embed_url     = "//www.schooltube.com/embed/#{data['vkey']}"
+        video.embed_url     = "https://www.schooltube.com/embed/#{data['vkey']}"
         video.duration      = data['duration'] ? data['duration'].to_i : 0
         video.num_views     = data['view_count'] ? data['view_count'].to_i : 0
         video.num_likes     = data['thumbs_up'] ? data['thumbs_up'].to_i : 0
@@ -85,7 +85,7 @@ module ActivePublicResources
           :title => video.title
         )
         video.return_types << APR::ReturnTypes::Iframe.new(
-          :url    => "//www.schooltube.com/embed/#{data['vkey']}",
+          :url    => "https://www.schooltube.com/embed/#{data['vkey']}",
           :text   => video.title,
           :title  => video.title,
           :width  => 640,

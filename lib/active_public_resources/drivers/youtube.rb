@@ -82,7 +82,7 @@ module ActivePublicResources
         video.description   = data['media$group']['media$description']['$t']
         video.thumbnail_url = data['media$group']['media$thumbnail'][0]['url']
         video.url           = data['media$group']['media$player']['url']
-        video.embed_url     = "//www.youtube.com/embed/#{video_id}?feature=oembed"
+        video.embed_url     = "https://www.youtube.com/embed/#{video_id}?feature=oembed"
         video.duration      = data['media$group']['yt$duration']['seconds'].to_i
         video.num_views     = data['yt$statistics'] ? data['yt$statistics']['viewCount'].to_i : 0
         video.num_likes     = data['yt$rating'] ? data['yt$rating']['numLikes'].to_i : 0
@@ -99,7 +99,7 @@ module ActivePublicResources
           :title => video.title
         )
         video.return_types << APR::ReturnTypes::Iframe.new(
-          :url    => "//www.youtube.com/embed/#{video_id}?feature=oembed",
+          :url    => "https://www.youtube.com/embed/#{video_id}?feature=oembed",
           :text   => video.title,
           :title  => video.title,
           :width  => 640,

@@ -60,7 +60,7 @@ describe APR::Drivers::Vimeo do
 
       rt_iframe = item.return_types[1]
       rt_iframe.return_type.should eq('iframe')
-      rt_iframe.url.should eq("//player.vimeo.com/video/67741947")
+      rt_iframe.url.should eq("https://player.vimeo.com/video/67741947")
       rt_url.title.should eq("Kynect 'education'")
 
       item.width.should eq(640)

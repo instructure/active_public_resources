@@ -150,7 +150,7 @@ module ActivePublicResources
         video.description   = data['description']
         video.thumbnail_url = data['thumbnails']['thumbnail'][0]['_content']
         video.url           = data['urls']['url'][0]['_content']
-        video.embed_url     = "//player.vimeo.com/video/#{data['id']}"
+        video.embed_url     = "https://player.vimeo.com/video/#{data['id']}"
         video.duration      = data['duration'].to_i
         video.num_views     = data['number_of_plays'].to_i
         video.num_likes     = data['number_of_likes'].to_i
@@ -167,7 +167,7 @@ module ActivePublicResources
           :title => video.title
         )
         video.return_types << APR::ReturnTypes::Iframe.new(
-          :url    => "//player.vimeo.com/video/#{data['id']}",
+          :url    => "https://player.vimeo.com/video/#{data['id']}",
           :text   => video.title,
           :title  => video.title,
           :width  => 640,

@@ -39,7 +39,7 @@ describe APR::Drivers::Schooltube do
 
       rt_iframe = item.return_types[1]
       rt_iframe.return_type.should eq('iframe')
-      rt_iframe.url.should eq("//www.schooltube.com/embed/60f374fdba394a70b4ad")
+      rt_iframe.url.should eq("https://www.schooltube.com/embed/60f374fdba394a70b4ad")
       rt_url.title.should eq("Fun - Educational School Trips - Call American Tours & Travel")
 
       item.width.should eq(640)
