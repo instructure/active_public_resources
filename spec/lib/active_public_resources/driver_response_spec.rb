@@ -26,7 +26,7 @@ describe APR::Drivers::DriverResponse do
       :items         => [ exercise, folder, image, quiz, video ]
     )
 
-    data = JSON.parse(driver_response.to_json)['driver_response']
+    data = JSON.parse(driver_response.to_json)
     data['criteria']['query'].should eq('education')
     data['next_criteria']['page'].should eq(2)
     data['total_items'].should eq(5500)
