@@ -19,6 +19,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency "activesupport", ">= 4.0.0"
+  spec.add_dependency "activemodel", ">= 4.0.0"
 
   # Drivers
   spec.add_dependency "vimeo", "~> 1.5.3"

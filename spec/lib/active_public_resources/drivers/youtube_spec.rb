@@ -15,7 +15,7 @@ describe APR::Drivers::Youtube do
       search_criteria = APR::RequestCriteria.new({:query => "education"})
       results = driver.perform_request(search_criteria)
       next_criteria = results.next_criteria
-      next_criteria.page.should eq(2)
+      next_criteria.page.should eq(26)
       next_criteria.per_page.should eq(25)
       results.total_items.should eq(1000000)
       results.items.length.should eq(25)
@@ -41,7 +41,7 @@ describe APR::Drivers::Youtube do
 
       rt_iframe = item.return_types[1]
       rt_iframe.return_type.should eq('iframe')
-      rt_iframe.url.should eq("//www.youtube.com/embed/y_ZmM7zPLyI?feature=oembed")
+      rt_iframe.url.should eq("https://www.youtube.com/embed/y_ZmM7zPLyI?feature=oembed")
       rt_url.title.should eq("Why I Hate School But Love Education||Spoken Word")
 
       item.width.should eq(640)

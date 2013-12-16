@@ -1,6 +1,7 @@
 module ActivePublicResources
   class RequestCriteria
-
+    include ::ActiveModel::Serialization
+      
     SORTS = [
       SORT_RELEVANCE = 'relevance',
       SORT_RECENT    = 'recent',
@@ -46,6 +47,10 @@ module ActivePublicResources
           raise ArgumentError.new("must include #{attr_names.join(', ')}")
         end
       end
+    end
+
+    def attributes
+      instance_values
     end
   end
 end

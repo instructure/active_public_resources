@@ -3,8 +3,8 @@ module ActivePublicResources
     class Url < BaseReturnType
       attr_accessor :text, :title, :target
 
-      def return_type
-        'url'
+      def initialize(args)
+        super(args.merge(:return_type => 'url'))
       end
     end
   end

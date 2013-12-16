@@ -79,7 +79,7 @@ describe APR::Drivers::KhanAcademy do
 
       rt_iframe = video.return_types[1]
       rt_iframe.return_type.should eq('iframe')
-      rt_iframe.url.should eq("//www.youtube.com/embed/9KR1bad76qg?feature=oembed")
+      rt_iframe.url.should eq("https://www.youtube.com/embed/9KR1bad76qg?feature=oembed")
       rt_url.title.should eq("Institutions")
 
       video.width.should eq(640)
