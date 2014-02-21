@@ -4,6 +4,7 @@ module ActivePublicResources
   module Drivers
     class KhanAcademy < Driver
 
+      DRIVER_NAME = "khan_academy"
       BASE_URL = "https://www.khanacademy.org/api/v1/"
 
       def perform_request(request_criteria)
@@ -94,11 +95,13 @@ module ActivePublicResources
 
         # Return Types
         video.return_types << APR::ReturnTypes::Url.new(
+          :driver => DRIVER_NAME,
           :url   => video.url,
           :text  => video.title,
           :title => video.title
         )
         video.return_types << APR::ReturnTypes::Iframe.new(
+          :driver => DRIVER_NAME,
           :url    => "https://www.youtube.com/embed/#{data['youtube_id']}?feature=oembed",
           :text   => video.title,
           :title  => video.title,
@@ -117,6 +120,7 @@ module ActivePublicResources
         exercise.url           = data['ka_url']
 
         exercise.return_types << APR::ReturnTypes::Url.new(
+          :driver => DRIVER_NAME,
           :url   => exercise.url,
           :text  => exercise.title,
           :title => exercise.title

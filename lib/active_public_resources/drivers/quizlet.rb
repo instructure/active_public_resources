@@ -3,6 +3,8 @@ require 'net/https'
 module ActivePublicResources
   module Drivers
     class Quizlet < Driver
+      
+      DRIVER_NAME = "quizlet"
 
       def initialize(config_options={})
         validate_options(config_options, [:client_id])
@@ -63,6 +65,7 @@ module ActivePublicResources
         # Return Types
 
         quiz.return_types << APR::ReturnTypes::Url.new(
+          :driver => DRIVER_NAME,
           :url   => quiz.url,
           :text  => quiz.title,
           :title => quiz.title

@@ -5,6 +5,7 @@ module ActivePublicResources
     class Vimeo < Driver
       attr_reader :client
 
+      DRIVER_NAME = "vimeo"
       DEFAULT_CRITERIA = {
         :page           => 1,
         :per_page       => 25,
@@ -162,11 +163,13 @@ module ActivePublicResources
 
         # Return Types
         video.return_types << APR::ReturnTypes::Url.new(
+          :driver => DRIVER_NAME,
           :url   => video.url,
           :text  => video.title,
           :title => video.title
         )
         video.return_types << APR::ReturnTypes::Iframe.new(
+          :driver => DRIVER_NAME,
           :url    => "https://player.vimeo.com/video/#{data['id']}",
           :text   => video.title,
           :title  => video.title,

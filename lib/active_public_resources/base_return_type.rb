@@ -3,7 +3,7 @@ module ActivePublicResources
     class BaseReturnType
       include ::ActiveModel::Serialization
       
-      attr_accessor :url, :return_type
+      attr_accessor :url, :return_type, :driver
 
       def initialize(args)
         args.each do |k,v|

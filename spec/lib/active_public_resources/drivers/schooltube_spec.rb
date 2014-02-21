@@ -33,6 +33,7 @@ describe APR::Drivers::Schooltube do
       item.username.should eq("StudentGroupTravel")
 
       rt_url = item.return_types[0]
+      rt_url.driver.should eq(APR::Drivers::Schooltube::DRIVER_NAME)
       rt_url.return_type.should eq('url')
       rt_url.url.should eq("http://bit.ly/pk3Sxs")
       rt_url.title.should eq("Fun - Educational School Trips - Call American Tours & Travel")
@@ -40,7 +41,8 @@ describe APR::Drivers::Schooltube do
       rt_iframe = item.return_types[1]
       rt_iframe.return_type.should eq('iframe')
       rt_iframe.url.should eq("https://www.schooltube.com/embed/60f374fdba394a70b4ad")
-      rt_url.title.should eq("Fun - Educational School Trips - Call American Tours & Travel")
+      rt_iframe.driver.should eq(APR::Drivers::Schooltube::DRIVER_NAME)
+      rt_iframe.title.should eq("Fun - Educational School Trips - Call American Tours & Travel")
 
       item.width.should eq(640)
       item.height.should eq(360)

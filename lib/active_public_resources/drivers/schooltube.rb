@@ -4,6 +4,8 @@ module ActivePublicResources
   module Drivers
     class Schooltube < Driver
 
+      DRIVER_NAME="schooltube"
+
       def perform_request(request_criteria)
         request_criteria.validate_presence!([:query])
         uri = URI('http://www.schooltube.com/api/v1/video/search/')
@@ -80,11 +82,13 @@ module ActivePublicResources
 
         # Return Types
         video.return_types << APR::ReturnTypes::Url.new(
+          :driver => DRIVER_NAME,
           :url   => video.url,
           :text  => video.title,
           :title => video.title
         )
         video.return_types << APR::ReturnTypes::Iframe.new(
+          :driver => DRIVER_NAME,
           :url    => "https://www.schooltube.com/embed/#{data['vkey']}",
           :text   => video.title,
           :title  => video.title,

@@ -4,6 +4,8 @@ module ActivePublicResources
   module Drivers
     class Youtube < Driver
 
+      DRIVER_NAME = "youtube"
+
       def perform_request(request_criteria)
         request_criteria.validate_presence!([:query])
 
@@ -94,11 +96,13 @@ module ActivePublicResources
 
         # Return Types
         video.return_types << APR::ReturnTypes::Url.new(
+          :driver => DRIVER_NAME,
           :url   => video.url,
           :text  => video.title,
           :title => video.title
         )
         video.return_types << APR::ReturnTypes::Iframe.new(
+          :driver => DRIVER_NAME,
           :url    => "https://www.youtube.com/embed/#{video_id}?feature=oembed",
           :text   => video.title,
           :title  => video.title,
