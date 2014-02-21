@@ -20,6 +20,7 @@ describe APR::Drivers::Schooltube do
       results.items.length.should eq(25)
 
       item = results.items.first
+      item.id.should eq('60f374fdba394a70b4ad')
       item.kind.should eq("video")
       item.title.should eq("Fun - Educational School Trips - Call American Tours & Travel")
       item.description.should match /customizing your next student/
@@ -34,6 +35,7 @@ describe APR::Drivers::Schooltube do
 
       rt_url = item.return_types[0]
       rt_url.driver.should eq(APR::Drivers::Schooltube::DRIVER_NAME)
+      rt_url.remote_id.should eq("60f374fdba394a70b4ad")
       rt_url.return_type.should eq('url')
       rt_url.url.should eq("http://bit.ly/pk3Sxs")
       rt_url.title.should eq("Fun - Educational School Trips - Call American Tours & Travel")
@@ -42,6 +44,7 @@ describe APR::Drivers::Schooltube do
       rt_iframe.return_type.should eq('iframe')
       rt_iframe.url.should eq("https://www.schooltube.com/embed/60f374fdba394a70b4ad")
       rt_iframe.driver.should eq(APR::Drivers::Schooltube::DRIVER_NAME)
+      rt_iframe.remote_id.should eq("60f374fdba394a70b4ad")
       rt_iframe.title.should eq("Fun - Educational School Trips - Call American Tours & Travel")
 
       item.width.should eq(640)

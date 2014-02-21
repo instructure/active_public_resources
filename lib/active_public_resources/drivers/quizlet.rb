@@ -66,6 +66,7 @@ module ActivePublicResources
 
         quiz.return_types << APR::ReturnTypes::Url.new(
           :driver => DRIVER_NAME,
+          :remote_id => quiz.id,
           :url   => quiz.url,
           :text  => quiz.title,
           :title => quiz.title
@@ -80,7 +81,9 @@ module ActivePublicResources
           spacerace: "Space Race" }.each do |k,v|
 
           quiz.return_types << APR::ReturnTypes::Iframe.new(
-            :url    => "https://quizlet.com/#{data['id']}/#{k}/embedv2",
+            :driver => DRIVER_NAME,
+            :remote_id => quiz.id,
+            :url    => "https://quizlet.com/#{quiz.id}/#{k}/embedv2",
             :text   => v,
             :title  => quiz.title,
             :width  => "100%",

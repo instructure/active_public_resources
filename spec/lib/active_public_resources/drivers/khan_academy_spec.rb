@@ -80,6 +80,7 @@ describe APR::Drivers::KhanAcademy do
 
       rt_iframe = video.return_types[1]
       rt_iframe.driver.should eq(APR::Drivers::KhanAcademy::DRIVER_NAME)
+      rt_iframe.remote_id.should eq('9KR1bad76qg')
       rt_iframe.return_type.should eq('iframe')
       rt_iframe.url.should eq("https://www.youtube.com/embed/9KR1bad76qg?feature=oembed")
       rt_url.title.should eq("Institutions")
@@ -98,6 +99,7 @@ describe APR::Drivers::KhanAcademy do
 
       ex_rt_url = exercise.return_types[0]
       ex_rt_url.driver.should eq(APR::Drivers::KhanAcademy::DRIVER_NAME)
+      ex_rt_url.remote_id.should eq('exd53ad0de')
       ex_rt_url.return_type.should eq('url')
       ex_rt_url.url.should eq("http://www.khanacademy.org/exercise/social-structures---passage-1")
       ex_rt_url.title.should eq("Social structures - Passage 1")

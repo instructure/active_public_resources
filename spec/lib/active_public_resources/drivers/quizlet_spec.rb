@@ -36,6 +36,7 @@ describe APR::Drivers::Quizlet do
       quiz.created_date.strftime("%Y-%m-%d").should eq("2013-05-25")
 
       quiz.return_types[0].driver.should eq(APR::Drivers::Quizlet::DRIVER_NAME)
+      quiz.return_types[0].remote_id.should eq(23752218)
       quiz.return_types.map(&:url).should eq([
         "http://quizlet.com/23752218/dogs-flash-cards/",
         "https://quizlet.com/23752218/flashcards/embedv2",

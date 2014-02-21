@@ -2,16 +2,6 @@ require 'spec_helper'
 
 describe APR::Drivers::Driver do
 
-  it "should raises NotImplementedError" do
-    class APR::Drivers::Foo < APR::Drivers::Driver
-    end
-    [:perform_request].each do |mthd|
-      expect {
-        APR::Drivers::Foo.new.send(mthd)
-      }.to raise_error(NotImplementedError)
-    end
-  end
-
   it "should not raise error when methods are overridden" do
     class APR::Drivers::Foo < APR::Drivers::Driver
       def perform_request(*args); end

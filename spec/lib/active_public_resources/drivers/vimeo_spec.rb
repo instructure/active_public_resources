@@ -55,12 +55,14 @@ describe APR::Drivers::Vimeo do
 
       rt_url = item.return_types[0]
       rt_url.driver.should eq(APR::Drivers::Vimeo::DRIVER_NAME)
+      rt_url.remote_id.should eq("67741947")
       rt_url.return_type.should eq('url')
       rt_url.url.should eq("http://vimeo.com/67741947")
       rt_url.title.should eq("Kynect 'education'")
 
       rt_iframe = item.return_types[1]
       rt_iframe.driver.should eq(APR::Drivers::Vimeo::DRIVER_NAME)
+      rt_iframe.remote_id.should eq("67741947")
       rt_iframe.return_type.should eq('iframe')
       rt_iframe.url.should eq("https://player.vimeo.com/video/67741947")
       rt_url.title.should eq("Kynect 'education'")

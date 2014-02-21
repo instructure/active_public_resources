@@ -83,13 +83,15 @@ module ActivePublicResources
         # Return Types
         video.return_types << APR::ReturnTypes::Url.new(
           :driver => DRIVER_NAME,
+          :remote_id => video.id,
           :url   => video.url,
           :text  => video.title,
           :title => video.title
         )
         video.return_types << APR::ReturnTypes::Iframe.new(
           :driver => DRIVER_NAME,
-          :url    => "https://www.schooltube.com/embed/#{data['vkey']}",
+          :remote_id => video.id,
+          :url    => "https://www.schooltube.com/embed/#{video.id}",
           :text   => video.title,
           :title  => video.title,
           :width  => 640,

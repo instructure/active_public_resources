@@ -36,12 +36,14 @@ describe APR::Drivers::Youtube do
 
       rt_url = item.return_types[0]
       rt_url.driver.should eq(APR::Drivers::Youtube::DRIVER_NAME)
+      rt_url.remote_id.should eq("y_ZmM7zPLyI")
       rt_url.return_type.should eq('url')
       rt_url.url.should eq("https://www.youtube.com/watch?v=y_ZmM7zPLyI&feature=youtube_gdata_player")
       rt_url.title.should eq("Why I Hate School But Love Education||Spoken Word")
 
       rt_iframe = item.return_types[1]
       rt_iframe.driver.should eq(APR::Drivers::Youtube::DRIVER_NAME)
+      rt_iframe.remote_id.should eq("y_ZmM7zPLyI")
       rt_iframe.return_type.should eq('iframe')
       rt_iframe.url.should eq("https://www.youtube.com/embed/y_ZmM7zPLyI?feature=oembed")
       rt_url.title.should eq("Why I Hate School But Love Education||Spoken Word")

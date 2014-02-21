@@ -137,37 +137,47 @@ embed the video (iframe) or link to the video (url).
 
 ### File
 
+* **driver**       - name of driver used (e.g. vimeo, youtube, quizlet, etc.)
+* **remote_id**    - id of media provided by the driver
 * **url**          - this is a URL to the file that can be retrieved without requiring any additional authentication (no sessions, cookies, etc.)
 * **text**         - the filename
 * **content_type** - content or MIME type of the file to be retrieved
 
 ### IFrame
 
-* **url**    - this is used as the 'src' attribute of the embedded iframe
-* **title**  - this is used as the 'title' attribute of the embedded iframe
-* **width**  - this is used as the 'width' style of the embedded iframe
-* **height** - this is used as the 'height' style of the embedded iframe
+* **driver**    - name of driver used (e.g. vimeo, youtube, quizlet, etc.)
+* **remote_id** - id of media provided by the driver
+* **url**       - this is used as the 'src' attribute of the embedded iframe
+* **title**     - this is used as the 'title' attribute of the embedded iframe
+* **width**     - this is used as the 'width' style of the embedded iframe
+* **height**    - this is used as the 'height' style of the embedded iframe
 
 ### Image URL
 
-* **url**    - this is used as the 'src' attribute of the embedded image tag
-* **text**   - this is used as the 'alt' attribute of the embedded image tag
-* **width**  - this is used as the 'width' style of the embedded image tag
-* **height** - this is used as the 'height' style of the embedded image tag
+* **driver**    - name of driver used (e.g. vimeo, youtube, quizlet, etc.)
+* **remote_id** - id of media provided by the driver
+* **url**       - this is used as the 'src' attribute of the embedded image tag
+* **text**      - this is used as the 'alt' attribute of the embedded image tag
+* **width**     - this is used as the 'width' style of the embedded image tag
+* **height**    - this is used as the 'height' style of the embedded image tag
 
 ### OEmbed
 
-* **url**      - this is the oEmbed resource URL
-* **endpoint** - this is the oEmbed API endpoint URL
+* **driver**    - name of driver used (e.g. vimeo, youtube, quizlet, etc.)
+* **remote_id** - id of media provided by the driver
+* **url**       - this is the oEmbed resource URL
+* **endpoint**  - this is the oEmbed API endpoint URL
 
 ### URL
 
-* **url**    - The url. Likely used as the 'href' attribute of the inserted link
-* **text**   - this is the suggested text for the inserted link. If the user has already selected 
-               some content before opening this dialog, the link will wrap that content and this 
-               value may be ignored
-* **title**  - this is used as the 'title' attribute of the inserted link
-* **target** - this is used as the 'target' attribute of the inserted link
+* **driver**    - name of driver used (e.g. vimeo, youtube, quizlet, etc.)
+* **remote_id** - id of media provided by the driver
+* **url**       - The url. Likely used as the 'href' attribute of the inserted link
+* **text**      - this is the suggested text for the inserted link. If the user has already selected 
+                  some content before opening this dialog, the link will wrap that content and this 
+                  value may be ignored
+* **title**     - this is used as the 'title' attribute of the inserted link
+* **target**    - this is used as the 'target' attribute of the inserted link
 
 ## Drivers
 
