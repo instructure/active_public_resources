@@ -95,20 +95,20 @@ module ActivePublicResources
 
         # Return Types
         video.return_types << APR::ReturnTypes::Url.new(
-          :driver => DRIVER_NAME,
-          :media_id => data['youtube_id'],
-          :url   => video.url,
-          :text  => video.title,
-          :title => video.title
+          :driver    => DRIVER_NAME,
+          :remote_id => data['youtube_id'],
+          :url       => video.url,
+          :text      => video.title,
+          :title     => video.title
         )
         video.return_types << APR::ReturnTypes::Iframe.new(
-          :driver => DRIVER_NAME,
+          :driver    => DRIVER_NAME,
           :remote_id => data['youtube_id'],
-          :url    => "https://www.youtube.com/embed/#{data['youtube_id']}?feature=oembed",
-          :text   => video.title,
-          :title  => video.title,
-          :width  => 640,
-          :height => 360
+          :url       => "https://www.youtube.com/embed/#{data['youtube_id']}?feature=oembed",
+          :text      => video.title,
+          :title     => video.title,
+          :width     => 640,
+          :height    => 360
         )
         video
       end
