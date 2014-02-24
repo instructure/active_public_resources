@@ -37,15 +37,7 @@ describe APR::Drivers::Quizlet do
 
       quiz.return_types[0].driver.should eq(APR::Drivers::Quizlet::DRIVER_NAME)
       quiz.return_types[0].remote_id.should eq(23752218)
-      quiz.return_types.map(&:url).should eq([
-        "http://quizlet.com/23752218/dogs-flash-cards/",
-        "https://quizlet.com/23752218/flashcards/embedv2",
-        "https://quizlet.com/23752218/learn/embedv2",
-        "https://quizlet.com/23752218/scatter/embedv2",
-        "https://quizlet.com/23752218/speller/embedv2",
-        "https://quizlet.com/23752218/test/embedv2",
-        "https://quizlet.com/23752218/spacerace/embedv2"
-      ])
+      quiz.return_types[0].url.should eq("http://quizlet.com/23752218/dogs-flash-cards/")
     end
   end
   
