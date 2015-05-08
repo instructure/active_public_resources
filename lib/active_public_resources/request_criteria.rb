@@ -13,7 +13,7 @@ module ActivePublicResources
       CONTENT_FILTER_STRICT = 'strict'
     ]
 
-    attr_accessor :query, :page, :per_page, :content_filter, :sort, :folder
+    attr_accessor :query, :page, :per_page, :content_filter, :sort, :folder, :remote_ip
 
     def initialize(args={})
       args.each do |k,v|
