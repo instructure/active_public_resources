@@ -9,7 +9,9 @@ module ActivePublicResources
       API_KEY = ENV['YOUTUBE_API_KEY']
 
       def perform_request(request_criteria)
-        request_criteria.validate_presence!([:query])
+        unless request_criteria.validate_presence([:query]) || request_criteria.validate_presence([:channel])
+          raise ArgumentError "you must specify at least a query or a channel"
+        end
         uri = URI('https://www.googleapis.com/youtube/v3/search')
         params = {
           'q'           => request_criteria.query,
@@ -22,7 +24,7 @@ module ActivePublicResources
         }
         params['pageToken'] = request_criteria.page if request_criteria.is_a? String
         params['userIp'] = request_criteria.remote_ip if request_criteria.remote_ip
-
+        params['channelId'] = request_criteria.channel if request_criteria.channel
         uri.query = URI.encode_www_form(params)
 
         res = Net::HTTP.get_response(uri)

@@ -2,7 +2,7 @@ module ActivePublicResources
   module Drivers
     class DriverResponse
       include ::ActiveModel::Serializers::JSON
-      
+
       attr_accessor :items, :criteria, :next_criteria, :total_items
 
       def initialize(args)

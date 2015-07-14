@@ -2,7 +2,7 @@ module ActivePublicResources
   module ResponseTypes
     class BaseResponseType
       include ::ActiveModel::Serialization
-      
+
       attr_accessor :id, :title, :description, :return_types, :kind
 
       def initialize

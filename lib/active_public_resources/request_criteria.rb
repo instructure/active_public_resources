@@ -1,7 +1,7 @@
 module ActivePublicResources
   class RequestCriteria
     include ::ActiveModel::Serialization
-      
+
     SORTS = [
       SORT_RELEVANCE = 'relevance',
       SORT_RECENT    = 'recent',
@@ -13,7 +13,7 @@ module ActivePublicResources
       CONTENT_FILTER_STRICT = 'strict'
     ]
 
-    attr_accessor :query, :page, :per_page, :content_filter, :sort, :folder, :remote_ip
+    attr_accessor :query, :page, :per_page, :content_filter, :sort, :folder, :remote_ip, :channel
 
     def initialize(args={})
       args.each do |k,v|
@@ -39,6 +39,15 @@ module ActivePublicResources
         raise ArgumentError.new("is invalid. Must be in [#{CONTENT_FILTERS.join(', ')}]")
       end
       @content_filter = val
+    end
+
+    def validate_presence(attr_names)
+      attr_names.each do |k|
+        if instance_variable_get("@#{k}").blank?
+          return false
+        end
+      end
+      true
     end
 
     def validate_presence!(attr_names)

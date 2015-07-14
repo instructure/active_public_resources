@@ -2,7 +2,7 @@ module ActivePublicResources
   module ReturnTypes
     class BaseReturnType
       include ::ActiveModel::Serialization
-      
+
       attr_accessor :url, :return_type, :driver, :remote_id
 
       def initialize(args)

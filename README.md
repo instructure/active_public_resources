@@ -39,9 +39,10 @@ There are several components that make up the full request/response circle with 
 A request criteria in this context is a ruby object which contains the criteria that is to be
 passed to the driver.
 
-| Name           | Required? | Description 
-| -------------- |:---------:| ----------- 
+| Name           | Required? | Description
+| -------------- |:---------:| -----------
 | query          |     No    | Search term
+| channel        |     No    | Id for channel (currently only supported by the youtube driver)
 | page           |     No    | Page of results. Defaults to 0
 | per_page       |     No    | Items to return per page. Defaults to 25
 | content_filter |     No    | Filter flag. Can either be `none` or `strict`. Defaults to `none`
@@ -173,8 +174,8 @@ embed the video (iframe) or link to the video (url).
 * **driver**    - name of driver used (e.g. vimeo, youtube, quizlet, etc.)
 * **remote_id** - id of media provided by the driver
 * **url**       - The url. Likely used as the 'href' attribute of the inserted link
-* **text**      - this is the suggested text for the inserted link. If the user has already selected 
-                  some content before opening this dialog, the link will wrap that content and this 
+* **text**      - this is the suggested text for the inserted link. If the user has already selected
+                  some content before opening this dialog, the link will wrap that content and this
                   value may be ignored
 * **title**     - this is used as the 'title' attribute of the inserted link
 * **target**    - this is used as the 'target' attribute of the inserted link
@@ -186,12 +187,12 @@ A driver in this context is a ruby class which performs requests and returns a r
 ### Vimeo
 
 To use the Vimeo API, you must have credentials already. This requires a Vimeo app to
-be registered. You can do it at [https://developer.vimeo.com/apps](https://developer.vimeo.com/apps). 
-There are 4 params which are necessary to perform the requests: 
+be registered. You can do it at [https://developer.vimeo.com/apps](https://developer.vimeo.com/apps).
+There are 4 params which are necessary to perform the requests:
 
-| Name                | Required? | Description 
-| ------------------- |:---------:| ------------- 
-| consumer_key        |    Yes    | Vimeo API Client ID 
+| Name                | Required? | Description
+| ------------------- |:---------:| -------------
+| consumer_key        |    Yes    | Vimeo API Client ID
 | consumer_secret     |    Yes    | Vimeo API Client Secret
 | access_token        |    Yes    | Vimeo API OAuth Access Token
 | access_token_secret |    Yes    | Vimeo API OAuth Access Token Secret
@@ -277,8 +278,8 @@ more_results = schooltube.perform_request( results.next_criteria )
 Quizlet requires and Client ID to perform API requests. You can get this by visiting
 [https://quizlet.com/api-dashboard](https://quizlet.com/api-dashboard).
 
-| Name      | Required? | Description 
-| --------- |:---------:| ------------- 
+| Name      | Required? | Description
+| --------- |:---------:| -------------
 | client_id |    Yes    | Quizlet Client ID (used for public and user access)
 
 #### Return Types
