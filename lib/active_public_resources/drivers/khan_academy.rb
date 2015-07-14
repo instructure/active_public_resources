@@ -45,7 +45,7 @@ module ActivePublicResources
 
       def parse_results(request_criteria, results, videos=[], exercises=[])
         parent_id = parse_parent_id(results['slug'], results['extended_slug'])
-        
+
         driver_response = DriverResponse.new(
           :criteria      => request_criteria,
           :next_criteria => nil,

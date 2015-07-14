@@ -21,9 +21,9 @@ module ActivePublicResources
       # @option config_options [String] :access_token        Vimeo access token (required)
       # @option config_options [String] :access_token_secret Vimeo access token secret (required)
       def initialize(config_options={})
-        validate_options(config_options, 
+        validate_options(config_options,
           [:consumer_key, :consumer_secret, :access_token, :access_token_secret])
-        
+
         @client = ::Vimeo::Advanced::Video.new(
           config_options[:consumer_key],
           config_options[:consumer_secret],
@@ -45,7 +45,7 @@ module ActivePublicResources
       # @example Request
       #   driver = ActivePublicResources::Drivers::Vimeo.new({ .. config options .. })
       #   results = driver.perform_request({ query: 'education' })
-      #     
+      #
       # @example Returns
       #   {
       #     'items': [
@@ -83,7 +83,7 @@ module ActivePublicResources
       def perform_request(request_criteria)
         request_criteria.validate_presence!([:query])
         raise StandardError.new("driver has not been initialized properly") unless @client
-        
+
         results = @client.search(request_criteria.query, {
           :page           => request_criteria.page || 1,
           :per_page       => request_criteria.per_page || 25,

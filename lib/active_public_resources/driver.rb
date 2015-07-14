@@ -1,7 +1,7 @@
 module ActivePublicResources
   module Drivers
     class Driver
-      
+
       def perform_request(*args)
         raise NotImplementedError.new("You must implement perform_request.")
       end
@@ -15,7 +15,7 @@ module ActivePublicResources
           end
         end
       end
-      
+
     end
   end
 end
