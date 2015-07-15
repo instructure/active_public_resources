@@ -8,31 +8,62 @@ module ActivePublicResources
       DRIVER_NAME = "youtube"
       API_KEY = ENV['YOUTUBE_API_KEY']
 
+      def initialize(config_options={})
+        @default_request_criteria = {}
+        if config_options[:default_request_criteria]
+          @default_request_criteria = config_options[:default_request_criteria]
+        end
+      end
+
       def perform_request(request_criteria)
-        unless request_criteria.validate_presence([:query]) || request_criteria.validate_presence([:channel])
+        request_criteria.set_default_criteria!(@default_request_criteria)
+        unless request_criteria.validate_presence(:query) || request_criteria.validate_presence(:channel)
           raise ArgumentError "you must specify at least a query or a channel"
         end
+
         uri = URI('https://www.googleapis.com/youtube/v3/search')
         params = {
-          'q'           => request_criteria.query,
+          'q' => request_criteria.query,
           'part' => 'snippet',
           'type' => 'video',
-          'order'     => sort(request_criteria.sort),
-          'safeSearch'  => content_filter(request_criteria.content_filter),
+          'order' => sort(request_criteria.sort),
+          'safeSearch' => content_filter(request_criteria.content_filter),
           'maxResults' => request_criteria.per_page || 25,
           'key' => API_KEY
         }
+
         params['pageToken'] = request_criteria.page if request_criteria.is_a? String
         params['userIp'] = request_criteria.remote_ip if request_criteria.remote_ip
-        params['channelId'] = request_criteria.channel if request_criteria.channel
-        uri.query = URI.encode_www_form(params)
+        params['channelId'] = channel_id(request_criteria.channel_name) if channel_id(request_criteria.channel_name)
 
+        uri.query = URI.encode_www_form(params)
         res = Net::HTTP.get_response(uri)
         results = JSON.parse(res.body)
         return video_details(request_criteria, results)
       end
 
     private
+
+      def channel_id(channel_name)
+        # we are getting the name of the channel.
+        # we need to figure out its ID
+        if channel_name
+          uri = URI('https://www.googleapis.com/youtube/v3/search')
+          params = {
+            'q' => channel_name,
+            'part' => 'id',
+            'type' => 'channel',
+            'key' => API_KEY
+          }
+          uri.query = URI.encode_www_form(params)
+          res = Net::HTTP.get_response(uri)
+          results = JSON.parse(res.body)
+          return results['items'].first['id']['channelId'] unless results['items'].empty?
+        end
+
+        return false
+      end
+
 
       def video_details(request_criteria, results)
         video_ids = results['items'].map { |item| item['id']['videoId']}

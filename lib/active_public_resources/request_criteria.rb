@@ -13,7 +13,7 @@ module ActivePublicResources
       CONTENT_FILTER_STRICT = 'strict'
     ]
 
-    attr_accessor :query, :page, :per_page, :content_filter, :sort, :folder, :remote_ip, :channel
+    attr_accessor :query, :page, :per_page, :content_filter, :sort, :folder, :remote_ip, :channel_name
 
     def initialize(args={})
       args.each do |k,v|
@@ -41,7 +41,8 @@ module ActivePublicResources
       @content_filter = val
     end
 
-    def validate_presence(attr_names)
+    def validate_presence(attr_name, *attr_names)
+      attr_names.unshift(attr_name)
       attr_names.each do |k|
         if instance_variable_get("@#{k}").blank?
           return false
@@ -55,6 +56,12 @@ module ActivePublicResources
         if instance_variable_get("@#{k}").blank?
           raise ArgumentError.new("must include #{attr_names.join(', ')}")
         end
+      end
+    end
+
+    def set_default_criteria!(default_criteria)
+      default_criteria.map do |k, v|
+        instance_variable_set("@#{k}", v) unless validate_presence(k)
       end
     end
 
