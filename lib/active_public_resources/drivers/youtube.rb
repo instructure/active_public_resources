@@ -131,7 +131,7 @@ module ActivePublicResources
         video.description    = snippet['description']
         video.thumbnail_url  = snippet['thumbnails']['default']['url']
         video.url            = "https://www.youtube.com/watch?v=#{video_id}&feature=youtube_gdata_player"
-        video.embed_url      = "https://www.youtube.com/embed/#{video_id}?feature=oembed"
+        video.embed_url      = "https://www.youtube.com/embed/#{video_id}?feature=oembed&rel=0"
         video.duration       = ISO8601::Duration.new(details['duration']).to_seconds
         video.num_views      = statistics['viewCount'] ? statistics['viewCount'].to_i : 0
         video.num_likes      = statistics['likeCount'] ? statistics['likeCount'].to_i : 0
