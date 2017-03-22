@@ -18,21 +18,21 @@ module ActivePublicResources
       def perform_request(request_criteria)
         request_criteria.set_default_criteria!(@default_request_criteria)
         unless request_criteria.validate_presence(:query) || request_criteria.validate_presence(:channel)
-          raise ArgumentError "you must specify at least a query or a channel"
+          raise ArgumentError "You must specify at least a query or channel"
         end
 
         uri = URI('https://www.googleapis.com/youtube/v3/search')
         params = {
-          'q' => request_criteria.query,
-          'part' => 'snippet',
-          'type' => 'video',
-          'order' => sort(request_criteria.sort),
-          'safeSearch' => content_filter(request_criteria.content_filter),
-          'maxResults' => request_criteria.per_page || 25,
-          'key' => API_KEY
+          q: request_criteria.query,
+          part: 'snippet',
+          type: 'video',
+          order: sort(request_criteria.sort),
+          safeSearch: content_filter(request_criteria.content_filter),
+          maxResults: request_criteria.per_page || 25,
+          key: API_KEY
         }
 
-        params['pageToken'] = request_criteria.page if request_criteria.is_a? String
+        params['pageToken'] = request_criteria.page if request_criteria.page && request_criteria.page != 1
         params['userIp'] = request_criteria.remote_ip if request_criteria.remote_ip
         params['channelId'] = channel_id(request_criteria.channel_name) if channel_id(request_criteria.channel_name)
 
@@ -50,10 +50,10 @@ module ActivePublicResources
         if channel_name
           uri = URI('https://www.googleapis.com/youtube/v3/search')
           params = {
-            'q' => channel_name,
-            'part' => 'id',
-            'type' => 'channel',
-            'key' => API_KEY
+            q: channel_name,
+            part: 'id',
+            type: 'channel',
+            key: API_KEY
           }
           uri.query = URI.encode_www_form(params)
           res = Net::HTTP.get_response(uri)
@@ -63,7 +63,6 @@ module ActivePublicResources
 
         return false
       end
-
 
       def video_details(request_criteria, results)
         video_ids = results['items'].map { |item| item['id']['videoId']}
@@ -101,24 +100,22 @@ module ActivePublicResources
 
       def parse_results(request_criteria, results, videos)
         @driver_response = DriverResponse.new(
-          :criteria      => request_criteria,
-          :next_criteria => next_criteria(request_criteria, results),
-          :total_items   => results['pageInfo']['totalResults'].to_i,
-          :items         => videos.map { |video| parse_video(video) }
+          criteria: request_criteria,
+          next_criteria: next_criteria(request_criteria, results),
+          total_items: results['pageInfo']['totalResults'].to_i,
+          items: videos.map { |video| parse_video(video) }
         )
       end
 
       def next_criteria(request_criteria, results)
         if results['nextPageToken']
           return RequestCriteria.new({
-            :query    => request_criteria.query,
-            :page     => results['nextPageToken'],
-            :per_page => results['pageInfo']['resultsPerPage'].to_i
+            query: request_criteria.query,
+            page: results['nextPageToken'],
+            per_page: results['pageInfo']['resultsPerPage'].to_i
           })
         end
       end
-
-
 
       def parse_video(item)
         video_id = item['id']
@@ -143,20 +140,20 @@ module ActivePublicResources
 
         # Return Types
         video.return_types << APR::ReturnTypes::Url.new(
-          :driver => DRIVER_NAME,
-          :remote_id => video.id,
-          :url   => video.url,
-          :text  => video.title,
-          :title => video.title
+          driver: DRIVER_NAME,
+          remote_id: video.id,
+          url: video.url,
+          text: video.title,
+          title: video.title
         )
         video.return_types << APR::ReturnTypes::Iframe.new(
-          :driver => DRIVER_NAME,
-          :remote_id => video.id,
-          :url    => video.embed_url,
-          :text   => video.title,
-          :title  => video.title,
-          :width  => 640,
-          :height => 360
+          driver: DRIVER_NAME,
+          remote_id: video.id,
+          url: video.embed_url,
+          text: video.title,
+          title: video.title,
+          width: 640,
+          height: 360
         )
 
         video
