@@ -120,7 +120,7 @@ module ActivePublicResources
       def parse_video(item)
         video_id = item['id']
         snippet = item['snippet']
-        statistics = item['statistics']
+        statistics = item['statistics'] ? item['statistics'] : {}
         details = item['contentDetails']
         video = APR::ResponseTypes::Video.new
         video.id             = video_id
