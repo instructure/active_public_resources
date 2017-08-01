@@ -188,14 +188,12 @@ A driver in this context is a ruby class which performs requests and returns a r
 
 To use the Vimeo API, you must have credentials already. This requires a Vimeo app to
 be registered. You can do it at [https://developer.vimeo.com/apps](https://developer.vimeo.com/apps).
-There are 4 params which are necessary to perform the requests:
+There are two params which are necessary to perform the requests:
 
 | Name                | Required? | Description
 | ------------------- |:---------:| -------------
 | consumer_key        |    Yes    | Vimeo API Client ID
 | consumer_secret     |    Yes    | Vimeo API Client Secret
-| access_token        |    Yes    | Vimeo API OAuth Access Token
-| access_token_secret |    Yes    | Vimeo API OAuth Access Token Secret
 
 #### Return Types
 
@@ -204,22 +202,20 @@ Vimeo returns **Iframe** and **URL** return types.
 #### Example:
 
 ```ruby
-criteria = APR::RequestCriteria.new( query: "education" )
+criteria = APR::RequestCriteria.new(query: "education")
 
 vimeo = APR::Drivers::Vimeo.new(
   :consumer_key        => 'VIMEO_CONSUMER_KEY',
-  :consumer_secret     => 'VIMEO_CONSUMER_SECRET',
-  :access_token        => 'VIMEO_ACCESS_TOKEN',
-  :access_token_secret => 'VIMEO_ACCESS_TOKEN_SECRET'
+  :consumer_secret     => 'VIMEO_CONSUMER_SECRET'
 )
 
-results = vimeo.perform_request( criteria )
+results = vimeo.perform_request(criteria)
 results.items.length          # => 25
 results.total_items           # => 145063
 results.next_criteria         # => #<ActivePublicResources::RequestCriteria:0x007fa48392d388 @query="education", @page=2, @per_page=25>
 results.items.first.title     # => "Kynect 'education'"
 
-more_results = vimeo.perform_request( results.next_criteria )
+more_results = vimeo.perform_request(results.next_criteria)
 # ...
 ```
 

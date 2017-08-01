@@ -1,4 +1,5 @@
-require 'vimeo'
+require_relative '../oauth/vimeo.rb'
+require 'httparty'
 
 module ActivePublicResources
   module Drivers
@@ -18,18 +19,13 @@ module ActivePublicResources
       # @param [Hash] config_options the options which the vimeo gem requires
       # @option config_options [String] :consumer_key        Vimeo consumer key (required)
       # @option config_options [String] :consumer_secret     Vimeo consumer secret (required)
-      # @option config_options [String] :access_token        Vimeo access token (required)
-      # @option config_options [String] :access_token_secret Vimeo access token secret (required)
       def initialize(config_options={})
-        validate_options(config_options,
-          [:consumer_key, :consumer_secret, :access_token, :access_token_secret])
-
-        @client = ::Vimeo::Advanced::Video.new(
+        validate_options(config_options, [:consumer_key, :consumer_secret])
+        @client = ActivePublicResources::OAuth::Vimeo.new(
           config_options[:consumer_key],
-          config_options[:consumer_secret],
-          token: config_options[:access_token],
-          secret: config_options[:access_token_secret]
+          config_options[:consumer_secret]
         )
+        @access_token = @client.get_access_token
       end
 
       # Perform search request to Vimeo with search criteria
@@ -84,16 +80,23 @@ module ActivePublicResources
         request_criteria.validate_presence!([:query])
         raise StandardError.new("driver has not been initialized properly") unless @client
 
-        results = @client.search(request_criteria.query, {
-          :page           => request_criteria.page || 1,
-          :per_page       => request_criteria.per_page || 25,
-          :full_response  => 1,
-          :sort           => request_criteria.sort || "relevant",
-          :user_id        => nil,
-          :content_filter => request_criteria.content_filter || 'safe'
-        })
+        results = HTTParty.get('https://api.vimeo.com/videos',
+          query: {
+            query: request_criteria.query,
+            page: request_criteria.page || 1,
+            per_page: request_criteria.per_page || 25,
+            sort: 'relevant',
+            filter: 'content_rating',
+            filter_content_rating: 'safe'
+          },
+          headers: { "Authorization" => "Bearer #{@access_token}" }
+        )
 
-        return parse_results(request_criteria, results)
+        return parse_results(request_criteria, JSON.parse(results)) unless results.code == 401
+        if !@client.verify_token?(@access_token)
+          @access_token = @client.get_access_token
+          perform_request(request_criteria) if !@access_token.blank?
+        end
       end
 
     private
@@ -126,15 +129,16 @@ module ActivePublicResources
         @driver_response = DriverResponse.new(
           :criteria      => request_criteria,
           :next_criteria => next_criteria(request_criteria, results),
-          :total_items   => results['videos']['total'].to_i,
-          :items         => results['videos']['video'].map { |data| parse_video(data) }
+          :total_items   => results['total'].to_i,
+          :items         => results['data'].map { |data| parse_video(data) }
         )
       end
 
       def next_criteria(request_criteria, results)
-        page     = results['videos']['page'].to_i
-        per_page = results['videos']['perpage'].to_i
-        total    = results['videos']['total'].to_i
+        total = results['total'].to_i
+        page = results['page'].to_i
+        per_page = results['per_page'].to_i
+
         if ((page * per_page) < total)
           return RequestCriteria.new({
             :query    => request_criteria.query,
@@ -146,18 +150,18 @@ module ActivePublicResources
 
       def parse_video(data)
         video = ActivePublicResources::ResponseTypes::Video.new
-        video.id            = data['id']
-        video.title         = data['title']
-        video.description   = data['description']
-        video.thumbnail_url = data['thumbnails']['thumbnail'][0]['_content']
-        video.url           = data['urls']['url'][0]['_content']
-        video.embed_url     = "https://player.vimeo.com/video/#{data['id']}"
+        video.id            = "#{data['uri']}".gsub(/[^\d]/, '').to_i
+        video.title         = data['name']
+        video.description   = data['description'] || "No description found"
+        video.thumbnail_url = data['pictures']['sizes'][0]['link']
+        video.url           = data['link']
+        video.embed_url     = "https://player.vimeo.com/video/#{video.id}"
         video.duration      = data['duration'].to_i
-        video.num_views     = data['number_of_plays'].to_i
-        video.num_likes     = data['number_of_likes'].to_i
-        video.num_comments  = data['number_of_comments'].to_i
-        video.created_date  = Date.parse(data['upload_date'])
-        video.username      = data['owner']['display_name']
+        video.num_views     = data['stats']['plays'].to_i
+        video.num_likes     = data['metadata']['connections']['likes']['total'].to_i
+        video.num_comments  = data['metadata']['connections']['comments']['total'].to_i
+        video.created_date  = Date.parse(data['created_time'])
+        video.username      = data['user']['name']
         video.width         = 640
         video.height        = 360
 
@@ -172,13 +176,12 @@ module ActivePublicResources
         video.return_types << APR::ReturnTypes::Iframe.new(
           :driver => DRIVER_NAME,
           :remote_id => video.id,
-          :url    => "https://player.vimeo.com/video/#{data['id']}",
+          :url    => "https://player.vimeo.com/video/#{video.id}",
           :text   => video.title,
           :title  => video.title,
           :width  => 640,
           :height => 360
         )
-
         video
       end
 
