@@ -19,7 +19,7 @@ module ActivePublicResources
           body: { grant_type: 'client_credentials' },
           headers: { "Authorization" => "Basic #{@token}" }
         )
-        return response['access_token']
+        response['access_token']
       end
 
       def verify_token?(token)
@@ -27,8 +27,7 @@ module ActivePublicResources
           VERIFY_URL,
           headers: { "Authorization" => "Bearer #{token}" }
         )
-        return true if response.code == 200
-        return false if response.code == 401
+        response.code == 200 ? true : false
       end
 
     end

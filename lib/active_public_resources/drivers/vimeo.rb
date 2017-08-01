@@ -92,13 +92,10 @@ module ActivePublicResources
           headers: { "Authorization" => "Bearer #{@access_token}" }
         )
 
-        if results.code == 401
-          if !@client.verify_token?(@access_token)
-            @access_token = @client.get_access_token
-            perform_request(request_criteria) if @access_token
-          end
-        else
-          return parse_results(request_criteria, JSON.parse(results))
+        return parse_results(request_criteria, JSON.parse(results)) unless results.code == 401
+        if !@client.verify_token?(@access_token)
+          @access_token = @client.get_access_token
+          perform_request(request_criteria) if !@access_token.blank?
         end
       end
 
