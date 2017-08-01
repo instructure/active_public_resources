@@ -10,8 +10,10 @@ rescue LoadError => e
 end
 
 require 'active_public_resources'
+require 'webmock/rspec'
 require 'vcr'
 require 'pry'
+
 
 def config_data
   yaml_path = File.join(ActivePublicResources.root, 'active_public_resources_config.yml')

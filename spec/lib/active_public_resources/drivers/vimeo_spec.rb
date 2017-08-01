@@ -3,16 +3,16 @@ require 'spec_helper'
 describe APR::Drivers::Vimeo do
 
   let(:driver) { APR::Drivers::Vimeo.new(config_data[:vimeo]) }
-  
+
   describe ".initialize" do
-    it "should throw error when intializing without proper config options" do
+    it "should throw error when initializing without proper config options" do
       expect {
         APR::Drivers::Vimeo.new
       }.to raise_error(ArgumentError)
     end
 
     it "should build a vimeo client on initialize" do
-      driver.client.should be_an_instance_of(::Vimeo::Advanced::Video)
+      driver.client.should be_an_instance_of(APR::OAuth::Vimeo)
     end
   end
 
@@ -71,5 +71,5 @@ describe APR::Drivers::Vimeo do
       item.height.should eq(360)
     end
   end
-  
+
 end
