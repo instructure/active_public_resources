@@ -27,7 +27,7 @@ module ActivePublicResources
           VERIFY_URL,
           headers: { "Authorization" => "Bearer #{token}" }
         )
-        response.code == 200 ? true : false
+        response.code == 200
       end
 
     end
