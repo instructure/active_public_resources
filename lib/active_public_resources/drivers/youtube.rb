@@ -110,6 +110,7 @@ module ActivePublicResources
       def next_criteria(request_criteria, results)
         if results['nextPageToken']
           return RequestCriteria.new({
+            channel_name: request_criteria.channel_name,
             query: request_criteria.query,
             page: results['nextPageToken'],
             per_page: results['pageInfo']['resultsPerPage'].to_i
