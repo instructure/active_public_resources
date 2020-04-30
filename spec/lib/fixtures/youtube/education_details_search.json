@@ -1,0 +1,2080 @@
+{
+  "kind":"youtube#videoListResponse",
+  "etag":"\"nxOHAKTVB7baOKsQgTtJIyGxcs8/Go1fkk-Nr3s4fJfIbnBX7uaJHmc\"",
+  "pageInfo":{
+    "totalResults":25,
+    "resultsPerPage":25
+  },
+  "items":[
+    {
+      "kind":"youtube#video",
+      "etag":"\"nxOHAKTVB7baOKsQgTtJIyGxcs8/Ieq25AcB_FRtcMYBXSTxn-O5B48\"",
+      "id":"N6oIhdTzx9Q",
+      "snippet":{
+        "publishedAt":"2020-04-28T09:55:20.000Z",
+        "channelId":"UCNjPtOCvMrKY5eLwr_-7eUg",
+        "title":"10 Ways to Get a Better EDUCATION",
+        "description":"10 Ways to Get a Better EDUCATION\r\nSUBSCRIBE to ALUX: https://www.youtube.com/channel/UCNjPtOCvMrKY5eLwr_-7eUg?sub_confirmation=1\r\nMicro-Credentials vs Traditional Degrees: https://youtu.be/LsnlgB_RIlY\r\n\r\nIn this Alux.com video we'll try to answer the following questions:\r\nHow to get a better education?\nShould I go back to school?\nShould I apply for a degree?\nWhat is the better education rank?\nWhich country has the best education system?\nWhat kind of education is the best education?\nWhich country has the best education system in 2020?\nWhat are the top 10 countries with the best education?\nWhat country has the worst education system?\nWhich country has the toughest education system?\nWhy Finland education system is best?\nWhy is the American education system bad?\nWhat is the smartest country in the world?\nWhich country is 100 educated?\nWhich country has the easiest education?\nWhich country has the hardest exams?\nWhich country is best at math?\nIs education free in Finland?\nHow long is Finland school day?\nIs homework illegal in Finland?\nWhich country is No 1 in education?\nWhich is the poorest country in the world?\nWhich is the most beautiful country in the world?\nWho has the best education system in the world?\nHow do I become a better school?\nWhat is meant by higher education?\nWhat classes are higher education?\nWhat is the importance of higher education?\nWhat is another word for higher education?\nWhat level is higher education?\nIs a degree higher education?\nWhat is a better word for good?\nWhat is post-secondary education in us?\nWhat is considered post-secondary education?\nWhat are the benefits of higher education?\nIs higher education succeed in life?\nWhat are the benefits of education?\n\n#alux #EDUCATION #learning \r\n\r\nWATCH MORE VIDEOS ON ALUX.COM!\r\nMost Expensive Things: \r\nhttps://www.youtube.com/watch?v=Ay0u3dJRZas&list=PLP35LyTOQVIu4tNnitmhUqIjySwUhfOyl\r\n\r\nLuxury Cars: \r\nhttps://www.youtube.com/watch?v=m5GhenZZs1k&index=1&list=PLP35LyTOQVItrVHGzdB9KY-Sbjq4gU-Ym\r\n\r\nBecoming a Billionaire: \r\nhttps://www.youtube.com/watch?v=Skwfwf2SNpw&index=6&list=PLP35LyTOQVIsO8kOTx8-YOgwkGvrPtJ3M\r\n\r\nWorld's Richest:  \r\nhttps://www.youtube.com/watch?v=rAy_G-1JF74&index=1&list=PLP35LyTOQVIvthSKr0S3JdjWw3qA9foBa\r\n\r\nInspiring People: \r\nhttps://www.youtube.com/watch?v=lMjO3Gg45pM&list=PLP35LyTOQVItaKCX5o3yaje6_H9D-GuEM\r\n\r\nTravel the World:\r\nhttps://www.youtube.com/watch?v=-Blsz2JbdgM&t=2s&index=23&list=PLP35LyTOQVIt823Sy_C3-166RLzONbw6W\r\n\r\nDark Luxury: \r\nhttps://www.youtube.com/watch?v=ch7JWVk8Ldk&index=6&list=PLP35LyTOQVIvQU6lzpW5_lryMmdB6zncU\r\n\r\nCelebrity Videos: \r\nhttps://www.youtube.com/watch?v=UuhPRVdDli0&list=PLP35LyTOQVIuJuINlyvSU2VvP6pk9zjUk\r\n\r\nBusinesses & Brands: \r\nhttps://www.youtube.com/watch?v=Xr2YdBz2uWk&list=PLP35LyTOQVIv0fNwEgqmkrDd9d9Nkl7dz\r\n\r\n-\r\nFollow us on INSTAGRAM for amazing visual inspiration:\r\nhttps://www.instagram.com/alux/\r\n&\r\nDon't miss the latest Luxury News only on Facebook:\r\nhttps://www.facebook.com/ealuxe\r\n---\r\nAlux.com is the largest community of luxury & fine living enthusiasts in the world. We are the #1 online resource for ranking the most expensive things in the world and frequently referenced in publications such as Forbes, USAToday, Wikipedia and many more, as the GO-TO destination for luxury content!\r\n\r\nOur website: https://www.alux.com is the largest social network for people who are passionate about LUXURY! Join today!\r\n\r\nSUBSCRIBE so you never miss another video: https://goo.gl/KPRQT8\r\n--\r\nTo see how rich is your favorite celebrity go to: https://www.alux.com/networth/\r\n--\r\nFor businesses inquiries we're available at:\r\nhttps://www.alux.com/contact/",
+        "thumbnails":{
+          "default":{
+            "url":"https://i.ytimg.com/vi/N6oIhdTzx9Q/default.jpg",
+            "width":120,
+            "height":90
+          },
+          "medium":{
+            "url":"https://i.ytimg.com/vi/N6oIhdTzx9Q/mqdefault.jpg",
+            "width":320,
+            "height":180
+          },
+          "high":{
+            "url":"https://i.ytimg.com/vi/N6oIhdTzx9Q/hqdefault.jpg",
+            "width":480,
+            "height":360
+          },
+          "standard":{
+            "url":"https://i.ytimg.com/vi/N6oIhdTzx9Q/sddefault.jpg",
+            "width":640,
+            "height":480
+          },
+          "maxres":{
+            "url":"https://i.ytimg.com/vi/N6oIhdTzx9Q/maxresdefault.jpg",
+            "width":1280,
+            "height":720
+          }
+        },
+        "channelTitle":"Alux.com",
+        "tags":[
+          "alux",
+          "alux.com",
+          "alux education",
+          "alux videos",
+          "university",
+          "formal education",
+          "business course",
+          "design course",
+          "micro credentials",
+          "traditional degree",
+          "university degrees",
+          "college degree",
+          "financial education",
+          "better ways of education",
+          "alternative education",
+          "home schooling",
+          "school system",
+          "school in finland",
+          "online courses",
+          "online learning",
+          "e learning",
+          "mentor",
+          "specialist",
+          "local university",
+          "university courses",
+          "qualifications",
+          "local college",
+          "best degrees in the world",
+          "top degrees"
+        ],
+        "categoryId":"27",
+        "liveBroadcastContent":"none",
+        "localized":{
+          "title":"10 Ways to Get a Better EDUCATION",
+          "description":"10 Ways to Get a Better EDUCATION\r\nSUBSCRIBE to ALUX: https://www.youtube.com/channel/UCNjPtOCvMrKY5eLwr_-7eUg?sub_confirmation=1\r\nMicro-Credentials vs Traditional Degrees: https://youtu.be/LsnlgB_RIlY\r\n\r\nIn this Alux.com video we'll try to answer the following questions:\r\nHow to get a better education?\nShould I go back to school?\nShould I apply for a degree?\nWhat is the better education rank?\nWhich country has the best education system?\nWhat kind of education is the best education?\nWhich country has the best education system in 2020?\nWhat are the top 10 countries with the best education?\nWhat country has the worst education system?\nWhich country has the toughest education system?\nWhy Finland education system is best?\nWhy is the American education system bad?\nWhat is the smartest country in the world?\nWhich country is 100 educated?\nWhich country has the easiest education?\nWhich country has the hardest exams?\nWhich country is best at math?\nIs education free in Finland?\nHow long is Finland school day?\nIs homework illegal in Finland?\nWhich country is No 1 in education?\nWhich is the poorest country in the world?\nWhich is the most beautiful country in the world?\nWho has the best education system in the world?\nHow do I become a better school?\nWhat is meant by higher education?\nWhat classes are higher education?\nWhat is the importance of higher education?\nWhat is another word for higher education?\nWhat level is higher education?\nIs a degree higher education?\nWhat is a better word for good?\nWhat is post-secondary education in us?\nWhat is considered post-secondary education?\nWhat are the benefits of higher education?\nIs higher education succeed in life?\nWhat are the benefits of education?\n\n#alux #EDUCATION #learning \r\n\r\nWATCH MORE VIDEOS ON ALUX.COM!\r\nMost Expensive Things: \r\nhttps://www.youtube.com/watch?v=Ay0u3dJRZas&list=PLP35LyTOQVIu4tNnitmhUqIjySwUhfOyl\r\n\r\nLuxury Cars: \r\nhttps://www.youtube.com/watch?v=m5GhenZZs1k&index=1&list=PLP35LyTOQVItrVHGzdB9KY-Sbjq4gU-Ym\r\n\r\nBecoming a Billionaire: \r\nhttps://www.youtube.com/watch?v=Skwfwf2SNpw&index=6&list=PLP35LyTOQVIsO8kOTx8-YOgwkGvrPtJ3M\r\n\r\nWorld's Richest:  \r\nhttps://www.youtube.com/watch?v=rAy_G-1JF74&index=1&list=PLP35LyTOQVIvthSKr0S3JdjWw3qA9foBa\r\n\r\nInspiring People: \r\nhttps://www.youtube.com/watch?v=lMjO3Gg45pM&list=PLP35LyTOQVItaKCX5o3yaje6_H9D-GuEM\r\n\r\nTravel the World:\r\nhttps://www.youtube.com/watch?v=-Blsz2JbdgM&t=2s&index=23&list=PLP35LyTOQVIt823Sy_C3-166RLzONbw6W\r\n\r\nDark Luxury: \r\nhttps://www.youtube.com/watch?v=ch7JWVk8Ldk&index=6&list=PLP35LyTOQVIvQU6lzpW5_lryMmdB6zncU\r\n\r\nCelebrity Videos: \r\nhttps://www.youtube.com/watch?v=UuhPRVdDli0&list=PLP35LyTOQVIuJuINlyvSU2VvP6pk9zjUk\r\n\r\nBusinesses & Brands: \r\nhttps://www.youtube.com/watch?v=Xr2YdBz2uWk&list=PLP35LyTOQVIv0fNwEgqmkrDd9d9Nkl7dz\r\n\r\n-\r\nFollow us on INSTAGRAM for amazing visual inspiration:\r\nhttps://www.instagram.com/alux/\r\n&\r\nDon't miss the latest Luxury News only on Facebook:\r\nhttps://www.facebook.com/ealuxe\r\n---\r\nAlux.com is the largest community of luxury & fine living enthusiasts in the world. We are the #1 online resource for ranking the most expensive things in the world and frequently referenced in publications such as Forbes, USAToday, Wikipedia and many more, as the GO-TO destination for luxury content!\r\n\r\nOur website: https://www.alux.com is the largest social network for people who are passionate about LUXURY! Join today!\r\n\r\nSUBSCRIBE so you never miss another video: https://goo.gl/KPRQT8\r\n--\r\nTo see how rich is your favorite celebrity go to: https://www.alux.com/networth/\r\n--\r\nFor businesses inquiries we're available at:\r\nhttps://www.alux.com/contact/"
+        },
+        "defaultAudioLanguage":"en"
+      },
+      "contentDetails":{
+        "duration":"PT10M7S",
+        "dimension":"2d",
+        "definition":"hd",
+        "caption":"false",
+        "licensedContent":true,
+        "projection":"rectangular"
+      },
+      "statistics":{
+        "viewCount":"22650",
+        "likeCount":"1576",
+        "dislikeCount":"18",
+        "favoriteCount":"0",
+        "commentCount":"175"
+      }
+    },
+    {
+      "kind":"youtube#video",
+      "etag":"\"nxOHAKTVB7baOKsQgTtJIyGxcs8/G7D4OyO8gylFKzbypX0Pg4e_S40\"",
+      "id":"HndV87XpkWg",
+      "snippet":{
+        "publishedAt":"2015-05-13T10:57:06.000Z",
+        "channelId":"UC7IcJI8PUf5Z3zKxnZvTBog",
+        "title":"What's Education For?",
+        "description":"The greatest problem of the modern education system is that it doesn't focus on systematically preparing students for many aspects of the real challenge out there: Life itself. SUBSCRIBE to our channel for new films every week: http://tinyurl.com/o28mut7\nIf you like our films take a look at our shop (we ship worldwide): http://www.theschooloflife.com/shop/all/ \n\nBrought to you by http://www.theschooloflife.com\n\nProduced in collaboration with \nhttp://www.anthousestudio.com #TheSchoolOfLife",
+        "thumbnails":{
+          "default":{
+            "url":"https://i.ytimg.com/vi/HndV87XpkWg/default.jpg",
+            "width":120,
+            "height":90
+          },
+          "medium":{
+            "url":"https://i.ytimg.com/vi/HndV87XpkWg/mqdefault.jpg",
+            "width":320,
+            "height":180
+          },
+          "high":{
+            "url":"https://i.ytimg.com/vi/HndV87XpkWg/hqdefault.jpg",
+            "width":480,
+            "height":360
+          },
+          "standard":{
+            "url":"https://i.ytimg.com/vi/HndV87XpkWg/sddefault.jpg",
+            "width":640,
+            "height":480
+          },
+          "maxres":{
+            "url":"https://i.ytimg.com/vi/HndV87XpkWg/maxresdefault.jpg",
+            "width":1280,
+            "height":720
+          }
+        },
+        "channelTitle":"The School of Life",
+        "tags":[
+          "interest",
+          "lecture",
+          "philosophy",
+          "improvement",
+          "thought",
+          "think",
+          "alain de botton",
+          "big questions",
+          "wonder",
+          "Learn",
+          "mood",
+          "wisdom",
+          "Student",
+          "education",
+          "sermon",
+          "TSOL",
+          "Teacher",
+          "school",
+          "life",
+          "London",
+          "curriculum",
+          "secular",
+          "talk",
+          "the school of life",
+          "SOL",
+          "self",
+          "love",
+          "relationships",
+          "Lesson",
+          "college",
+          "what's the point of school",
+          "what to do with my education",
+          "elementary school",
+          "lesson plan",
+          "middle school",
+          "high school",
+          "secondary school"
+        ],
+        "categoryId":"27",
+        "liveBroadcastContent":"none",
+        "defaultLanguage":"en-GB",
+        "localized":{
+          "title":"What's Education For?",
+          "description":"The greatest problem of the modern education system is that it doesn't focus on systematically preparing students for many aspects of the real challenge out there: Life itself. SUBSCRIBE to our channel for new films every week: http://tinyurl.com/o28mut7\nIf you like our films take a look at our shop (we ship worldwide): http://www.theschooloflife.com/shop/all/ \n\nBrought to you by http://www.theschooloflife.com\n\nProduced in collaboration with \nhttp://www.anthousestudio.com #TheSchoolOfLife"
+        },
+        "defaultAudioLanguage":"en-GB"
+      },
+      "contentDetails":{
+        "duration":"PT3M44S",
+        "dimension":"2d",
+        "definition":"hd",
+        "caption":"true",
+        "licensedContent":true,
+        "projection":"rectangular"
+      },
+      "statistics":{
+        "viewCount":"916100",
+        "likeCount":"16075",
+        "dislikeCount":"616",
+        "favoriteCount":"0",
+        "commentCount":"1203"
+      }
+    },
+    {
+      "kind":"youtube#video",
+      "etag":"\"nxOHAKTVB7baOKsQgTtJIyGxcs8/pnyaIyBlq__hmMithSGAqBzawms\"",
+      "id":"S294zRodS_4",
+      "snippet":{
+        "publishedAt":"2018-01-15T21:48:10.000Z",
+        "channelId":"UCX6b17PVsYBQ0ip5gyeme-Q",
+        "title":"Education In Society: Crash Course Sociology #40",
+        "description":"Today we’ll explore the history of education as a social institution, with a specific focus on how the US organizes its educational system. We’ll look at education through the lenses of some sociological paradigms: structural functionalist approaches (including some of the manifest and latent functions associated with education), and a symbolic interactionist approach to education that shows us how self-fulfilling prophecies in educational settings contribute to differences in academic outcomes for students.\n\nCrash Course is made with Adobe Creative Cloud. Get a free trial here: https://www.adobe.com/creativecloud/catalog/desktop.html\n\n***\n\nReferences:\nSociology by John J. Macionis, 15th edition (2014)\nUS Census, Educational Attainment in the United States: 2015 https://www.census.gov/content/dam/Census/library/publications/2016/demo/p20-578.pdf\nUNESCO Institute for Statistics http://data.uis.unesco.org/Index.aspx?queryid=242\n\n***\n\nCrash Course is on Patreon! You can support us directly by signing up at http://www.patreon.com/crashcourse\n\nThanks to the following Patrons for their generous monthly contributions that help keep Crash Course free for everyone forever:\n\nMark Brouwer, Nickie Miskell Jr., Jessica Wode, Eric Prestemon, Kathrin Benoit, Tom Trval, Jason Saslow, Nathan Taylor, Divonne Holmes à Court, Brian Thomas Gossett, Khaled El Shalakany, Indika Siriwardena, Robert Kunz, SR Foxley, Sam Ferguson, Yasenia Cruz, Daniel Baulig, Eric Koslow, Caleb Weeks, Tim Curwick, Evren Türkmenoğlu, Alexander Tamas, Justin Zingsheim, D.A. Noe, Shawn Arnold, mark austin, Ruth Perez, Malcolm Callis, Ken Penttinen, Advait Shinde, Cody Carpenter, Annamaria Herrera, William McGraw, Bader AlGhamdi, Vaso, Melissa Briski, Joey Quek, Andrei Krishkevich, Rachel Bright, Alex S, Mayumi Maeda, Kathy & Tim Philip, Montather, Jirat, Eric Kitchen, Moritz Schmidt, Ian Dundore, Chris Peters, Sandra Aft, Steve Marshall\n--\n\nWant to find Crash Course elsewhere on the internet?\nFacebook - http://www.facebook.com/YouTubeCrashCourse\nTwitter - http://www.twitter.com/TheCrashCourse\nTumblr - http://thecrashcourse.tumblr.com \nSupport Crash Course on Patreon: http://patreon.com/crashcourse\n\nCC Kids: http://www.youtube.com/crashcoursekids",
+        "thumbnails":{
+          "default":{
+            "url":"https://i.ytimg.com/vi/S294zRodS_4/default.jpg",
+            "width":120,
+            "height":90
+          },
+          "medium":{
+            "url":"https://i.ytimg.com/vi/S294zRodS_4/mqdefault.jpg",
+            "width":320,
+            "height":180
+          },
+          "high":{
+            "url":"https://i.ytimg.com/vi/S294zRodS_4/hqdefault.jpg",
+            "width":480,
+            "height":360
+          },
+          "standard":{
+            "url":"https://i.ytimg.com/vi/S294zRodS_4/sddefault.jpg",
+            "width":640,
+            "height":480
+          },
+          "maxres":{
+            "url":"https://i.ytimg.com/vi/S294zRodS_4/maxresdefault.jpg",
+            "width":1280,
+            "height":720
+          }
+        },
+        "channelTitle":"CrashCourse",
+        "tags":[
+          "John Green",
+          "Hank Green",
+          "vlogbrothers",
+          "Crash Course",
+          "crashcourse",
+          "education",
+          "sociology",
+          "schools",
+          "tracking"
+        ],
+        "categoryId":"27",
+        "liveBroadcastContent":"none",
+        "defaultLanguage":"en",
+        "localized":{
+          "title":"Education In Society: Crash Course Sociology #40",
+          "description":"Today we’ll explore the history of education as a social institution, with a specific focus on how the US organizes its educational system. We’ll look at education through the lenses of some sociological paradigms: structural functionalist approaches (including some of the manifest and latent functions associated with education), and a symbolic interactionist approach to education that shows us how self-fulfilling prophecies in educational settings contribute to differences in academic outcomes for students.\n\nCrash Course is made with Adobe Creative Cloud. Get a free trial here: https://www.adobe.com/creativecloud/catalog/desktop.html\n\n***\n\nReferences:\nSociology by John J. Macionis, 15th edition (2014)\nUS Census, Educational Attainment in the United States: 2015 https://www.census.gov/content/dam/Census/library/publications/2016/demo/p20-578.pdf\nUNESCO Institute for Statistics http://data.uis.unesco.org/Index.aspx?queryid=242\n\n***\n\nCrash Course is on Patreon! You can support us directly by signing up at http://www.patreon.com/crashcourse\n\nThanks to the following Patrons for their generous monthly contributions that help keep Crash Course free for everyone forever:\n\nMark Brouwer, Nickie Miskell Jr., Jessica Wode, Eric Prestemon, Kathrin Benoit, Tom Trval, Jason Saslow, Nathan Taylor, Divonne Holmes à Court, Brian Thomas Gossett, Khaled El Shalakany, Indika Siriwardena, Robert Kunz, SR Foxley, Sam Ferguson, Yasenia Cruz, Daniel Baulig, Eric Koslow, Caleb Weeks, Tim Curwick, Evren Türkmenoğlu, Alexander Tamas, Justin Zingsheim, D.A. Noe, Shawn Arnold, mark austin, Ruth Perez, Malcolm Callis, Ken Penttinen, Advait Shinde, Cody Carpenter, Annamaria Herrera, William McGraw, Bader AlGhamdi, Vaso, Melissa Briski, Joey Quek, Andrei Krishkevich, Rachel Bright, Alex S, Mayumi Maeda, Kathy & Tim Philip, Montather, Jirat, Eric Kitchen, Moritz Schmidt, Ian Dundore, Chris Peters, Sandra Aft, Steve Marshall\n--\n\nWant to find Crash Course elsewhere on the internet?\nFacebook - http://www.facebook.com/YouTubeCrashCourse\nTwitter - http://www.twitter.com/TheCrashCourse\nTumblr - http://thecrashcourse.tumblr.com \nSupport Crash Course on Patreon: http://patreon.com/crashcourse\n\nCC Kids: http://www.youtube.com/crashcoursekids"
+        },
+        "defaultAudioLanguage":"en"
+      },
+      "contentDetails":{
+        "duration":"PT11M32S",
+        "dimension":"2d",
+        "definition":"hd",
+        "caption":"true",
+        "licensedContent":true,
+        "projection":"rectangular"
+      },
+      "statistics":{
+        "viewCount":"197207",
+        "likeCount":"3636",
+        "dislikeCount":"298",
+        "favoriteCount":"0",
+        "commentCount":"289"
+      }
+    },
+    {
+      "kind":"youtube#video",
+      "etag":"\"nxOHAKTVB7baOKsQgTtJIyGxcs8/NuDIexz4TeKsuNUzkp6PdbvWHbw\"",
+      "id":"BnC6IABJXOI",
+      "snippet":{
+        "publishedAt":"2014-05-02T22:42:00.000Z",
+        "channelId":"UCsT0YIqwnpJCM-mx7-gSA4Q",
+        "title":"Toxic culture of education: Joshua Katz at TEDxUniversityofAkron",
+        "description":"Joshua Katz is a high school math teacher in Orange County, FL. \n\nJoshua's Talk:\nIn the mid 1800's, Horace Mann captured the potential impact of education on society.  We have yet to realize the potential he saw, and in fact, we are missing the mark by a wider and wider margin.  We have created a \"Toxic Culture of Education\" in our country that is damaging students, impacting our economy, and threatening our future.  Since the passage of No Child Left Behind, we have embraced a culture of high stakes testing and are perpetuating a false sense of failure in our schools.  We have ignored research and data on effective policy making practices in order to serve the interest of private industries that have monetized our students.  The impact is being felt in communities, on college campuses, and in our economy.  The solution lies in a common sense approach to student development, curriculum choice, career exploration, and relevant data analysis.  This talk will present a vision of an education system that allows us to embrace our full potential if we only had the courage to ask \"Why Not\"?\n\nAbout TEDx, x = independently organized event:\n\nIn the spirit of ideas worth spreading, TEDx is a program of local, self-organized events that bring people together to share a TED-like experience. At a TEDx event, TEDTalks video and live speakers combine to spark deep discussion and connection in a small group. These local, self-organized events are branded TEDx, where x = independently organized TED event. The TED Conference provides general guidance for the TEDx program, but individual TEDx events are self-organized.* (*Subject to certain rules and regulations)",
+        "thumbnails":{
+          "default":{
+            "url":"https://i.ytimg.com/vi/BnC6IABJXOI/default.jpg",
+            "width":120,
+            "height":90
+          },
+          "medium":{
+            "url":"https://i.ytimg.com/vi/BnC6IABJXOI/mqdefault.jpg",
+            "width":320,
+            "height":180
+          },
+          "high":{
+            "url":"https://i.ytimg.com/vi/BnC6IABJXOI/hqdefault.jpg",
+            "width":480,
+            "height":360
+          },
+          "standard":{
+            "url":"https://i.ytimg.com/vi/BnC6IABJXOI/sddefault.jpg",
+            "width":640,
+            "height":480
+          },
+          "maxres":{
+            "url":"https://i.ytimg.com/vi/BnC6IABJXOI/maxresdefault.jpg",
+            "width":1280,
+            "height":720
+          }
+        },
+        "channelTitle":"TEDx Talks",
+        "tags":[
+          "lessons",
+          "School",
+          "Culture (Type Of Museum)",
+          "students",
+          "tedx",
+          "History",
+          "taxes",
+          "ted talks",
+          "tedx talks",
+          "reform",
+          "teachers",
+          "algebra",
+          "English",
+          "public education",
+          "ted",
+          "ted x",
+          "tedx talk",
+          "TEDxUniversityofAkron",
+          "United States Of America (Country)",
+          "toxic",
+          "TEDx",
+          "education",
+          "Katz",
+          "akron",
+          "joshua",
+          "ted talk"
+        ],
+        "categoryId":"29",
+        "liveBroadcastContent":"none",
+        "defaultLanguage":"en",
+        "localized":{
+          "title":"Toxic culture of education: Joshua Katz at TEDxUniversityofAkron",
+          "description":"Joshua Katz is a high school math teacher in Orange County, FL. \n\nJoshua's Talk:\nIn the mid 1800's, Horace Mann captured the potential impact of education on society.  We have yet to realize the potential he saw, and in fact, we are missing the mark by a wider and wider margin.  We have created a \"Toxic Culture of Education\" in our country that is damaging students, impacting our economy, and threatening our future.  Since the passage of No Child Left Behind, we have embraced a culture of high stakes testing and are perpetuating a false sense of failure in our schools.  We have ignored research and data on effective policy making practices in order to serve the interest of private industries that have monetized our students.  The impact is being felt in communities, on college campuses, and in our economy.  The solution lies in a common sense approach to student development, curriculum choice, career exploration, and relevant data analysis.  This talk will present a vision of an education system that allows us to embrace our full potential if we only had the courage to ask \"Why Not\"?\n\nAbout TEDx, x = independently organized event:\n\nIn the spirit of ideas worth spreading, TEDx is a program of local, self-organized events that bring people together to share a TED-like experience. At a TEDx event, TEDTalks video and live speakers combine to spark deep discussion and connection in a small group. These local, self-organized events are branded TEDx, where x = independently organized TED event. The TED Conference provides general guidance for the TEDx program, but individual TEDx events are self-organized.* (*Subject to certain rules and regulations)"
+        },
+        "defaultAudioLanguage":"en-US"
+      },
+      "contentDetails":{
+        "duration":"PT17M2S",
+        "dimension":"2d",
+        "definition":"hd",
+        "caption":"true",
+        "licensedContent":true,
+        "projection":"rectangular"
+      },
+      "statistics":{
+        "viewCount":"1485816",
+        "likeCount":"51845",
+        "dislikeCount":"1046",
+        "favoriteCount":"0",
+        "commentCount":"4090"
+      }
+    },
+    {
+      "kind":"youtube#video",
+      "etag":"\"nxOHAKTVB7baOKsQgTtJIyGxcs8/5XtS5bU_5dpVWbSPtoh1cfWDoIY\"",
+      "id":"xhN5Zkm82DA",
+      "snippet":{
+        "publishedAt":"2016-12-20T16:05:07.000Z",
+        "channelId":"UC5Ti4_DVp7LW34PjEwB13Xg",
+        "title":"Learn Shapes Educational Video For Kids",
+        "description":"Morphle Playlist:  https://www.youtube.com/playlist?list=PLmwpvieHKxgF2A7612PdKabO1EEjfe5aP Download episodes:\nhttp://www.mymagicpetmorphle.com\n\nIn this compilation of the My Magic Pet Morphle cartoon Morphle morphs into all sorts of things like a T-Rex, Dinosaurs, Triceratops,  an Ambulance, Monster Truck, a truck, a dump truck a fire truck, bus, a crane. other vehicles, dinosaurs, animals and a robot.\n\n'My Magic Pet Morphle' is an animated hit tv show for toddlers and older kids. But because of it's fun colors and sounds it is even popular with babies. Morphle can morph into anything his human companion Mila wants. From dinosaus to cars, construction vehicles like diggers, dumptrucks and cranes to pets like cats dogs and lions! All our episodes have an educational core to them so that your kids can learn about things like shapes, numbers and colors.\n\nPlease subscribe to our channel. We upload a new Morphle episode at least once a week!\n\n-----------------------------------------------------------------------------\n#kids #cartoon #Morphle",
+        "thumbnails":{
+          "default":{
+            "url":"https://i.ytimg.com/vi/xhN5Zkm82DA/default.jpg",
+            "width":120,
+            "height":90
+          },
+          "medium":{
+            "url":"https://i.ytimg.com/vi/xhN5Zkm82DA/mqdefault.jpg",
+            "width":320,
+            "height":180
+          },
+          "high":{
+            "url":"https://i.ytimg.com/vi/xhN5Zkm82DA/hqdefault.jpg",
+            "width":480,
+            "height":360
+          },
+          "standard":{
+            "url":"https://i.ytimg.com/vi/xhN5Zkm82DA/sddefault.jpg",
+            "width":640,
+            "height":480
+          },
+          "maxres":{
+            "url":"https://i.ytimg.com/vi/xhN5Zkm82DA/maxresdefault.jpg",
+            "width":1280,
+            "height":720
+          }
+        },
+        "channelTitle":"Morphle TV",
+        "tags":[
+          "shapes",
+          "shapes kids",
+          "educational for kids",
+          "shapes for children",
+          "shape",
+          "learn shapes",
+          "learn shapes for children",
+          "toddlers",
+          "animation",
+          "morphle",
+          "my magic pet morphle",
+          "morphle videos",
+          "kids",
+          "children",
+          "video for kids",
+          "videos for children",
+          "kids videos",
+          "learn",
+          "kids tv",
+          "numbers",
+          "phonics",
+          "Family",
+          "Learning (Quotation Subject)",
+          "School",
+          "children rhymes",
+          "babies",
+          "preschool",
+          "kidstv",
+          "rhyme",
+          "nursery rhymes songs",
+          "nursery rhymes playlist",
+          "toddler",
+          "abc",
+          "top nursery rhymes",
+          "english"
+        ],
+        "categoryId":"1",
+        "liveBroadcastContent":"none",
+        "defaultLanguage":"en",
+        "localized":{
+          "title":"Learn Shapes Educational Video For Kids",
+          "description":"Morphle Playlist:  https://www.youtube.com/playlist?list=PLmwpvieHKxgF2A7612PdKabO1EEjfe5aP Download episodes:\nhttp://www.mymagicpetmorphle.com\n\nIn this compilation of the My Magic Pet Morphle cartoon Morphle morphs into all sorts of things like a T-Rex, Dinosaurs, Triceratops,  an Ambulance, Monster Truck, a truck, a dump truck a fire truck, bus, a crane. other vehicles, dinosaurs, animals and a robot.\n\n'My Magic Pet Morphle' is an animated hit tv show for toddlers and older kids. But because of it's fun colors and sounds it is even popular with babies. Morphle can morph into anything his human companion Mila wants. From dinosaus to cars, construction vehicles like diggers, dumptrucks and cranes to pets like cats dogs and lions! All our episodes have an educational core to them so that your kids can learn about things like shapes, numbers and colors.\n\nPlease subscribe to our channel. We upload a new Morphle episode at least once a week!\n\n-----------------------------------------------------------------------------\n#kids #cartoon #Morphle"
+        },
+        "defaultAudioLanguage":"en-US"
+      },
+      "contentDetails":{
+        "duration":"PT28M46S",
+        "dimension":"2d",
+        "definition":"hd",
+        "caption":"false",
+        "licensedContent":true,
+        "projection":"rectangular"
+      },
+      "statistics":{
+        "viewCount":"21733455",
+        "favoriteCount":"0",
+        "commentCount":"9"
+      }
+    },
+    {
+      "kind":"youtube#video",
+      "etag":"\"nxOHAKTVB7baOKsQgTtJIyGxcs8/EZHY_I7EtjBq9KsvONo2AqSzEjA\"",
+      "id":"8ZV_i37wxX8",
+      "snippet":{
+        "publishedAt":"2019-10-13T12:00:00.000Z",
+        "channelId":"UChGJGhZ9SOOHvBB0Y4DOO_w",
+        "title":"Why do Flood Happen?????? Educational Video for Kids!!!!",
+        "description":"Why do Flood Happen Educational Video for Kids with Ryan ToysReview! Let's learn all about the reason Flood happens and more! !  Fun educational learning video for children!",
+        "thumbnails":{
+          "default":{
+            "url":"https://i.ytimg.com/vi/8ZV_i37wxX8/default.jpg",
+            "width":120,
+            "height":90
+          },
+          "medium":{
+            "url":"https://i.ytimg.com/vi/8ZV_i37wxX8/mqdefault.jpg",
+            "width":320,
+            "height":180
+          },
+          "high":{
+            "url":"https://i.ytimg.com/vi/8ZV_i37wxX8/hqdefault.jpg",
+            "width":480,
+            "height":360
+          },
+          "standard":{
+            "url":"https://i.ytimg.com/vi/8ZV_i37wxX8/sddefault.jpg",
+            "width":640,
+            "height":480
+          },
+          "maxres":{
+            "url":"https://i.ytimg.com/vi/8ZV_i37wxX8/maxresdefault.jpg",
+            "width":1280,
+            "height":720
+          }
+        },
+        "channelTitle":"Ryan's World",
+        "tags":[
+          "Flood",
+          "Why do Flood Happen",
+          "flood facts",
+          "flood for kids",
+          "all about flood",
+          "educational videos for kids",
+          "learn about flood",
+          "Ryan ToysReview",
+          "Ryan toys",
+          "Ryan",
+          "learn",
+          "learns",
+          "educational",
+          "education",
+          "eductional kids video",
+          "eductional video for children",
+          "learning video for toddlers",
+          "learning video for preschoolor",
+          "kids science video",
+          "Ryan's Family Review",
+          "science videos"
+        ],
+        "categoryId":"24",
+        "liveBroadcastContent":"none",
+        "localized":{
+          "title":"Why do Flood Happen?????? Educational Video for Kids!!!!",
+          "description":"Why do Flood Happen Educational Video for Kids with Ryan ToysReview! Let's learn all about the reason Flood happens and more! !  Fun educational learning video for children!"
+        }
+      },
+      "contentDetails":{
+        "duration":"PT7M46S",
+        "dimension":"2d",
+        "definition":"hd",
+        "caption":"false",
+        "licensedContent":true,
+        "projection":"rectangular"
+      },
+      "statistics":{
+        "viewCount":"9670435",
+        "likeCount":"16624",
+        "dislikeCount":"5101",
+        "favoriteCount":"0"
+      }
+    },
+    {
+      "kind":"youtube#video",
+      "etag":"\"nxOHAKTVB7baOKsQgTtJIyGxcs8/cST0wxim_2nf44FpZF_S_PQHlQM\"",
+      "id":"nA1Aqp0sPQo",
+      "snippet":{
+        "publishedAt":"2012-05-08T01:58:03.000Z",
+        "channelId":"UC2zniDSpDbJ7u2rqO6aShTg",
+        "title":"21st Century Education",
+        "description":"21st Century Education",
+        "thumbnails":{
+          "default":{
+            "url":"https://i.ytimg.com/vi/nA1Aqp0sPQo/default.jpg",
+            "width":120,
+            "height":90
+          },
+          "medium":{
+            "url":"https://i.ytimg.com/vi/nA1Aqp0sPQo/mqdefault.jpg",
+            "width":320,
+            "height":180
+          },
+          "high":{
+            "url":"https://i.ytimg.com/vi/nA1Aqp0sPQo/hqdefault.jpg",
+            "width":480,
+            "height":360
+          },
+          "standard":{
+            "url":"https://i.ytimg.com/vi/nA1Aqp0sPQo/sddefault.jpg",
+            "width":640,
+            "height":480
+          }
+        },
+        "channelTitle":"AITSL",
+        "tags":[
+          "21st",
+          "century",
+          "education",
+          "AITSL"
+        ],
+        "categoryId":"27",
+        "liveBroadcastContent":"none",
+        "localized":{
+          "title":"21st Century Education",
+          "description":"21st Century Education"
+        },
+        "defaultAudioLanguage":"en-GB"
+      },
+      "contentDetails":{
+        "duration":"PT3M41S",
+        "dimension":"2d",
+        "definition":"sd",
+        "caption":"true",
+        "licensedContent":false,
+        "projection":"rectangular"
+      },
+      "statistics":{
+        "viewCount":"967146",
+        "favoriteCount":"0"
+      }
+    },
+    {
+      "kind":"youtube#video",
+      "etag":"\"nxOHAKTVB7baOKsQgTtJIyGxcs8/P11rdR4kb_nqrYjVWh-VHm0mNDU\"",
+      "id":"7CBKCG7HXjI",
+      "snippet":{
+        "publishedAt":"2020-04-29T02:00:45.000Z",
+        "channelId":"UC72V1bNq-iPgVnRUDIXnNag",
+        "title":"शैक्षिक समाचार राजस्थान 29 APRIL 2020 RAJASTHAN EDUCATION NEWS Sekshik Samachar #Rpsc #REET #Rssb",
+        "description":"शैक्षिक समाचार राजस्थान 29 APRIL 2020 RAJASTHAN EDUCATION NEWS Sekshik Samachar\nPDF 👉 https://drive.google.com/file/d/1w09AttkW4QBDM6OTnIYsun90O1Cmzm7x/view?usp=drivesdk\n\n#Rajasthan\n#Shaikshik  \n#samachar\n#Rajasthanshekshiksamachar\n#rpsc1stgrade\n#educationnews\n#Rajasthaneducationnews\n#Currentaffair2020\n#Reet2020\n#Rtet2020\n#Patwarinewvacancy\n#Rajasthanpolice\n#reet3rdgradevacancy\n#Rajasthan\n#Shaikshik  \n#samachar\n#rpsc\n#rpsc1stgrade\n#sekshik\n#educationnews\n#currentaffairs\n#April\n#currentgk\n#schoolLecturer\n#upsc\n#ssc\n#masterjee\n#masterji\n#rsmssb\n#शैक्षिक\n#शिक्षक\n#शैक्षिकसमाचार\n#Patwarbharti2020\n#Constablebharti\n#policebharti2020\n#patwaribharti\n#patwarivacancy\n#Policeconstablebharti\n#Collegelecturerbharti",
+        "thumbnails":{
+          "default":{
+            "url":"https://i.ytimg.com/vi/7CBKCG7HXjI/default.jpg",
+            "width":120,
+            "height":90
+          },
+          "medium":{
+            "url":"https://i.ytimg.com/vi/7CBKCG7HXjI/mqdefault.jpg",
+            "width":320,
+            "height":180
+          },
+          "high":{
+            "url":"https://i.ytimg.com/vi/7CBKCG7HXjI/hqdefault.jpg",
+            "width":480,
+            "height":360
+          },
+          "standard":{
+            "url":"https://i.ytimg.com/vi/7CBKCG7HXjI/sddefault.jpg",
+            "width":640,
+            "height":480
+          },
+          "maxres":{
+            "url":"https://i.ytimg.com/vi/7CBKCG7HXjI/maxresdefault.jpg",
+            "width":1280,
+            "height":720
+          }
+        },
+        "channelTitle":"Master Jee",
+        "tags":[
+          "शैक्षिक समाचार राजस्थान",
+          "28-04-2020",
+          "Rajasthan Education Samachar",
+          "Shaikshik Samachar",
+          "Shekshik samachar samachar",
+          "patwari bharti 2020",
+          "police constable bharti 2020",
+          "RPSC",
+          "RSMSSB",
+          "REET 2020",
+          "New Vacancy 2020",
+          "RPSC 1st Grade 2020",
+          "RPSC 2nd Grade 2018",
+          "RTET 2020",
+          "3rd Grade",
+          "tech news",
+          "trending news",
+          "ctet",
+          "modi news",
+          "rajasthan current affairs",
+          "sbi exam",
+          "ssc exam",
+          "railway exam",
+          "uptet",
+          "mptet",
+          "today",
+          "rajasthan police vacancy",
+          "28 April 2020 current affairs"
+        ],
+        "categoryId":"27",
+        "liveBroadcastContent":"none",
+        "localized":{
+          "title":"शैक्षिक समाचार राजस्थान 29 APRIL 2020 RAJASTHAN EDUCATION NEWS Sekshik Samachar #Rpsc #REET #Rssb",
+          "description":"शैक्षिक समाचार राजस्थान 29 APRIL 2020 RAJASTHAN EDUCATION NEWS Sekshik Samachar\nPDF 👉 https://drive.google.com/file/d/1w09AttkW4QBDM6OTnIYsun90O1Cmzm7x/view?usp=drivesdk\n\n#Rajasthan\n#Shaikshik  \n#samachar\n#Rajasthanshekshiksamachar\n#rpsc1stgrade\n#educationnews\n#Rajasthaneducationnews\n#Currentaffair2020\n#Reet2020\n#Rtet2020\n#Patwarinewvacancy\n#Rajasthanpolice\n#reet3rdgradevacancy\n#Rajasthan\n#Shaikshik  \n#samachar\n#rpsc\n#rpsc1stgrade\n#sekshik\n#educationnews\n#currentaffairs\n#April\n#currentgk\n#schoolLecturer\n#upsc\n#ssc\n#masterjee\n#masterji\n#rsmssb\n#शैक्षिक\n#शिक्षक\n#शैक्षिकसमाचार\n#Patwarbharti2020\n#Constablebharti\n#policebharti2020\n#patwaribharti\n#patwarivacancy\n#Policeconstablebharti\n#Collegelecturerbharti"
+        }
+      },
+      "contentDetails":{
+        "duration":"PT5M58S",
+        "dimension":"2d",
+        "definition":"hd",
+        "caption":"false",
+        "licensedContent":true,
+        "projection":"rectangular"
+      },
+      "statistics":{
+        "viewCount":"1332",
+        "likeCount":"146",
+        "dislikeCount":"3",
+        "favoriteCount":"0",
+        "commentCount":"6"
+      }
+    },
+    {
+      "kind":"youtube#video",
+      "etag":"\"nxOHAKTVB7baOKsQgTtJIyGxcs8/uWkDSq6S3_wou5GgovkjEcU56po\"",
+      "id":"DdNAUJWJN08",
+      "snippet":{
+        "publishedAt":"2012-02-01T12:07:02.000Z",
+        "channelId":"UC1xXl6pnfk3lSOetSoDjTqg",
+        "title":"Noam Chomsky - The Purpose of Education",
+        "description":"Noam Chomsky discusses the purpose of education, impact of technology, whether education should be perceived as a cost or an investment and the value of standardised assessment. \r\n\r\nPresented at the Learning Without Frontiers Conference - Jan 25th 2012- London (LWF 12) \r\n\r\nhttp://www.learningwithoutfrontiers.com\r\n\r\ncredits:\r\nInterviewed & directed by Graham Brown-Martin\r\nFilmed & edited by Kevin Grant at wildtraxtv (http://on.fb.me/wildtraxtv)",
+        "thumbnails":{
+          "default":{
+            "url":"https://i.ytimg.com/vi/DdNAUJWJN08/default.jpg",
+            "width":120,
+            "height":90
+          },
+          "medium":{
+            "url":"https://i.ytimg.com/vi/DdNAUJWJN08/mqdefault.jpg",
+            "width":320,
+            "height":180
+          },
+          "high":{
+            "url":"https://i.ytimg.com/vi/DdNAUJWJN08/hqdefault.jpg",
+            "width":480,
+            "height":360
+          },
+          "standard":{
+            "url":"https://i.ytimg.com/vi/DdNAUJWJN08/sddefault.jpg",
+            "width":640,
+            "height":480
+          },
+          "maxres":{
+            "url":"https://i.ytimg.com/vi/DdNAUJWJN08/maxresdefault.jpg",
+            "width":1280,
+            "height":720
+          }
+        },
+        "channelTitle":"lwf",
+        "tags":[
+          "lwf12",
+          "learning",
+          "education",
+          "teaching",
+          "technology",
+          "assessment",
+          "purpose",
+          "lwf",
+          "noam",
+          "chomsky",
+          "democracy",
+          "superstructure"
+        ],
+        "categoryId":"27",
+        "liveBroadcastContent":"none",
+        "localized":{
+          "title":"Noam Chomsky - The Purpose of Education",
+          "description":"Noam Chomsky discusses the purpose of education, impact of technology, whether education should be perceived as a cost or an investment and the value of standardised assessment. \r\n\r\nPresented at the Learning Without Frontiers Conference - Jan 25th 2012- London (LWF 12) \r\n\r\nhttp://www.learningwithoutfrontiers.com\r\n\r\ncredits:\r\nInterviewed & directed by Graham Brown-Martin\r\nFilmed & edited by Kevin Grant at wildtraxtv (http://on.fb.me/wildtraxtv)"
+        }
+      },
+      "contentDetails":{
+        "duration":"PT21M58S",
+        "dimension":"2d",
+        "definition":"hd",
+        "caption":"false",
+        "licensedContent":false,
+        "projection":"rectangular"
+      },
+      "statistics":{
+        "viewCount":"627513",
+        "likeCount":"5466",
+        "dislikeCount":"140",
+        "favoriteCount":"0",
+        "commentCount":"863"
+      }
+    },
+    {
+      "kind":"youtube#video",
+      "etag":"\"nxOHAKTVB7baOKsQgTtJIyGxcs8/ZIgKKHvcvYIGWtGFoyWjmkj4o0Y\"",
+      "id":"imHfNDpBlCE",
+      "snippet":{
+        "publishedAt":"2020-04-27T04:58:36.000Z",
+        "channelId":"UCI3RT5PGmdi1KVp9FG_CneA",
+        "title":"Department of Education postpones COVID-19 briefing",
+        "description":"Parents, students and pupils are still unsure about what lockdown Level 4 means for the education sector. Government was expected to explain this today, but that briefing has been postponed. Sadtu General-Secretary Mugwena Maluleke reiterates that this academic year can still be recovered. #Day32ofLockdown #LockdownEasedRegulations",
+        "thumbnails":{
+          "default":{
+            "url":"https://i.ytimg.com/vi/imHfNDpBlCE/default.jpg",
+            "width":120,
+            "height":90
+          },
+          "medium":{
+            "url":"https://i.ytimg.com/vi/imHfNDpBlCE/mqdefault.jpg",
+            "width":320,
+            "height":180
+          },
+          "high":{
+            "url":"https://i.ytimg.com/vi/imHfNDpBlCE/hqdefault.jpg",
+            "width":480,
+            "height":360
+          },
+          "standard":{
+            "url":"https://i.ytimg.com/vi/imHfNDpBlCE/sddefault.jpg",
+            "width":640,
+            "height":480
+          },
+          "maxres":{
+            "url":"https://i.ytimg.com/vi/imHfNDpBlCE/maxresdefault.jpg",
+            "width":1280,
+            "height":720
+          }
+        },
+        "channelTitle":"eNCA",
+        "categoryId":"25",
+        "liveBroadcastContent":"none",
+        "defaultLanguage":"en",
+        "localized":{
+          "title":"Department of Education postpones COVID-19 briefing",
+          "description":"Parents, students and pupils are still unsure about what lockdown Level 4 means for the education sector. Government was expected to explain this today, but that briefing has been postponed. Sadtu General-Secretary Mugwena Maluleke reiterates that this academic year can still be recovered. #Day32ofLockdown #LockdownEasedRegulations"
+        },
+        "defaultAudioLanguage":"en"
+      },
+      "contentDetails":{
+        "duration":"PT6M1S",
+        "dimension":"2d",
+        "definition":"hd",
+        "caption":"false",
+        "licensedContent":true,
+        "projection":"rectangular"
+      },
+      "statistics":{
+        "viewCount":"32082",
+        "likeCount":"110",
+        "dislikeCount":"25",
+        "favoriteCount":"0"
+      }
+    },
+    {
+      "kind":"youtube#video",
+      "etag":"\"nxOHAKTVB7baOKsQgTtJIyGxcs8/-rJradXuE5mzQn0w5rxY5Bky2is\"",
+      "id":"iG9CE55wbtY",
+      "snippet":{
+        "publishedAt":"2007-01-07T05:00:34.000Z",
+        "channelId":"UCAuUUnT6oDeKwE6v1NGQxug",
+        "title":"Do schools kill creativity? | Sir Ken Robinson",
+        "description":"Sir Ken Robinson makes an entertaining and profoundly moving case for creating an education system that nurtures (rather than undermines) creativity.\n\nGet TED Talks recommended just for you! Learn more at https://www.ted.com/signup.\n\nThe TED Talks channel features the best talks and performances from the TED Conference, where the world's leading thinkers and doers give the talk of their lives in 18 minutes (or less). Look for talks on Technology, Entertainment and Design -- plus science, business, global issues, the arts and more.\n\nFollow TED on Twitter: http://www.twitter.com/TEDTalks\nLike TED on Facebook: https://www.facebook.com/TED\n\nSubscribe to our channel: https://www.youtube.com/TED",
+        "thumbnails":{
+          "default":{
+            "url":"https://i.ytimg.com/vi/iG9CE55wbtY/default.jpg",
+            "width":120,
+            "height":90
+          },
+          "medium":{
+            "url":"https://i.ytimg.com/vi/iG9CE55wbtY/mqdefault.jpg",
+            "width":320,
+            "height":180
+          },
+          "high":{
+            "url":"https://i.ytimg.com/vi/iG9CE55wbtY/hqdefault.jpg",
+            "width":480,
+            "height":360
+          },
+          "standard":{
+            "url":"https://i.ytimg.com/vi/iG9CE55wbtY/sddefault.jpg",
+            "width":640,
+            "height":480
+          }
+        },
+        "channelTitle":"TED",
+        "tags":[
+          "Ken",
+          "Robinson",
+          "TED",
+          "TEDTalks",
+          "Talks",
+          "TED2006",
+          "education",
+          "educational",
+          "system",
+          "creativity",
+          "innovation",
+          "schooling",
+          "school",
+          "curiosity"
+        ],
+        "categoryId":"27",
+        "liveBroadcastContent":"none",
+        "defaultLanguage":"en",
+        "localized":{
+          "title":"Do schools kill creativity? | Sir Ken Robinson",
+          "description":"Sir Ken Robinson makes an entertaining and profoundly moving case for creating an education system that nurtures (rather than undermines) creativity.\n\nGet TED Talks recommended just for you! Learn more at https://www.ted.com/signup.\n\nThe TED Talks channel features the best talks and performances from the TED Conference, where the world's leading thinkers and doers give the talk of their lives in 18 minutes (or less). Look for talks on Technology, Entertainment and Design -- plus science, business, global issues, the arts and more.\n\nFollow TED on Twitter: http://www.twitter.com/TEDTalks\nLike TED on Facebook: https://www.facebook.com/TED\n\nSubscribe to our channel: https://www.youtube.com/TED"
+        }
+      },
+      "contentDetails":{
+        "duration":"PT20M4S",
+        "dimension":"2d",
+        "definition":"sd",
+        "caption":"true",
+        "licensedContent":true,
+        "projection":"rectangular"
+      },
+      "statistics":{
+        "viewCount":"18693212",
+        "likeCount":"194740",
+        "dislikeCount":"3340",
+        "favoriteCount":"0",
+        "commentCount":"10503"
+      }
+    },
+    {
+      "kind":"youtube#video",
+      "etag":"\"nxOHAKTVB7baOKsQgTtJIyGxcs8/Dvyz0VGXd-4XbgUiEJ9f4xJwO7Q\"",
+      "id":"_aB9Tg6SRA0",
+      "snippet":{
+        "publishedAt":"2019-10-15T22:02:46.000Z",
+        "channelId":"UCY_Bq1AF0xvPUjaAqV7kweA",
+        "title":"Inside Singapore’s world-class education system",
+        "description":"Dateline travels to Singapore to find out why its education system tops the global leader board. We look at high-stakes testing, and ask if the culture of competition puts too much pressure on kids. Janice Petersen follows some of Australia’s top teachers to Singapore, to find out how its education system, and culture, creates the world’s smartest students.",
+        "thumbnails":{
+          "default":{
+            "url":"https://i.ytimg.com/vi/_aB9Tg6SRA0/default.jpg",
+            "width":120,
+            "height":90
+          },
+          "medium":{
+            "url":"https://i.ytimg.com/vi/_aB9Tg6SRA0/mqdefault.jpg",
+            "width":320,
+            "height":180
+          },
+          "high":{
+            "url":"https://i.ytimg.com/vi/_aB9Tg6SRA0/hqdefault.jpg",
+            "width":480,
+            "height":360
+          },
+          "standard":{
+            "url":"https://i.ytimg.com/vi/_aB9Tg6SRA0/sddefault.jpg",
+            "width":640,
+            "height":480
+          },
+          "maxres":{
+            "url":"https://i.ytimg.com/vi/_aB9Tg6SRA0/maxresdefault.jpg",
+            "width":1280,
+            "height":720
+          }
+        },
+        "channelTitle":"SBS Dateline",
+        "tags":[
+          "SBS",
+          "Dateline",
+          "documentary",
+          "international film",
+          "journalism",
+          "reporting",
+          "Education",
+          "School",
+          "Singapore",
+          "Schooling in Singapore",
+          "Students",
+          "Smartest Children in the world",
+          "Smartest school",
+          "best education",
+          "Learning",
+          "Math",
+          "Science",
+          "High School",
+          "Singaporian School",
+          "Singapore documentry",
+          "education documentry",
+          "school documentry",
+          "Mathematics"
+        ],
+        "categoryId":"25",
+        "liveBroadcastContent":"none",
+        "localized":{
+          "title":"Inside Singapore’s world-class education system",
+          "description":"Dateline travels to Singapore to find out why its education system tops the global leader board. We look at high-stakes testing, and ask if the culture of competition puts too much pressure on kids. Janice Petersen follows some of Australia’s top teachers to Singapore, to find out how its education system, and culture, creates the world’s smartest students."
+        }
+      },
+      "contentDetails":{
+        "duration":"PT27M16S",
+        "dimension":"2d",
+        "definition":"hd",
+        "caption":"false",
+        "licensedContent":true,
+        "regionRestriction":{
+          "blocked":[
+            "AU"
+          ]
+        },
+        "projection":"rectangular"
+      },
+      "statistics":{
+        "viewCount":"474344",
+        "likeCount":"8018",
+        "dislikeCount":"421",
+        "favoriteCount":"0",
+        "commentCount":"2323"
+      }
+    },
+    {
+      "kind":"youtube#video",
+      "etag":"\"nxOHAKTVB7baOKsQgTtJIyGxcs8/Qjddu29Gpq9ZEBpgNRyZpCPjJvQ\"",
+      "id":"2lmv6ZDm0vw",
+      "snippet":{
+        "publishedAt":"2019-09-13T02:47:44.000Z",
+        "channelId":"UCBi2mrWuNuyYy4gbM6fU18Q",
+        "title":"Democratic candidates debate: Education | ABC News",
+        "description":"WATCH THE FULL DEBATE: https://www.youtube.com/watch?v=2UWVO0Trd1c\n\nABC News’ Linsey Davis asks the candidates how will they address the education system, including public schools vs. charter schools. READ MORE: https://abcn.ws/2lKgdhn\n\n#ABCNews #DemDebate #Vote2020 #DemocraticDebate #Politics #News #Election #2020Candidates #Education #America",
+        "thumbnails":{
+          "default":{
+            "url":"https://i.ytimg.com/vi/2lmv6ZDm0vw/default.jpg",
+            "width":120,
+            "height":90
+          },
+          "medium":{
+            "url":"https://i.ytimg.com/vi/2lmv6ZDm0vw/mqdefault.jpg",
+            "width":320,
+            "height":180
+          },
+          "high":{
+            "url":"https://i.ytimg.com/vi/2lmv6ZDm0vw/hqdefault.jpg",
+            "width":480,
+            "height":360
+          },
+          "standard":{
+            "url":"https://i.ytimg.com/vi/2lmv6ZDm0vw/sddefault.jpg",
+            "width":640,
+            "height":480
+          },
+          "maxres":{
+            "url":"https://i.ytimg.com/vi/2lmv6ZDm0vw/maxresdefault.jpg",
+            "width":1280,
+            "height":720
+          }
+        },
+        "channelTitle":"ABC News",
+        "tags":[
+          "Democratic debate",
+          "ABC News",
+          "Joe Biden",
+          "Cory Booker",
+          "Pete Buttigieg",
+          "Julian Castro",
+          "Kamala Harris",
+          "Amy Klobuchar",
+          "Beto O'Rourke",
+          "Bernie Sanders",
+          "Elizabeth Warren",
+          "Andrew Yang",
+          "Houston",
+          "Texas Southern University",
+          "2019",
+          "2020 candidates",
+          "Education",
+          "schools",
+          "education policy",
+          "charter schools",
+          "public schools",
+          "children",
+          "America",
+          "democratic debate topics",
+          "highlights",
+          "best moments",
+          "Linsey Davis"
+        ],
+        "categoryId":"25",
+        "liveBroadcastContent":"none",
+        "localized":{
+          "title":"Democratic candidates debate: Education | ABC News",
+          "description":"WATCH THE FULL DEBATE: https://www.youtube.com/watch?v=2UWVO0Trd1c\n\nABC News’ Linsey Davis asks the candidates how will they address the education system, including public schools vs. charter schools. READ MORE: https://abcn.ws/2lKgdhn\n\n#ABCNews #DemDebate #Vote2020 #DemocraticDebate #Politics #News #Election #2020Candidates #Education #America"
+        },
+        "defaultAudioLanguage":"en"
+      },
+      "contentDetails":{
+        "duration":"PT14M17S",
+        "dimension":"2d",
+        "definition":"hd",
+        "caption":"false",
+        "licensedContent":true,
+        "projection":"rectangular"
+      },
+      "statistics":{
+        "viewCount":"349148",
+        "likeCount":"3006",
+        "dislikeCount":"419",
+        "favoriteCount":"0",
+        "commentCount":"1812"
+      }
+    },
+    {
+      "kind":"youtube#video",
+      "etag":"\"nxOHAKTVB7baOKsQgTtJIyGxcs8/cE-xk5yN0R4gQIlogW-_9-b1QOQ\"",
+      "id":"nHHFGo161Os",
+      "snippet":{
+        "publishedAt":"2016-09-15T14:05:15.000Z",
+        "channelId":"UCrnsAULqcNFRTlc32HZ6YSw",
+        "title":"Why Finland has the best education system in the world",
+        "description":"A segment on the approach to education in Finland taken from \"Where To Invade Next\" by Michael Moore.",
+        "thumbnails":{
+          "default":{
+            "url":"https://i.ytimg.com/vi/nHHFGo161Os/default.jpg",
+            "width":120,
+            "height":90
+          },
+          "medium":{
+            "url":"https://i.ytimg.com/vi/nHHFGo161Os/mqdefault.jpg",
+            "width":320,
+            "height":180
+          },
+          "high":{
+            "url":"https://i.ytimg.com/vi/nHHFGo161Os/hqdefault.jpg",
+            "width":480,
+            "height":360
+          }
+        },
+        "channelTitle":"Visions of Helsinki",
+        "tags":[
+          "education",
+          "michael moore",
+          "documentary",
+          "istruzione",
+          "documentario",
+          "insegnamento",
+          "school",
+          "scuola",
+          "escuela"
+        ],
+        "categoryId":"27",
+        "liveBroadcastContent":"none",
+        "localized":{
+          "title":"Why Finland has the best education system in the world",
+          "description":"A segment on the approach to education in Finland taken from \"Where To Invade Next\" by Michael Moore."
+        },
+        "defaultAudioLanguage":"en"
+      },
+      "contentDetails":{
+        "duration":"PT9M28S",
+        "dimension":"2d",
+        "definition":"sd",
+        "caption":"false",
+        "licensedContent":false,
+        "regionRestriction":{
+          "blocked":[
+            "HK",
+            "MO"
+          ]
+        },
+        "projection":"rectangular"
+      },
+      "statistics":{
+        "viewCount":"4838513",
+        "likeCount":"248266",
+        "dislikeCount":"3751",
+        "favoriteCount":"0"
+      }
+    },
+    {
+      "kind":"youtube#video",
+      "etag":"\"nxOHAKTVB7baOKsQgTtJIyGxcs8/ktz6IHpOGN6m4R5cddywi2El1LI\"",
+      "id":"Dvhuesh0D5s",
+      "snippet":{
+        "publishedAt":"2020-03-24T12:00:13.000Z",
+        "channelId":"UChGJGhZ9SOOHvBB0Y4DOO_w",
+        "title":"Ryan learns why do we brush our teeth! | Educational Video for Kids",
+        "description":"Ryan learns why do we brush our teeth! | Educational Video for Kids\nLearn with Ryan at home the importance of keeping your teeth clean! #stayhome #learn",
+        "thumbnails":{
+          "default":{
+            "url":"https://i.ytimg.com/vi/Dvhuesh0D5s/default.jpg",
+            "width":120,
+            "height":90
+          },
+          "medium":{
+            "url":"https://i.ytimg.com/vi/Dvhuesh0D5s/mqdefault.jpg",
+            "width":320,
+            "height":180
+          },
+          "high":{
+            "url":"https://i.ytimg.com/vi/Dvhuesh0D5s/hqdefault.jpg",
+            "width":480,
+            "height":360
+          },
+          "standard":{
+            "url":"https://i.ytimg.com/vi/Dvhuesh0D5s/sddefault.jpg",
+            "width":640,
+            "height":480
+          },
+          "maxres":{
+            "url":"https://i.ytimg.com/vi/Dvhuesh0D5s/maxresdefault.jpg",
+            "width":1280,
+            "height":720
+          }
+        },
+        "channelTitle":"Ryan's World",
+        "tags":[
+          "Ryan's World",
+          "Ryan ToysReview",
+          "learn",
+          "learning",
+          "education",
+          "learn at home",
+          "educational",
+          "brush your teeth",
+          "why brush teeth",
+          "brush teeth for kids",
+          "how to brush teeth"
+        ],
+        "categoryId":"24",
+        "liveBroadcastContent":"none",
+        "localized":{
+          "title":"Ryan learns why do we brush our teeth! | Educational Video for Kids",
+          "description":"Ryan learns why do we brush our teeth! | Educational Video for Kids\nLearn with Ryan at home the importance of keeping your teeth clean! #stayhome #learn"
+        }
+      },
+      "contentDetails":{
+        "duration":"PT26M37S",
+        "dimension":"2d",
+        "definition":"hd",
+        "caption":"false",
+        "licensedContent":true,
+        "projection":"rectangular"
+      },
+      "statistics":{
+        "viewCount":"6090458",
+        "likeCount":"20639",
+        "dislikeCount":"8106",
+        "favoriteCount":"0"
+      }
+    },
+    {
+      "kind":"youtube#video",
+      "etag":"\"nxOHAKTVB7baOKsQgTtJIyGxcs8/Nv0X10R2UIjyfI2y31bwIGLWfWA\"",
+      "id":"Ky7H4CGPbvY",
+      "snippet":{
+        "publishedAt":"2016-07-09T18:34:03.000Z",
+        "channelId":"UC5PYHgAzJ1wLEidB58SK6Xw",
+        "title":"Story Time and More! Educational Videos for Kids by Blippi",
+        "description":"A 1 hour compilation of educational videos for kids by Blippi. Story time, The excavator song and more with Blippi. Blippi makes educational videos for kids. Subscribe to Blippi at https://youtube.com/BlippiVideos\nhttps://youtube.com/BlippiToys\n\nThe Blippi Videos in this compilation are:\nStory Time - Treasure Hunt\nThe Excavator Song\nGarbage Trucks for Children\nThe Garbage Truck Song\nThe Shapes Song\nThe Finger Family Song\nBlippi Toys",
+        "thumbnails":{
+          "default":{
+            "url":"https://i.ytimg.com/vi/Ky7H4CGPbvY/default.jpg",
+            "width":120,
+            "height":90
+          },
+          "medium":{
+            "url":"https://i.ytimg.com/vi/Ky7H4CGPbvY/mqdefault.jpg",
+            "width":320,
+            "height":180
+          },
+          "high":{
+            "url":"https://i.ytimg.com/vi/Ky7H4CGPbvY/hqdefault.jpg",
+            "width":480,
+            "height":360
+          },
+          "standard":{
+            "url":"https://i.ytimg.com/vi/Ky7H4CGPbvY/sddefault.jpg",
+            "width":640,
+            "height":480
+          },
+          "maxres":{
+            "url":"https://i.ytimg.com/vi/Ky7H4CGPbvY/maxresdefault.jpg",
+            "width":1280,
+            "height":720
+          }
+        },
+        "channelTitle":"Blippi",
+        "tags":[
+          "Blippi",
+          "Blippi Videos",
+          "Educational Videos for Kids",
+          "Blippi Toys",
+          "Blippi Excavator Song",
+          "Blippi Story Time",
+          "Blippi Garbage Trucks"
+        ],
+        "categoryId":"27",
+        "liveBroadcastContent":"none",
+        "defaultLanguage":"en",
+        "localized":{
+          "title":"Story Time and More! Educational Videos for Kids by Blippi",
+          "description":"A 1 hour compilation of educational videos for kids by Blippi. Story time, The excavator song and more with Blippi. Blippi makes educational videos for kids. Subscribe to Blippi at https://youtube.com/BlippiVideos\nhttps://youtube.com/BlippiToys\n\nThe Blippi Videos in this compilation are:\nStory Time - Treasure Hunt\nThe Excavator Song\nGarbage Trucks for Children\nThe Garbage Truck Song\nThe Shapes Song\nThe Finger Family Song\nBlippi Toys"
+        },
+        "defaultAudioLanguage":"en"
+      },
+      "contentDetails":{
+        "duration":"PT1H7S",
+        "dimension":"2d",
+        "definition":"hd",
+        "caption":"false",
+        "licensedContent":true,
+        "projection":"rectangular"
+      },
+      "statistics":{
+        "viewCount":"35346831",
+        "likeCount":"32833",
+        "dislikeCount":"17591",
+        "favoriteCount":"0",
+        "commentCount":"16"
+      }
+    },
+    {
+      "kind":"youtube#video",
+      "etag":"\"nxOHAKTVB7baOKsQgTtJIyGxcs8/0zQCamVsbhUdgip3I6Y5vcfDeqA\"",
+      "id":"y_ZmM7zPLyI",
+      "snippet":{
+        "publishedAt":"2012-12-02T11:59:13.000Z",
+        "channelId":"UC4zccsgn1Nys_sIcOYd2fTw",
+        "title":"Suli Breaks - Why I Hate School But Love Education [Official Spoken Word Video]",
+        "description":"Get tickets for LIVE show \"How I Became A Superhero\" @ the Brixton 02 Academy (25/09/2019) here: http://bit.ly/openmicstoarenas\n\nThe Latest Spoken Word Video from Suli Breaks.\nLISTEN ON SOUNDCLOUD: https://soundcloud.com/sulibreaks/why-i-hate-school-but-love-education\nPURCHASE ON ITUNES: http://goo.gl/ZhqVl\nJOIN MAILING LIST FOR EXCLUSIVE UPDATES: http://bit.ly/1pz1o7W\nSUBSCRIBE: http://goo.gl/6mf0j\nTWITTER:  http://www.twitter.com/sulibreaks\nFACEBOOK: http://goo.gl/z9Lys\nWEBSITE:http://www.sulibreaks.com\n\nAs the cyclical and seemingly never ending debate about education rages on, the topic - somewhat ironically, often poses more questions than it provides answers.\n\nBut what is the value of mainstream schooling? Why is it that some of the most high profile and successful figures within the Western world openly admit to never having completed any form of higher learning? \n\nPaying homage to Jefferson Bethke's  \"Why I Hate Religion but Love Jesus\", a piece that received 22 million views in the space of a week, I address a number of these issues in my offering \"Why I Hate School, but Love Education\".\n\nWith scores of school leavers wanting to further their education with no guarantee of their dream job at the end of it, we should ask ourselves whether qualifications still hold the same value now as they did in previous years?\n \nDoes success in the school system correlate to success in life? Or is the school system simply geared towards fact retention and regurgitation?\n\nWhat is true education?\n\n@sulibreaks\nuniversityofsulibreaks.tumblr.com\n\n Director: @KevinNgongo\nwww.youtube.com/kevinngongo\n\nGraphics: www.mikegallardodesigns.com\n\nMusic: Sunshine: Surface Of The Sun - John Murphy - Adagio in D Minor\n\nCheck my next video \"The American'T Dream\": http://www.youtube.com/watch?v=tzcxOl4b7IA\n\nContact: info@sulibreaks.com\n\nVIDEOGRAPHER INFO:\n\n\nEmail: Kevin.Ngongo@gmail.com \n\nTwitter: www.twitter.com/KevinNgongo\n\nFacebook: www.Facebook.com/KevinNgongo Will be releasing these more consistently on either a Thursday or Sunday every week as part of my \"LECTURES\" series, while I'm attempting to finish my latest album. Enjoy!\n\n\nPRE-ORDER \"Message From The Millennial Generation\" : http://goo.gl/NquhQT (AVAILABLE IN ALL COUNTRIES).\n\nJOIN MAILING LIST FOR EXCLUSIVE UPDATES: http://bit.ly/1pz1o7W\nSUBSCRIBE: http://goo.gl/6mf0j\nINSTAGRAM: https://instagram.com/sulibreaks/\nTWITTER: http://www.twitter.com/sulibreaks\nFACEBOOK: http://goo.gl/z9Lys\nWEBSITE:http://www.sulibreaks.com",
+        "thumbnails":{
+          "default":{
+            "url":"https://i.ytimg.com/vi/y_ZmM7zPLyI/default.jpg",
+            "width":120,
+            "height":90
+          },
+          "medium":{
+            "url":"https://i.ytimg.com/vi/y_ZmM7zPLyI/mqdefault.jpg",
+            "width":320,
+            "height":180
+          },
+          "high":{
+            "url":"https://i.ytimg.com/vi/y_ZmM7zPLyI/hqdefault.jpg",
+            "width":480,
+            "height":360
+          },
+          "standard":{
+            "url":"https://i.ytimg.com/vi/y_ZmM7zPLyI/sddefault.jpg",
+            "width":640,
+            "height":480
+          },
+          "maxres":{
+            "url":"https://i.ytimg.com/vi/y_ZmM7zPLyI/maxresdefault.jpg",
+            "width":1280,
+            "height":720
+          }
+        },
+        "channelTitle":"Suli Breaks",
+        "tags":[
+          "Poem",
+          "Poetry",
+          "why",
+          "hate",
+          "religion",
+          "but",
+          "love",
+          "jesus",
+          "strivers",
+          "row",
+          "def",
+          "poetry",
+          "jam",
+          "suli",
+          "breaks",
+          "brave",
+          "new",
+          "voices",
+          "style",
+          "school",
+          "college"
+        ],
+        "categoryId":"27",
+        "liveBroadcastContent":"none",
+        "localized":{
+          "title":"Suli Breaks - Why I Hate School But Love Education [Official Spoken Word Video]",
+          "description":"Get tickets for LIVE show \"How I Became A Superhero\" @ the Brixton 02 Academy (25/09/2019) here: http://bit.ly/openmicstoarenas\n\nThe Latest Spoken Word Video from Suli Breaks.\nLISTEN ON SOUNDCLOUD: https://soundcloud.com/sulibreaks/why-i-hate-school-but-love-education\nPURCHASE ON ITUNES: http://goo.gl/ZhqVl\nJOIN MAILING LIST FOR EXCLUSIVE UPDATES: http://bit.ly/1pz1o7W\nSUBSCRIBE: http://goo.gl/6mf0j\nTWITTER:  http://www.twitter.com/sulibreaks\nFACEBOOK: http://goo.gl/z9Lys\nWEBSITE:http://www.sulibreaks.com\n\nAs the cyclical and seemingly never ending debate about education rages on, the topic - somewhat ironically, often poses more questions than it provides answers.\n\nBut what is the value of mainstream schooling? Why is it that some of the most high profile and successful figures within the Western world openly admit to never having completed any form of higher learning? \n\nPaying homage to Jefferson Bethke's  \"Why I Hate Religion but Love Jesus\", a piece that received 22 million views in the space of a week, I address a number of these issues in my offering \"Why I Hate School, but Love Education\".\n\nWith scores of school leavers wanting to further their education with no guarantee of their dream job at the end of it, we should ask ourselves whether qualifications still hold the same value now as they did in previous years?\n \nDoes success in the school system correlate to success in life? Or is the school system simply geared towards fact retention and regurgitation?\n\nWhat is true education?\n\n@sulibreaks\nuniversityofsulibreaks.tumblr.com\n\n Director: @KevinNgongo\nwww.youtube.com/kevinngongo\n\nGraphics: www.mikegallardodesigns.com\n\nMusic: Sunshine: Surface Of The Sun - John Murphy - Adagio in D Minor\n\nCheck my next video \"The American'T Dream\": http://www.youtube.com/watch?v=tzcxOl4b7IA\n\nContact: info@sulibreaks.com\n\nVIDEOGRAPHER INFO:\n\n\nEmail: Kevin.Ngongo@gmail.com \n\nTwitter: www.twitter.com/KevinNgongo\n\nFacebook: www.Facebook.com/KevinNgongo Will be releasing these more consistently on either a Thursday or Sunday every week as part of my \"LECTURES\" series, while I'm attempting to finish my latest album. Enjoy!\n\n\nPRE-ORDER \"Message From The Millennial Generation\" : http://goo.gl/NquhQT (AVAILABLE IN ALL COUNTRIES).\n\nJOIN MAILING LIST FOR EXCLUSIVE UPDATES: http://bit.ly/1pz1o7W\nSUBSCRIBE: http://goo.gl/6mf0j\nINSTAGRAM: https://instagram.com/sulibreaks/\nTWITTER: http://www.twitter.com/sulibreaks\nFACEBOOK: http://goo.gl/z9Lys\nWEBSITE:http://www.sulibreaks.com"
+        },
+        "defaultAudioLanguage":"en-US"
+      },
+      "contentDetails":{
+        "duration":"PT6M8S",
+        "dimension":"2d",
+        "definition":"hd",
+        "caption":"false",
+        "licensedContent":false,
+        "projection":"rectangular"
+      },
+      "statistics":{
+        "viewCount":"9253576",
+        "likeCount":"209559",
+        "dislikeCount":"6567",
+        "favoriteCount":"0",
+        "commentCount":"18763"
+      }
+    },
+    {
+      "kind":"youtube#video",
+      "etag":"\"nxOHAKTVB7baOKsQgTtJIyGxcs8/2snkSkBU2_pru5biZuspkvSx02Y\"",
+      "id":"CWmCrQVFujk",
+      "snippet":{
+        "publishedAt":"2015-09-23T15:38:29.000Z",
+        "channelId":"UC8zbYR5i0gecEZ3iPgm-i9g",
+        "title":"Adult Education",
+        "description":"Provided to YouTube by Sony Music Entertainment\n\nAdult Education · Daryl Hall & John Oates\n\nGreatest Hits--Rock 'n' Soul, Part 1\n\n℗ 1983 RCA Records, a division of Sony Music Entertainment\n\nReleased on: 1983-10-18\n\nArranger, Composer, Lyricist: Daryl Hall\nArranger, Lyricist: John Oates\nLyricist: Sara Allen\nArranger: Nile Gregory Rodgers\nArranger: Tom \"T-Bone\" Wolk\nCo- Producer: Bob Clearmountain\n\nAuto-generated by YouTube.",
+        "thumbnails":{
+          "default":{
+            "url":"https://i.ytimg.com/vi/CWmCrQVFujk/default.jpg",
+            "width":120,
+            "height":90
+          },
+          "medium":{
+            "url":"https://i.ytimg.com/vi/CWmCrQVFujk/mqdefault.jpg",
+            "width":320,
+            "height":180
+          },
+          "high":{
+            "url":"https://i.ytimg.com/vi/CWmCrQVFujk/hqdefault.jpg",
+            "width":480,
+            "height":360
+          },
+          "standard":{
+            "url":"https://i.ytimg.com/vi/CWmCrQVFujk/sddefault.jpg",
+            "width":640,
+            "height":480
+          },
+          "maxres":{
+            "url":"https://i.ytimg.com/vi/CWmCrQVFujk/maxresdefault.jpg",
+            "width":1280,
+            "height":720
+          }
+        },
+        "channelTitle":"Hall & Oates - Topic",
+        "tags":[
+          "Daryl Hall & John Oates ダリルホールアンドジョンオーツ 霍爾與奧茲 Greatest Hits--Rock 'n' Soul",
+          "Part 1 Adult Education"
+        ],
+        "categoryId":"10",
+        "liveBroadcastContent":"none",
+        "localized":{
+          "title":"Adult Education",
+          "description":"Provided to YouTube by Sony Music Entertainment\n\nAdult Education · Daryl Hall & John Oates\n\nGreatest Hits--Rock 'n' Soul, Part 1\n\n℗ 1983 RCA Records, a division of Sony Music Entertainment\n\nReleased on: 1983-10-18\n\nArranger, Composer, Lyricist: Daryl Hall\nArranger, Lyricist: John Oates\nLyricist: Sara Allen\nArranger: Nile Gregory Rodgers\nArranger: Tom \"T-Bone\" Wolk\nCo- Producer: Bob Clearmountain\n\nAuto-generated by YouTube."
+        }
+      },
+      "contentDetails":{
+        "duration":"PT5M24S",
+        "dimension":"2d",
+        "definition":"hd",
+        "caption":"false",
+        "licensedContent":true,
+        "regionRestriction":{
+          "allowed":[
+            "KR",
+            "KW",
+            "KY",
+            "NO",
+            "KE",
+            "RS",
+            "AE",
+            "CH",
+            "CO",
+            "ZA",
+            "CL",
+            "RU",
+            "OM",
+            "GT",
+            "GR",
+            "GP",
+            "CZ",
+            "CY",
+            "RO",
+            "GF",
+            "DZ",
+            "NZ",
+            "JP",
+            "VE",
+            "VI",
+            "NC",
+            "VN",
+            "NI",
+            "NL",
+            "CR",
+            "JO",
+            "NG",
+            "BM",
+            "FR",
+            "BO",
+            "BH",
+            "BE",
+            "BG",
+            "BA",
+            "BY",
+            "YT",
+            "CA",
+            "BR",
+            "QA",
+            "UA",
+            "IT",
+            "IS",
+            "UY",
+            "IL",
+            "IN",
+            "IE",
+            "ID",
+            "US",
+            "MK",
+            "MA",
+            "AT",
+            "AW",
+            "AS",
+            "AR",
+            "ES",
+            "MQ",
+            "MP",
+            "MT",
+            "MY",
+            "MX",
+            "EC",
+            "AU",
+            "EE",
+            "EG",
+            "PF",
+            "PG",
+            "TH",
+            "PE",
+            "PA",
+            "TC",
+            "PL",
+            "HU",
+            "HR",
+            "PH",
+            "HN",
+            "PT",
+            "PR",
+            "HK",
+            "FI",
+            "TR",
+            "TW",
+            "PY",
+            "LB",
+            "LI",
+            "SV",
+            "SK",
+            "DK",
+            "SI",
+            "LV",
+            "DO",
+            "LT",
+            "LU",
+            "SA",
+            "SG",
+            "GU",
+            "SE",
+            "DE"
+          ]
+        },
+        "projection":"rectangular"
+      },
+      "statistics":{
+        "viewCount":"212607",
+        "likeCount":"3403",
+        "dislikeCount":"152",
+        "favoriteCount":"0",
+        "commentCount":"153"
+      }
+    },
+    {
+      "kind":"youtube#video",
+      "etag":"\"nxOHAKTVB7baOKsQgTtJIyGxcs8/pqoF7zZt4RbDpczwSGcccibhX0A\"",
+      "id":"Cv6f-2Wlsxg",
+      "snippet":{
+        "publishedAt":"2017-01-28T18:00:04.000Z",
+        "channelId":"UCixIlQ2bIUwCNnkFs0krXfQ",
+        "title":"A Look at Minecraft Education Edition",
+        "description":"In this episode of OMGcraft, Chad takes a look at Minecraft Education Edition, which allows Schools and Teachers to use Minecraft as teaching aids in classrooms.\n\nLearn More About it: https://education.minecraft.net/\n\n Check Out OMGchad Merch at http://helloomg.com \n\n● TWITTER: http://twitter.com/omgchad\n● INSTAGRAM: http://instagram.com/omgchad\n● TWITCH: http://twitch.tv/omgchad\n● PATREON: http://patreon.com/omgchad\n● OMGCHAD: http://youtube.com/omgchad\n● EMAIL: mail@omgcraft.com",
+        "thumbnails":{
+          "default":{
+            "url":"https://i.ytimg.com/vi/Cv6f-2Wlsxg/default.jpg",
+            "width":120,
+            "height":90
+          },
+          "medium":{
+            "url":"https://i.ytimg.com/vi/Cv6f-2Wlsxg/mqdefault.jpg",
+            "width":320,
+            "height":180
+          },
+          "high":{
+            "url":"https://i.ytimg.com/vi/Cv6f-2Wlsxg/hqdefault.jpg",
+            "width":480,
+            "height":360
+          },
+          "standard":{
+            "url":"https://i.ytimg.com/vi/Cv6f-2Wlsxg/sddefault.jpg",
+            "width":640,
+            "height":480
+          },
+          "maxres":{
+            "url":"https://i.ytimg.com/vi/Cv6f-2Wlsxg/maxresdefault.jpg",
+            "width":1280,
+            "height":720
+          }
+        },
+        "channelTitle":"OMGcraft - Minecraft Tips & Tutorials!",
+        "tags":[
+          "Minecraft",
+          "School",
+          "Education",
+          "ImmersiveMind",
+          "ImmersiveMinds",
+          "Wizard",
+          "WizardKeen",
+          "in school",
+          "classroom",
+          "teaching",
+          "aid",
+          "schools",
+          "learning",
+          "development",
+          "mojang",
+          "microsoft",
+          "how to",
+          "teach",
+          "inspire",
+          "creative",
+          "create",
+          "math",
+          "maths",
+          "mathmatics",
+          "history",
+          "geography"
+        ],
+        "categoryId":"20",
+        "liveBroadcastContent":"none",
+        "localized":{
+          "title":"A Look at Minecraft Education Edition",
+          "description":"In this episode of OMGcraft, Chad takes a look at Minecraft Education Edition, which allows Schools and Teachers to use Minecraft as teaching aids in classrooms.\n\nLearn More About it: https://education.minecraft.net/\n\n Check Out OMGchad Merch at http://helloomg.com \n\n● TWITTER: http://twitter.com/omgchad\n● INSTAGRAM: http://instagram.com/omgchad\n● TWITCH: http://twitch.tv/omgchad\n● PATREON: http://patreon.com/omgchad\n● OMGCHAD: http://youtube.com/omgchad\n● EMAIL: mail@omgcraft.com"
+        }
+      },
+      "contentDetails":{
+        "duration":"PT11M28S",
+        "dimension":"2d",
+        "definition":"hd",
+        "caption":"false",
+        "licensedContent":true,
+        "projection":"rectangular"
+      },
+      "statistics":{
+        "viewCount":"3543239",
+        "likeCount":"35357",
+        "dislikeCount":"5085",
+        "favoriteCount":"0",
+        "commentCount":"8638"
+      }
+    },
+    {
+      "kind":"youtube#video",
+      "etag":"\"nxOHAKTVB7baOKsQgTtJIyGxcs8/QZpKzgw1a8XL6PocG7wHQTWOAP8\"",
+      "id":"tOnDiuL2JmQ",
+      "snippet":{
+        "publishedAt":"2020-04-14T17:00:30.000Z",
+        "channelId":"UC7eBNeDW1GQf2NJQ6G6gAxw",
+        "title":"How The Coronavirus Pandemic Will Change Education, Careers, And Businesses Forever",
+        "description":"How The Coronavirus Pandemic Will Change Education, Careers, And Businesses Forever\nGet life-changing financial advice anytime, anywhere. Subscribe today: https://www.youtube.com/c/TheDaveRamseyShow?sub_confirmation=1\n\nGet a FREE trial of our life-changing Financial Peace University today: https://bit.ly/3dI2MF3\n\nVisit the Dave Ramsey store today for resources to help you take control of your money! https://goo.gl/gEv6Tj\n\nRamsey Network (Subscribe Now!)\n• The Dave Ramsey Show (Highlights): https://www.youtube.com/c/TheDaveRamseyShow?sub_confirmation=1\n• The Dave Ramsey Show (Live): https://www.youtube.com/thedaveramseyshowlive?sub_confirmation=1\n• The Chris Hogan Show: https://www.youtube.com/user/ChrisHogan360?sub_confirmation=1\n• The Rachel Cruze Show: https://www.youtube.com/user/RachelCruze?sub_confirmation=1\n• The Ken Coleman Show: https://www.youtube.com/c/TheKenColemanShow?sub_confirmation=1\n• Christy Wright: https://www.youtube.com/c/ChristyWright?sub_confirmation=1\n• Anthony ONeal: https://www.youtube.com/user/aonealministries?sub_confirmation=1\n• EntreLeadership: https://www.youtube.com/c/entreleadership?sub_confirmation=1\n\nWelcome to The Dave Ramsey Show like you've never seen it before. On this channel, you will find all of the greatest highlights from The Dave Ramsey Show! The show also live streams on YouTube M-F 2-5pm ET! Watch Dave live in studio every day and see behind-the-scenes action from Dave's producers. Watch video profiles of debt-free callers and see them call in live from Ramsey Solutions. During breaks, you'll see exclusive content from our Ramsey Personalities —as well as all kinds of other video pieces that we'll unveil every day. \n\nThe Dave Ramsey Show channel will change the way you experience one of the most popular radio shows in the country!",
+        "thumbnails":{
+          "default":{
+            "url":"https://i.ytimg.com/vi/tOnDiuL2JmQ/default.jpg",
+            "width":120,
+            "height":90
+          },
+          "medium":{
+            "url":"https://i.ytimg.com/vi/tOnDiuL2JmQ/mqdefault.jpg",
+            "width":320,
+            "height":180
+          },
+          "high":{
+            "url":"https://i.ytimg.com/vi/tOnDiuL2JmQ/hqdefault.jpg",
+            "width":480,
+            "height":360
+          },
+          "standard":{
+            "url":"https://i.ytimg.com/vi/tOnDiuL2JmQ/sddefault.jpg",
+            "width":640,
+            "height":480
+          },
+          "maxres":{
+            "url":"https://i.ytimg.com/vi/tOnDiuL2JmQ/maxresdefault.jpg",
+            "width":1280,
+            "height":720
+          }
+        },
+        "channelTitle":"The Dave Ramsey Show",
+        "tags":[
+          "the dave ramsey show",
+          "budget money debt cash",
+          "real estate",
+          "insurance",
+          "how to make money",
+          "dave ramsey",
+          "save",
+          "credit card",
+          "compound interest",
+          "buying house",
+          "buy",
+          "snowball",
+          "coronavirus",
+          "covid-19",
+          "pandemic",
+          "business",
+          "economy",
+          "coronavirus pandemic",
+          "job search",
+          "debt",
+          "getting out of debt",
+          "career",
+          "education",
+          "life"
+        ],
+        "categoryId":"22",
+        "liveBroadcastContent":"none",
+        "localized":{
+          "title":"How The Coronavirus Pandemic Will Change Education, Careers, And Businesses Forever",
+          "description":"How The Coronavirus Pandemic Will Change Education, Careers, And Businesses Forever\nGet life-changing financial advice anytime, anywhere. Subscribe today: https://www.youtube.com/c/TheDaveRamseyShow?sub_confirmation=1\n\nGet a FREE trial of our life-changing Financial Peace University today: https://bit.ly/3dI2MF3\n\nVisit the Dave Ramsey store today for resources to help you take control of your money! https://goo.gl/gEv6Tj\n\nRamsey Network (Subscribe Now!)\n• The Dave Ramsey Show (Highlights): https://www.youtube.com/c/TheDaveRamseyShow?sub_confirmation=1\n• The Dave Ramsey Show (Live): https://www.youtube.com/thedaveramseyshowlive?sub_confirmation=1\n• The Chris Hogan Show: https://www.youtube.com/user/ChrisHogan360?sub_confirmation=1\n• The Rachel Cruze Show: https://www.youtube.com/user/RachelCruze?sub_confirmation=1\n• The Ken Coleman Show: https://www.youtube.com/c/TheKenColemanShow?sub_confirmation=1\n• Christy Wright: https://www.youtube.com/c/ChristyWright?sub_confirmation=1\n• Anthony ONeal: https://www.youtube.com/user/aonealministries?sub_confirmation=1\n• EntreLeadership: https://www.youtube.com/c/entreleadership?sub_confirmation=1\n\nWelcome to The Dave Ramsey Show like you've never seen it before. On this channel, you will find all of the greatest highlights from The Dave Ramsey Show! The show also live streams on YouTube M-F 2-5pm ET! Watch Dave live in studio every day and see behind-the-scenes action from Dave's producers. Watch video profiles of debt-free callers and see them call in live from Ramsey Solutions. During breaks, you'll see exclusive content from our Ramsey Personalities —as well as all kinds of other video pieces that we'll unveil every day. \n\nThe Dave Ramsey Show channel will change the way you experience one of the most popular radio shows in the country!"
+        },
+        "defaultAudioLanguage":"en"
+      },
+      "contentDetails":{
+        "duration":"PT6M52S",
+        "dimension":"2d",
+        "definition":"hd",
+        "caption":"false",
+        "licensedContent":true,
+        "projection":"rectangular"
+      },
+      "statistics":{
+        "viewCount":"212145",
+        "likeCount":"3879",
+        "dislikeCount":"152",
+        "favoriteCount":"0",
+        "commentCount":"1015"
+      }
+    },
+    {
+      "kind":"youtube#video",
+      "etag":"\"nxOHAKTVB7baOKsQgTtJIyGxcs8/_2VIIYcVXTzc2IxFMca5_ePY_H0\"",
+      "id":"qn9IMe5jmf0",
+      "snippet":{
+        "publishedAt":"2009-08-27T15:20:41.000Z",
+        "channelId":"UCbYb_uxFXDX5INSOJelnzLw",
+        "title":"An Education Official Trailer",
+        "description":"In the post-war, pre-Beatles London suburbs, a bright schoolgirl is torn between studying for a place at Oxford and the rather more exciting alternative offered to her by a charismatic older man. Written by Nick Hornby, the writer behind High Fidelity and About A Boy:",
+        "thumbnails":{
+          "default":{
+            "url":"https://i.ytimg.com/vi/qn9IMe5jmf0/default.jpg",
+            "width":120,
+            "height":90
+          },
+          "medium":{
+            "url":"https://i.ytimg.com/vi/qn9IMe5jmf0/mqdefault.jpg",
+            "width":320,
+            "height":180
+          },
+          "high":{
+            "url":"https://i.ytimg.com/vi/qn9IMe5jmf0/hqdefault.jpg",
+            "width":480,
+            "height":360
+          }
+        },
+        "channelTitle":"Think Jam",
+        "tags":[
+          "Emma Thompson",
+          "Peter Sarsgaard",
+          "Dominic Cooper",
+          "Nick Horby",
+          "About a Boy",
+          "High Fidelity"
+        ],
+        "categoryId":"1",
+        "liveBroadcastContent":"none",
+        "localized":{
+          "title":"An Education Official Trailer",
+          "description":"In the post-war, pre-Beatles London suburbs, a bright schoolgirl is torn between studying for a place at Oxford and the rather more exciting alternative offered to her by a charismatic older man. Written by Nick Hornby, the writer behind High Fidelity and About A Boy:"
+        }
+      },
+      "contentDetails":{
+        "duration":"PT1M56S",
+        "dimension":"2d",
+        "definition":"sd",
+        "caption":"false",
+        "licensedContent":false,
+        "projection":"rectangular"
+      },
+      "statistics":{
+        "viewCount":"1690132",
+        "likeCount":"3262",
+        "dislikeCount":"78",
+        "favoriteCount":"0",
+        "commentCount":"381"
+      }
+    },
+    {
+      "kind":"youtube#video",
+      "etag":"\"nxOHAKTVB7baOKsQgTtJIyGxcs8/rcuQDF5Z-LAel5p0PB5vPKe9q7I\"",
+      "id":"dqTTojTija8",
+      "snippet":{
+        "publishedAt":"2016-09-26T14:00:02.000Z",
+        "channelId":"UCDgUAAHgsV2fFZQm2fIWBnA",
+        "title":"I SUED THE SCHOOL SYSTEM !!!",
+        "description":"THE PEOPLE VS THE SCHOOL SYSTEM\n\n🌟JOIN MY LIFE SCHOOL AND GET PERSONAL AUDIO MESSAGES DAILY FROM ME SENT STRAIGHT TO YOUR PHONE\nhttps://www.princeealifeschool.com/\n\n🔴URGENT: YouTube won’t show you my NEW videos UNLESS you\n🔔 TURN ON MY NOTIFICATIONS🔔\n\n🔴SUBSCRIBE ➤ https://bit.ly/31IzLmI\n\n______________________________\n\nSAY HI TO ME ON SOCIAL\n\n▶INSTAGRAM: @Prince_Ea\nhttps://www.instagram.com/PRINCE_EA/\n\n▶FACEBOOK: Prince EA\nhttps://facebook.com/princeea\n\n▶TWITTER: @princeea\nhttps://twitter.com/princeea\n\nBOOK REFERENCES. If you are interested in learning more on the subject I would suggest a few books to get started\n\n1) Weapons of Mass Instruction by John Taylor Gatto\n2) Creative Schools by Ken Robinson\n3) I Love Learning; I Hate School by Susan D Blum\n4) The One World SchoolHouse by Salman Khan\n\nCheck out the audio only version here: https://soundcloud.com/prince-ea/we-just-sued-the-school-system\n\nHow do YOU think we can create a better future for learning. Go here and share your thoughts on the topic!  http://www.bit.ly/2ciqj4z \n\nMusic by:\nhttp://djsneverendingstory.com/\n\nFilmed and Edited by\nhttp://shareability.com/\n\nDirected By\nJoel Bergvall and Joe Lombardi (https://vimeo.com/aztechfilm)\n\nAwesome Animation and Graphics By\nHodja Berlev (https://www.facebook.com/Neonbyte-382305275259022/)\n\nCasting and Assistant Production By:\nSpencer Sharp (https://www.facebook.com/dispencery/?hc_ref=SEARCH)\n\nJoin My Motivational List and get Exclusive Videos, Discounts and Updates\nhttp://princeea.com/exclusive",
+        "thumbnails":{
+          "default":{
+            "url":"https://i.ytimg.com/vi/dqTTojTija8/default.jpg",
+            "width":120,
+            "height":90
+          },
+          "medium":{
+            "url":"https://i.ytimg.com/vi/dqTTojTija8/mqdefault.jpg",
+            "width":320,
+            "height":180
+          },
+          "high":{
+            "url":"https://i.ytimg.com/vi/dqTTojTija8/hqdefault.jpg",
+            "width":480,
+            "height":360
+          },
+          "standard":{
+            "url":"https://i.ytimg.com/vi/dqTTojTija8/sddefault.jpg",
+            "width":640,
+            "height":480
+          },
+          "maxres":{
+            "url":"https://i.ytimg.com/vi/dqTTojTija8/maxresdefault.jpg",
+            "width":1280,
+            "height":720
+          }
+        },
+        "channelTitle":"Prince Ea",
+        "tags":[
+          "Prince Ea",
+          "Prince Ea (Musical Artist)",
+          "I just sued the school system",
+          "i sued the school system",
+          "the school system",
+          "school system",
+          "he just sued the school system",
+          "school on trial",
+          "mansues school",
+          "prince ea i just sued the school system",
+          "the peopl vs the school system",
+          "i sued the school system reaction",
+          "i'm suing the school system",
+          "sue the school",
+          "guy sues the school",
+          "he sued the school system",
+          "i just sued the school system video",
+          "education system",
+          "education"
+        ],
+        "categoryId":"10",
+        "liveBroadcastContent":"none",
+        "defaultLanguage":"en",
+        "localized":{
+          "title":"I SUED THE SCHOOL SYSTEM !!!",
+          "description":"THE PEOPLE VS THE SCHOOL SYSTEM\n\n🌟JOIN MY LIFE SCHOOL AND GET PERSONAL AUDIO MESSAGES DAILY FROM ME SENT STRAIGHT TO YOUR PHONE\nhttps://www.princeealifeschool.com/\n\n🔴URGENT: YouTube won’t show you my NEW videos UNLESS you\n🔔 TURN ON MY NOTIFICATIONS🔔\n\n🔴SUBSCRIBE ➤ https://bit.ly/31IzLmI\n\n______________________________\n\nSAY HI TO ME ON SOCIAL\n\n▶INSTAGRAM: @Prince_Ea\nhttps://www.instagram.com/PRINCE_EA/\n\n▶FACEBOOK: Prince EA\nhttps://facebook.com/princeea\n\n▶TWITTER: @princeea\nhttps://twitter.com/princeea\n\nBOOK REFERENCES. If you are interested in learning more on the subject I would suggest a few books to get started\n\n1) Weapons of Mass Instruction by John Taylor Gatto\n2) Creative Schools by Ken Robinson\n3) I Love Learning; I Hate School by Susan D Blum\n4) The One World SchoolHouse by Salman Khan\n\nCheck out the audio only version here: https://soundcloud.com/prince-ea/we-just-sued-the-school-system\n\nHow do YOU think we can create a better future for learning. Go here and share your thoughts on the topic!  http://www.bit.ly/2ciqj4z \n\nMusic by:\nhttp://djsneverendingstory.com/\n\nFilmed and Edited by\nhttp://shareability.com/\n\nDirected By\nJoel Bergvall and Joe Lombardi (https://vimeo.com/aztechfilm)\n\nAwesome Animation and Graphics By\nHodja Berlev (https://www.facebook.com/Neonbyte-382305275259022/)\n\nCasting and Assistant Production By:\nSpencer Sharp (https://www.facebook.com/dispencery/?hc_ref=SEARCH)\n\nJoin My Motivational List and get Exclusive Videos, Discounts and Updates\nhttp://princeea.com/exclusive"
+        },
+        "defaultAudioLanguage":"en"
+      },
+      "contentDetails":{
+        "duration":"PT6M1S",
+        "dimension":"2d",
+        "definition":"hd",
+        "caption":"true",
+        "licensedContent":true,
+        "projection":"rectangular"
+      },
+      "statistics":{
+        "viewCount":"20797485",
+        "likeCount":"1290522",
+        "dislikeCount":"15525",
+        "favoriteCount":"0",
+        "commentCount":"90015"
+      }
+    },
+    {
+      "kind":"youtube#video",
+      "etag":"\"nxOHAKTVB7baOKsQgTtJIyGxcs8/oloJWxgp1x-CmdscTiSHkiXLKfk\"",
+      "id":"MhS6oqwwOhw",
+      "snippet":{
+        "publishedAt":"2015-10-16T19:47:20.000Z",
+        "channelId":"UCo8bcnLyZH8tBIH9V1mLgqQ",
+        "title":"Physical Education",
+        "description":"Got myself really educated about physical activities in that class\nTwitter ➤ https://twitter.com/Theodd1sout\nWebsite ➤ https://theodd1sout.com/",
+        "thumbnails":{
+          "default":{
+            "url":"https://i.ytimg.com/vi/MhS6oqwwOhw/default.jpg",
+            "width":120,
+            "height":90
+          },
+          "medium":{
+            "url":"https://i.ytimg.com/vi/MhS6oqwwOhw/mqdefault.jpg",
+            "width":320,
+            "height":180
+          },
+          "high":{
+            "url":"https://i.ytimg.com/vi/MhS6oqwwOhw/hqdefault.jpg",
+            "width":480,
+            "height":360
+          },
+          "standard":{
+            "url":"https://i.ytimg.com/vi/MhS6oqwwOhw/sddefault.jpg",
+            "width":640,
+            "height":480
+          }
+        },
+        "channelTitle":"TheOdd1sOut",
+        "tags":[
+          "Physical Education (Field Of Study)",
+          "Education (TV Genre)",
+          "comic",
+          "funny",
+          "lol",
+          "Fun",
+          "Arts",
+          "Comedy",
+          "theodd1sout",
+          "the odd ones out",
+          "theoddonesout",
+          "Humor",
+          "Stand",
+          "Sketch"
+        ],
+        "categoryId":"23",
+        "liveBroadcastContent":"none",
+        "defaultLanguage":"en",
+        "localized":{
+          "title":"Physical Education",
+          "description":"Got myself really educated about physical activities in that class\nTwitter ➤ https://twitter.com/Theodd1sout\nWebsite ➤ https://theodd1sout.com/"
+        },
+        "defaultAudioLanguage":"en"
+      },
+      "contentDetails":{
+        "duration":"PT3M28S",
+        "dimension":"2d",
+        "definition":"hd",
+        "caption":"true",
+        "licensedContent":true,
+        "projection":"rectangular"
+      },
+      "statistics":{
+        "viewCount":"33374747",
+        "likeCount":"405667",
+        "dislikeCount":"5927",
+        "favoriteCount":"0",
+        "commentCount":"23277"
+      }
+    },
+    {
+      "kind":"youtube#video",
+      "etag":"\"nxOHAKTVB7baOKsQgTtJIyGxcs8/P9XQpcY5rwC-C90DVp-qAZhK-FM\"",
+      "id":"35VgsgICsjo",
+      "snippet":{
+        "publishedAt":"2020-01-09T06:00:01.000Z",
+        "channelId":"UCx8Z14PpntdaxCt2hakbQLQ",
+        "title":"Education policy पर हमें इस लड़की की बात सुननी चाहिए । Jagriti Yatra 2019",
+        "description":"The Lallantop on Jagriti Yatra. 8 thousand kilometers in 15 days. started from Mumbai Maharashtra and will return to Mumbai in 15 days via Karnatak, Tamilnadu, Andhra Pradesh, Odisha, Bihar, Uttar Pradesh, New Delhi, Rajasthan and Gujarat. The vision of Jagriti is building India through Enterprise. 450 Yatris onboard from all over India. Team Lallantop met role models, change makers, leaders and Aspiring Entrepreneurs that started out on this journey and made a diffrence thousands of life.\n\n\nInstall The Lallantop Android App: https://thelallantop.app.link/zCSsHooQSU\n\nFollow us on: https://www.instagram.com/thelallantop/\n\nLike The Lallantop on Facebook: https://www.facebook.com/thelallantop/\n\nFollow The Lallantop on Twitter: https://twitter.com/TheLallantop\n\nFor advertisements e-mail us at: Ads@thelallantop.com\n\nProduced By: The Lallantop\nEdited By:",
+        "thumbnails":{
+          "default":{
+            "url":"https://i.ytimg.com/vi/35VgsgICsjo/default.jpg",
+            "width":120,
+            "height":90
+          },
+          "medium":{
+            "url":"https://i.ytimg.com/vi/35VgsgICsjo/mqdefault.jpg",
+            "width":320,
+            "height":180
+          },
+          "high":{
+            "url":"https://i.ytimg.com/vi/35VgsgICsjo/hqdefault.jpg",
+            "width":480,
+            "height":360
+          },
+          "standard":{
+            "url":"https://i.ytimg.com/vi/35VgsgICsjo/sddefault.jpg",
+            "width":640,
+            "height":480
+          },
+          "maxres":{
+            "url":"https://i.ytimg.com/vi/35VgsgICsjo/maxresdefault.jpg",
+            "width":1280,
+            "height":720
+          }
+        },
+        "channelTitle":"The Lallantop",
+        "categoryId":"25",
+        "liveBroadcastContent":"none",
+        "localized":{
+          "title":"Education policy पर हमें इस लड़की की बात सुननी चाहिए । Jagriti Yatra 2019",
+          "description":"The Lallantop on Jagriti Yatra. 8 thousand kilometers in 15 days. started from Mumbai Maharashtra and will return to Mumbai in 15 days via Karnatak, Tamilnadu, Andhra Pradesh, Odisha, Bihar, Uttar Pradesh, New Delhi, Rajasthan and Gujarat. The vision of Jagriti is building India through Enterprise. 450 Yatris onboard from all over India. Team Lallantop met role models, change makers, leaders and Aspiring Entrepreneurs that started out on this journey and made a diffrence thousands of life.\n\n\nInstall The Lallantop Android App: https://thelallantop.app.link/zCSsHooQSU\n\nFollow us on: https://www.instagram.com/thelallantop/\n\nLike The Lallantop on Facebook: https://www.facebook.com/thelallantop/\n\nFollow The Lallantop on Twitter: https://twitter.com/TheLallantop\n\nFor advertisements e-mail us at: Ads@thelallantop.com\n\nProduced By: The Lallantop\nEdited By:"
+        },
+        "defaultAudioLanguage":"hi"
+      },
+      "contentDetails":{
+        "duration":"PT17M2S",
+        "dimension":"2d",
+        "definition":"hd",
+        "caption":"false",
+        "licensedContent":true,
+        "projection":"rectangular"
+      },
+      "statistics":{
+        "viewCount":"566746",
+        "likeCount":"7720",
+        "dislikeCount":"635",
+        "favoriteCount":"0",
+        "commentCount":"580"
+      }
+    },
+    {
+      "kind":"youtube#video",
+      "etag":"\"nxOHAKTVB7baOKsQgTtJIyGxcs8/gD402ECpJ5s-2BK8IVeC-BfbTpM\"",
+      "id":"aV6w-zoacYk",
+      "snippet":{
+        "publishedAt":"2019-04-11T18:52:40.000Z",
+        "channelId":"UC0p5jTq6Xx_DosDFxVXnWaQ",
+        "title":"Is private education good for society? | The Economist",
+        "description":"Across the world private education is booming. Though private schools and tuition promote inequality, Emma Duncan, our social policy editor, explains why governments should embrace the private sector's rise\n\nRead more here: https://econ.st/2X4ODsm\n\nClick here to subscribe to The Economist on YouTube: https://econ.st/2xvTKdy \n\nThere is a big boom in private education all over the world. You see it in schooling numbers. The numbers of people going to private primary has gone up from 10 to 17 percent over the last 15 years. Secondaries gone up from 9 to 27 percent. Then if you look in particular countries you find for instance in China, there's a big increase in people going to elite private schools. But also huge business in terms of people getting online tuition. Parents are finding ways to spend money on the great competition to improve their children's brains.\n\nThe resurgence is happening for a few different reasons and one of them is that incomes are going up, the birth rates are going down. So in families all over the world there is more money to spend on each child. If you look at the Chinese one-child policy you get six people: four grandparents, two parents, all of them willing to invest in the education of one child. At the same time you've had the whole of the world economy changing so that there are fewer unskilled jobs everywhere - almost all decent jobs require you to have a qualification of some sort. \n\nThe great advantage of private education is that it's fantastically good at getting children in school. In countries where people are moving around a lot, which is most of the developing world, and where populations are growing swiftly - you get this huge swift urbanization. Governments just can't keep up. You'll get governments like Pakistan struggling with fast growing cities and has partnered up with the with the private sector to send poor kids, who would otherwise not be getting schooling at all, into private schools - and they're doing that with over two million kids. Private schools can also be really really good because you know often parents are willing to spend masses of money and you get a really high quality of education.\n\nIt is a dilemma for society. Governments need to concern themselves about equality and about social mobility. Things that the private sector discourages rather than encourages. The problem with private schools is that they do tend to increase inequality. When parents are allowed to spend money on their children they will spend as much as they can so obviously rich kids go to better schools. \n\nYou see China which is increasingly putting controls on the expansion in the school's business. It's clearly pretty uncomfortable about it. Rather than trying to shut it down governments need to be trying to work with it. Now there is a cost. If you allow the private sector to operate you are going to get a higher level of inequality but I think that that is a price worth paying for the Liberty, for the resources, for the better brains, for the innovation for the quality of education, and the breadth of education that you get if you allow the private sector to operate. I think governments must look at the private sector as a potential partner, not as they do in some places as an enemy.\n\nFor more from Economist Films visit: http://films.economist.com/ \nCheck out The Economist’s full video catalogue: http://econ.st/20IehQk \nLike The Economist on Facebook: https://www.facebook.com/TheEconomist/ \nFollow The Economist on Twitter: https://twitter.com/theeconomist \nFollow us on Instagram: https://www.instagram.com/theeconomist/ \nFollow us on Medium: https://medium.com/@the_economist",
+        "thumbnails":{
+          "default":{
+            "url":"https://i.ytimg.com/vi/aV6w-zoacYk/default.jpg",
+            "width":120,
+            "height":90
+          },
+          "medium":{
+            "url":"https://i.ytimg.com/vi/aV6w-zoacYk/mqdefault.jpg",
+            "width":320,
+            "height":180
+          },
+          "high":{
+            "url":"https://i.ytimg.com/vi/aV6w-zoacYk/hqdefault.jpg",
+            "width":480,
+            "height":360
+          },
+          "standard":{
+            "url":"https://i.ytimg.com/vi/aV6w-zoacYk/sddefault.jpg",
+            "width":640,
+            "height":480
+          },
+          "maxres":{
+            "url":"https://i.ytimg.com/vi/aV6w-zoacYk/maxresdefault.jpg",
+            "width":1280,
+            "height":720
+          }
+        },
+        "channelTitle":"The Economist",
+        "tags":[
+          "The Economist",
+          "Economist",
+          "Economist Films",
+          "Economist Videos",
+          "Politics",
+          "News",
+          "short-documentary",
+          "private education",
+          "private education debate",
+          "private education documentary",
+          "private school",
+          "school",
+          "education",
+          "public school",
+          "private school vs public school",
+          "private vs public school",
+          "private vs public education",
+          "public vs private",
+          "public school vs private school",
+          "public schools",
+          "private schools",
+          "public vs. private school"
+        ],
+        "categoryId":"25",
+        "liveBroadcastContent":"none",
+        "localized":{
+          "title":"Is private education good for society? | The Economist",
+          "description":"Across the world private education is booming. Though private schools and tuition promote inequality, Emma Duncan, our social policy editor, explains why governments should embrace the private sector's rise\n\nRead more here: https://econ.st/2X4ODsm\n\nClick here to subscribe to The Economist on YouTube: https://econ.st/2xvTKdy \n\nThere is a big boom in private education all over the world. You see it in schooling numbers. The numbers of people going to private primary has gone up from 10 to 17 percent over the last 15 years. Secondaries gone up from 9 to 27 percent. Then if you look in particular countries you find for instance in China, there's a big increase in people going to elite private schools. But also huge business in terms of people getting online tuition. Parents are finding ways to spend money on the great competition to improve their children's brains.\n\nThe resurgence is happening for a few different reasons and one of them is that incomes are going up, the birth rates are going down. So in families all over the world there is more money to spend on each child. If you look at the Chinese one-child policy you get six people: four grandparents, two parents, all of them willing to invest in the education of one child. At the same time you've had the whole of the world economy changing so that there are fewer unskilled jobs everywhere - almost all decent jobs require you to have a qualification of some sort. \n\nThe great advantage of private education is that it's fantastically good at getting children in school. In countries where people are moving around a lot, which is most of the developing world, and where populations are growing swiftly - you get this huge swift urbanization. Governments just can't keep up. You'll get governments like Pakistan struggling with fast growing cities and has partnered up with the with the private sector to send poor kids, who would otherwise not be getting schooling at all, into private schools - and they're doing that with over two million kids. Private schools can also be really really good because you know often parents are willing to spend masses of money and you get a really high quality of education.\n\nIt is a dilemma for society. Governments need to concern themselves about equality and about social mobility. Things that the private sector discourages rather than encourages. The problem with private schools is that they do tend to increase inequality. When parents are allowed to spend money on their children they will spend as much as they can so obviously rich kids go to better schools. \n\nYou see China which is increasingly putting controls on the expansion in the school's business. It's clearly pretty uncomfortable about it. Rather than trying to shut it down governments need to be trying to work with it. Now there is a cost. If you allow the private sector to operate you are going to get a higher level of inequality but I think that that is a price worth paying for the Liberty, for the resources, for the better brains, for the innovation for the quality of education, and the breadth of education that you get if you allow the private sector to operate. I think governments must look at the private sector as a potential partner, not as they do in some places as an enemy.\n\nFor more from Economist Films visit: http://films.economist.com/ \nCheck out The Economist’s full video catalogue: http://econ.st/20IehQk \nLike The Economist on Facebook: https://www.facebook.com/TheEconomist/ \nFollow The Economist on Twitter: https://twitter.com/theeconomist \nFollow us on Instagram: https://www.instagram.com/theeconomist/ \nFollow us on Medium: https://medium.com/@the_economist"
+        },
+        "defaultAudioLanguage":"en-GB"
+      },
+      "contentDetails":{
+        "duration":"PT3M43S",
+        "dimension":"2d",
+        "definition":"hd",
+        "caption":"true",
+        "licensedContent":true,
+        "projection":"rectangular"
+      },
+      "statistics":{
+        "viewCount":"146891",
+        "likeCount":"2174",
+        "dislikeCount":"453",
+        "favoriteCount":"0",
+        "commentCount":"462"
+      }
+    }
+  ]
+}
