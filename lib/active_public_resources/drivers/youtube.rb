@@ -139,6 +139,15 @@ module ActivePublicResources
         video.height         = 360
 
         # Return Types
+
+        video.return_types << APR::ReturnTypes::Url.new(
+          driver: DRIVER_NAME,
+          remote_id: video.id,
+          url: video.url,
+          text: video.title,
+          title: video.title
+        )
+
         video.return_types << APR::ReturnTypes::Iframe.new(
           driver: DRIVER_NAME,
           remote_id: video.id,
