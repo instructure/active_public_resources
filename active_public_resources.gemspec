@@ -21,7 +21,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "activesupport", ">= 4.0.0"
   spec.add_dependency "activemodel", ">= 4.0.0"
   spec.add_dependency "iso8601", "~> 0.8.6"
-  spec.add_dependency "httparty", "~> 0.15.6"
+  spec.add_dependency "httparty", "~> 0.24.0"
 
-  spec.add_development_dependency "bundler", "~> 1.3"
+  spec.add_development_dependency "bundler", ">= 1.3"
 end
